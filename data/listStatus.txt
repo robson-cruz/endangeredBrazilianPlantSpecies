@@ -1,0 +1,7 @@
+status	statusSource
+CR	Criticamente em Perigo
+VU	Vulnerável
+EX	Extinta
+RE	Regionalmente Extinta
+NT	Quase Ameaçada
+EN	Em Perigo
