@@ -5,3 +5,4 @@ EX	Extinta
 RE	Regionalmente Extinta
 NT	Quase Ameaçada
 EN	Em Perigo
+EW	Extinta na Natureza
