@@ -18,3 +18,7 @@ Este projeto visa reunir em um data set as listas estaduais de espécies vegetai
 <p align="center">
   <img src="https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/blob/main/output/SpeciesBySourceList.png">
 </p>
+
+<p align="center">
+  <img src="https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/blob/main/output/statusSource.png">
+</p>
