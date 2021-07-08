@@ -1,4 +1,4 @@
-# Espécies da Flora Brasileiras Ameaçadas de Extinção
+# Espécies da Flora Brasileira Ameaçadas de Extinção
 Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar a analistas ambientais informações sobre a flora ameaçada em apenas um único data set.
 
 # Fonte dos dados
