@@ -13,3 +13,8 @@ Este projeto visa reunir em um data set as listas estaduais de espécies vegetai
 9. [Resolução](https://www.semas.pa.gov.br/anexos_legislacao/Anexo_resolucao_054%20coema.pdf) do Conselho Estadual do Meio Ambiente do Pará (COEMA) Nº 54, de 24 de outubro de 2007;
 10. Portaria Secretaria Estadual de Meio Ambiente do Estado da Bahia Nº 40, de 21 de agosto de 2017;
 11. Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Disponível em: [<http://floradobrasil.jbrj.gov.br/>](http://floradobrasil.jbrj.gov.br). Acesso em: 06 jul. 2021 
+
+# Resultados
+<p align="center">
+  <img src="https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/blob/main/output/SpeciesBySourceList.png">
+</p>
