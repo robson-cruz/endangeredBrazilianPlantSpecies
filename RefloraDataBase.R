@@ -14,7 +14,7 @@ out <- dwca_read(url)
 ## Show files datasets
 dwca_cache$list()
 
-## Read a specif dataset
+## Read a specif data set
 reflora <- read.delim2(
         'C:\\Users\\rcflo\\AppData\\Local/Cache/R/finch/0c08eda77c90f20e7c5012a45749bebd8b3de914/taxon.txt',
         header = TRUE, encoding = 'UTF-8', sep = '\t'
