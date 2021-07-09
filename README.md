@@ -1,5 +1,5 @@
-# Espécies da Flora Brasileira Ameaçadas de Extinção
-Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar a analistas ambientais informações sobre a flora ameaçada em apenas um único data set.
+# [Espécies da Flora Brasileira Ameaçadas de Extinção](https://wcj7es-robson0cruz.shinyapps.io/specBra/)
+Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar à analistas ambientais informações sobre a flora brasileira ameaçada de extinção em apenas um único data set.
 
 # Fonte dos dados
 1. Portaria MMA Nº 443, de 17 de dezembro de 2014;
@@ -26,3 +26,7 @@ Este projeto visa reunir em um data set as listas estaduais de espécies vegetai
 <p align="center">
   <img src="https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/blob/main/output/family.png">
 </p>
+
+## Citar
+Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/tree/v1.0
+Acesso em: Jul 2021. DOI: https://zenodo.org/record/5083815
