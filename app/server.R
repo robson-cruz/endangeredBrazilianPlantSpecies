@@ -1,6 +1,6 @@
 library(shiny)
 
-source('./scripApp.R')
+#source('./scripApp.R')
 
 sp <- read.csv('./endangered_BRA.csv', sep = ';', encoding = 'latin1')
 
@@ -21,7 +21,7 @@ shinyServer(function(input, output, session) {
                         paste('speciesProtegidas', Sys.Date(), '.csv', sep = '_')
                 },
                 content = function(file) {
-                        write.csv2(sp, file)
+                        write.csv2(sp, file, row.names = FALSE)
                 }
         )
         
