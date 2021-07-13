@@ -28,5 +28,5 @@ Este projeto visa reunir em um data set as listas estaduais de espécies vegetai
 </p>
 
 ## Citar
-Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/tree/v1.0.1
+Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/tree/v1.1.0
 Acesso em: Jul 2021. DOI: https://zenodo.org/record/5083815
