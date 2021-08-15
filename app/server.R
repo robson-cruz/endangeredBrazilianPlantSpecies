@@ -1,6 +1,8 @@
 library(shiny)
 
-#source('./scripApp.R')
+Sys.setlocale(category = 'LC_ALL', locale = 'Portuguese')
+
+source('./scriptApp.R')
 
 sp <- read.csv('./endangered_BRA.csv', sep = ';', encoding = 'latin1')
 
