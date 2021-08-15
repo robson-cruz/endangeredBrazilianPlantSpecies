@@ -1,6 +1,8 @@
 library(dplyr)
 library(ggplot2)
 
+Sys.setlocale(category = 'LC_ALL', locale = 'Portuguese')
+
 ## Read the data sets
 endangered_BRA <- read.csv('./endangered_BRA.csv', sep = ';',encoding = 'latin1')
 
