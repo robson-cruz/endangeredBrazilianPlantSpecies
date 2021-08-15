@@ -69,6 +69,10 @@ PA <- read.delim(
         mutate(source = 'PA') %>%
         mutate(list = 'Lista Flora Ameaçada Pará') %>%
         mutate(dispLegal = 'Resolução COEMA 54/2007') %>%
+        ## current scientific name
+        mutate(scientificName == 'Handroanthus impetiginosus') %>%
+        ## SISTAXON scientific name
+        mutate(scientificName == 'Handroanthus impetiginosum') %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
         
 
@@ -209,12 +213,29 @@ flora_fauna <- read.csv2(
         select(Especie.Simplificado) %>%
         rename(scientificName = Especie.Simplificado)
 
+## CITES
+cites <- read.csv('D:/Robson/data/cites/cites_listings_2021-08-13 07_10.csv') %>%
+        filter(Kingdom == 'Plantae') %>%
+        rename(scientificName = Scientific.Name) %>%
+        rename(family = Family) %>%
+        # mutate(statusSource = '') %>%
+        # mutate(status = '') %>%
+        # mutate(source = '') %>%
+        # mutate(list = '') %>%
+        mutate(CITES = paste0('Anexo ', Listing, ' CITES')) %>%
+        select(scientificName, CITES)
+
 ## Merge the data sets ##
 endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
-        anti_join(flora_fauna, by = 'scientificName')
+        #Remove species of fauna
+        anti_join(flora_fauna, by = 'scientificName') %>%
+        left_join(cites, by = 'scientificName') %>%
+        filter(!is.na(scientificName)) %>%
+        mutate(CITES = ifelse(is.na(CITES), 'Não', CITES))
+        
 
-endangered_by_state <- rbind(BA, ES, MG, PA, PR, RS, SC, SP) %>%
-        anti_join(flora_fauna, by = 'scientificName')
+# endangered_by_state <- rbind(BA, ES, MG, PA, PR, RS, SC, SP) %>%
+#         anti_join(flora_fauna, by = 'scientificName')
 
 ## Remove duplicated species between the Portaria MMA 443 and the state lists ##
 # auxList <- endangered_by_state %>% select(scientificName)
@@ -224,6 +245,7 @@ endangered_by_state <- rbind(BA, ES, MG, PA, PR, RS, SC, SP) %>%
 
 ## Final data set
 # endangered_BRA <- rbind(port443_cleaned, endangered_by_state)
+        
 
 ## Save the data set ##
 write.csv2(endangered_list, './output/endangered_BRA.csv', row.names = FALSE)
