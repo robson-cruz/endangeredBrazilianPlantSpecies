@@ -3,9 +3,6 @@ library(dplyr, warn.conflicts = FALSE)
 library(ggplot2)
 #library(plotly)
 
-## Set work directory
-setwd('D:/Robson/data/endangeredSpecies/endangeredBrazilianPlantSpecies/')
-
 ## Read the list of status source
 listStatus <- read.delim('./data/listStatus.txt', sep = '\t', encoding = 'UTF-8')
 
@@ -70,9 +67,35 @@ PA <- read.delim(
         mutate(list = 'Lista Flora Ameaçada Pará') %>%
         mutate(dispLegal = 'Resolução COEMA 54/2007') %>%
         ## current scientific name
-        mutate(scientificName == 'Handroanthus impetiginosus') %>%
+        add_row(
+                family = 'Bignoniaceae', 
+                scientificName = 'Handroanthus impetiginosus',
+                statusSource = 'Vulnerável',
+                status = 'VU',
+                source = 'PA',
+                list = 'Lista Flora Ameaçada Pará',
+                dispLegal = 'Resolução COEMA 54/2007'
+        ) %>%
         ## SISTAXON scientific name
-        mutate(scientificName == 'Handroanthus impetiginosum') %>%
+        add_row(
+                family = 'Bignoniaceae', 
+                scientificName = 'Handroanthus impetiginosum',
+                statusSource = 'Vulnerável',
+                status = 'VU',
+                source = 'PA',
+                list = 'Lista Flora Ameaçada Pará',
+                dispLegal = 'Resolução COEMA 54/2007'
+        ) %>%
+        ## current scientific name
+        add_row(
+                family = 'Sapotaceae', 
+                scientificName = 'Manilkara elata',
+                statusSource = 'Vulnerável',
+                status = 'VU',
+                source = 'PA',
+                list = 'Lista Flora Ameaçada Pará',
+                dispLegal = 'Resolução COEMA 54/2007'
+        ) %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
         
 
@@ -231,7 +254,16 @@ endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
         anti_join(flora_fauna, by = 'scientificName') %>%
         left_join(cites, by = 'scientificName') %>%
         filter(!is.na(scientificName)) %>%
-        mutate(CITES = ifelse(is.na(CITES), 'Não', CITES))
+        mutate(CITES = ifelse(is.na(CITES), 'Não', CITES)) %>%
+        rename(
+                familia = family,
+                nome_cientifico = scientificName,
+                status_conservacao = statusSource,
+                fonte = source,
+                lista = list,
+                dispositivo_legal = dispLegal
+        ) %>%
+        select(nome_cientifico, status_conservacao, fonte, lista, dispositivo_legal)
         
 
 # endangered_by_state <- rbind(BA, ES, MG, PA, PR, RS, SC, SP) %>%
@@ -248,12 +280,23 @@ endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
         
 
 ## Save the data set ##
-write.csv2(endangered_list, './output/endangered_BRA.csv', row.names = FALSE)
+write.csv2(endangered_list, './app/endangered_BRA_list.csv', row.names = FALSE)
 
 ## List Chart ##
+
+endangered_BRA <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
+        #Remove species of fauna
+        anti_join(flora_fauna, by = 'scientificName') %>%
+        left_join(cites, by = 'scientificName') %>%
+        filter(!is.na(scientificName)) %>%
+        mutate(CITES = ifelse(is.na(CITES), 'Não', CITES))
+
+write.csv2(endangered_BRA, './output/endangered_BRA.csv', row.names = FALSE)
+
 species_source <- endangered_list %>%
         group_by(source) %>%
         count(source, sort = TRUE)
+
 species_source$source <- with(species_source, reorder(source, n))
         
 bra <- ggplot(species_source, aes(x = source, y = n, fill = n)) +
@@ -324,11 +367,4 @@ f <- ggplot(statusFamily, aes(family, n)) +
 
 
 ## Species Table ##
-sp <- endangered_list %>%
-        rename(
-                Familia = family, Nome_Cientifico = scientificName,
-                Categoria = statusSource, Cod. = status,
-                Fonte = source, Lista = list, Dispositivo_Legal = dispLegal
-        )
-        
-DT::datatable(sp)
+DT::datatable(endangered_list)
