@@ -4,12 +4,15 @@ Sys.setlocale(category = 'LC_ALL', locale = 'Portuguese')
 
 source('./scriptApp.R')
 
-sp <- read.csv('./endangered_BRA.csv', sep = ';', encoding = 'latin1')
+# list to download and table
+listBRA <- read.csv2('./endangered_BRA_list.csv', sep = ';', encoding = 'latin1')
+
+# list to plots
 
 shinyServer(function(input, output, session) {
         # Data frame
         output$tbl <- DT::renderDataTable({
-                DT::datatable(sp, 
+                DT::datatable(listBRA, 
                               options = list(pageLength = 6, rownames = FALSE))
         })
         # Charts
@@ -23,12 +26,12 @@ shinyServer(function(input, output, session) {
                         paste('speciesProtegidas', Sys.Date(), '.csv', sep = '_')
                 },
                 content = function(file) {
-                        write.csv2(sp, file, row.names = FALSE)
+                        write.csv2(listBRA, file, row.names = FALSE)
                 }
         )
         
         session$onSessionEnded(function() {
-                stopApp()
+                stopApp(returnValue = )
         })
 })
 
