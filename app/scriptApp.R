@@ -1,10 +1,10 @@
-library(dplyr)
+library(dplyr, warn.conflicts = FALSE)
 library(ggplot2)
 
 Sys.setlocale(category = 'LC_ALL', locale = 'Portuguese')
 
 ## Read the data sets
-endangered_BRA <- read.csv('./endangered_BRA.csv', sep = ';',encoding = 'latin1')
+endangered_BRA <- read.csv2('./endangered_BRA.csv', sep = ';', encoding = 'latin1')
 
 ## List Chart ##
 species_source <- endangered_BRA %>%
