@@ -1,0 +1,54 @@
+Classe	Ordem	Familia	NomeCientífico	Autoredata	Nomepopular	statusSource	Criterio	Grupo
+Magnoliopsida	Laurales	Lauraceae	Aniba rosaeodora	Ducke, 1930	Pau rosa	Em perigo	A1d, 2d	Flora 
+Magnoliopsida	Gentianales	Apocynaceae	Aspidosperma album	(Vahl)Benth. ex Pichon, 1947	#	Vulnerável	A2cd	Flora 
+Magnoliopsida	Gentianales	Apocynaceae	Aspidosperma desmanthum	Benth. ex Müll. Arg., 1860	Araracanga	Vulnerável	A2cd	Flora 
+Magnoliopsida	Gentianales	Apocynaceae	Aspidosper masandwithianum	Markgr., 1935	Araracanga	Vulnerável	A2cd	Flora 
+Magnoliopsida	Asterales	Compositae	Aspilia paraensis	(Huber) Santos.	#	Vulnerável	D2	Flora 
+Liliopsida	Cyperales	Poaceae	Axonopus carajasensis	Bastos	#	Vulnerável	B2abiii	Flora 
+Magnoliopsida	Ericales	Lecythidaceae	Bertholletia excelsa	HBK	Castanheira	Vulnerável	A1acd, 2cd	Flora 
+Magnoliopsida	Sapindales	Meliaceae	Cedrela odorata	L.	Cedro	Vulnerável	A1cd, 2cd	Flora 
+Magnoliopsida	Fabales	Fabaceae	Centrolobium paraensis	Tul.	Pau rainha	Em perigo	A1cd	Flora 
+Magnoliopsida	Fabales	Fabaceae	Centrosema carajasense	Cavalc.	#	Vulnerável	B2abiii	Flora 
+Magnoliopsida	Laurales	Lauraceae	Dicypellium caryophyllaceum	(Mart.) Nees	Pau cravo	Vulnerável	A1cd, D2	Flora 
+Magnoliopsida	Malpighiales	Erythroxylaceae	Erythroxylum nelsonrosae	Plowman	#	Em perigo	B2abiii	Flora 
+Magnoliopsida	Lecythidales	Lecythidaceae	Eschweilera piresii ssp. piresii	S.A.Mori	Mata-matá	Vulnerável	B1abiii	Flora 
+Magnoliopsida	Lecythidales	Lecythidaceae	Eschweilera subcordata	Mori	Mata-matá	Vulnerável	B1abiii	Flora 
+Magnoliopsida	Sapindales	Rutaceae	Euxylophora paraensis	Huber	Pau amarelo	Vulnerável	A1cd, 2cd	Flora 
+Magnoliopsida	Lecythidales	Lecythidaceae	Gustavia erythrocarpa	S.A. Mori	#	Vulnerável	B1abiii	Flora 
+Magnoliopsida	Fabales	Fabaceae	Hymenolobium excelsum	Ducke	Angelim pedra	Vulnerável	A2cd	Flora 
+Magnoliopsida	Solanales	Convolvulaceae	Ipomoea carajasensis	D.F. Austin.	#	Em perigo	B1, 2ab	Flora 
+Magnoliopsida	Solanales	Convolvulaceae	Ipomoea cavalcantei	D. Austin.	#	Em perigo	B1, 2ab	Flora 
+Magnoliopsida	Lamiales	Bignoniaceae	Jacaranda carajasensis	A. Gentry	#	Em perigo	B1abiii	Flora 
+Magnoliopsida	Lamiales	Bignoniaceae	Jacaranda egleri	Sandwith	#	Vulnerável	D2	Flora 
+Magnoliopsida	Rosales	Chrysobalanaceae	Licania anneae	Prance	#	Vulnerável	D2	Flora 
+Magnoliopsida	Ebenales	Sapotaceae	Manilkara excelsa	(Ducke) Standley	Maçaranduba do Tapajós	Vulnerável	B1, 2c	Flora 
+Magnoliopsida 	Ebenales 	Sapotaceae	Manilkara huberi	(Ducke) Chevalier	Maçaranduba	Vulnerável	A4cd	Flora 
+Magnoliopsida	Laurales	Lauraceae	Mezilaurus itauba	(Meisn.) Taub. ex Mez	Itaúba	Vulnerável	A2ac	Flora 
+Magnoliopsida	Fabales	Fabaceae	Mimosa acutistipula	Bth var. ferrea Barn.	#	Vulnerável	B2abiii	Flora 
+Magnoliopsida	Fabales	Fabaceae	Mimosa skinneri Benth. var. carajarum	Barneby	#	Vulnerável	B2abiii	Flora 
+Magnoliopsida	Fabales	Fabaceae	Peltogyne maranhensis	Hub. & Ducke	Pau roxo	Vulnerável	A1cd, A2cd	Flora 
+Magnoliopsida	Sapindales	Rutaceae	Pilocarpus microphyllus	Stapf ex Wardl.	Jaborandi	Em perigo	A1d, 2d	Flora 
+Magnoliopsida	Ebenales	Sapotaceae	Pouteria brevensis	Pires	#	Vulnerável	B1abiii	Flora 
+Magnoliopsida	Ebenales	Sapotaceae	Pouteria decussata	(Ducke) Baehni	#	Vulnerável	B1abiii	Flora 
+Magnoliopsida	Myrtales	Vochysiaceae	Qualea coerulea	Ducke	#	Vulnerável	A1cd	Flora 
+Liliopsida	Asparagales	Orchidaceae	Selenipedium isabelianum	Barbosa Rodrigues	#	Vulnerável	A1cd	Flora 
+Liliopsida	Asparagales	Orchidaceae	Selenipedium palmifolium	(Lindl.) Rchb. f.	#	Vulnerável	A1cd	Flora 
+Magnoliopsida	Sapindales	Meliaceae	Swietenia macrophylla	King.	Mogno	Vulnerável	A1cd, 2cd	Flora 
+Magnoliopsida	Lamiales	Bignoniaceae	Tabebuia impetiginosa	(Mart. ex DC.) Standl.	Ipê roxo	Vulnerável	A4cd	Flora 
+Liliopsida	Poales	Bromeliaceae	Aechmea eurycorymbus	Harms	#	Criticamente em perigo	B1abiv	Flora 
+Magnoliopsida	Malpighiales	Malpighiaceae	Banisteriopsis cachimbensis	B.Gates	#	Em perigo	B2abiii, D	Flora 
+Magnoliopsida	Vitales	Vitaceae	Cissus apendiculata	Lombardi	#	Vulnerável	B2abiii	Flora 
+Liliopsida	Asparagales	Orchidaceae	Galeandra curvifolia	Barb. Rodr.	#	Vulnerável	D2	Flora 
+Liliopsida	Alismatales	Araceae	Heteropsis flexuosa	(Kunth) G.S.Bunting	Cipó-titica	Vulnerável	A4ad	Flora
+Liliopsida	Alismatales	Araceae	Heteropsis spruceana	Schott	Cipó-titica	Vulnerável	A4ad	Flora
+Liliopsida	Cyperales	Cyperaceae	Hypolytrum paraense	M.Alves & W.W. Thomas	#	Vulnerável	abiii, D2	Flora
+Magnoliopsida	Lamiales	Bignoniaceae	Jacaranda morii	A.H.Gentry	#	Vulnerável	B2abiii	Flora
+Magnoliopsida	Asterales	Asteraceae	Monogereion carajensis	G.M.Barros o & R.M.King	#	Criticamente em Perigo	B2abiii	Flora
+Magnoliopsida	Myrtales	Lythraceae	Physocalymma scaberrimum	Pohl	#	Vulnerável	B2abiii	Flora 
+Magnoliopsida	Sapindales	Rutaceae	Pilocarpus alatus	C.J.Joseph ex Skorupa	#	Em perigo	B2aciv	Flora 
+Magnoliopsida	Lamiales	Bignoniaceae	Pleonotoma bracteata	A.H.Gentry	#	Em Perigo	B2abiii	Flora 
+Magnoliopsida	Sapindales	Burseraceae	Protium giganteum var. crassifolium	Engl.	#	Vulnerável	D2	Flora 
+Magnoliopsida	Sapindales	Burseraceae	Protium heptaphyllum ssp. cordatum	(Aubl.) Marchand	#	Vulnerável	D2	Flora 
+Magnoliopsida	Apiales	Smilacaceae	Smilax longifolia	Rich.	Salsa-do-Pará	Vulnerável	B2abiii	Flora 
+Filicopsida	Polypodiales	Hymenophyllaceae	Trichomanes macilentum	Bosch	#	Vulnerável	B2abiii	Flora 
+Magnoliopsida	Santalales	Olacaceae	Ptychopetalum olacoides	Bentham	Muirapuama	Vulnerável	A3a	Flora 

@@ -1,0 +1,914 @@
+Familia	nomeCientifico	Autor	Categoria	Criterio
+Acanthaceae	Mendoncia puberula	Mart.	EN	B1ab(ii,iii,iv)
+Alstroemeriaceae	Alstroemeria albescens	M.C. Assis	CR	B2ab(ii)c(ii)
+Alstroemeriaceae	Alstroemeria sellowiana	Seub. ex Schenk	VU	B1ab(i)c(i)
+Amaranthaceae	Alternanthera praelonga	A. St.-Hil.	EN	B2b(i,ii,iii)
+Amaranthaceae	Alternanthera hirtula	(Mart.) R.E. Fr.	EN	A2ac
+Amaranthaceae	Alternanthera malmeana	R.E. Fr.	CR	B1b(i,ii,iii)c(ii)
+Amaranthaceae	Alternanthera reineckii	Briq.	EN	B2b(iii)c(iv)
+Amaranthaceae	Alternanthera tenella	Colla	VU	A3c
+Amaranthaceae	Amaranthus rosengurtii	A. Hunziker	CR	B1ab(i,iii)
+Amaranthaceae	Blutaparon portulacoides	(A. St.-Hil.) Mears	VU	A1ab
+Amaranthaceae	Celosia grandifolia	Moq.	EN	A2ac
+Amaranthaceae	Chamissoa altissima	(Jacq.) H.B.K.	VU	A2bc+3bc+4bc
+Amaranthaceae	Froelichia tomentosa	(Mart.) Moq.	EN	B1b(i,ii,iii,iv)
+Amaranthaceae	Gomphrena pulchella	Mart.	EN	B1ab(i,ii,iii,iv)
+Amaranthaceae	Gomphrena schlechtendaliana	Mart.	CR	A2ac
+Amaranthaceae	Gomphrena sellowiana	Mart.	CR	A2acd
+Amaranthaceae	Hebanthe eriantha	(Poir) Pedersen	CR	A2acd
+Amaranthaceae	Pfaffia glomerata	(Spreng.) Pedersen 	VU	A2acd
+Amaranthaceae	Pseudoplantago friesii	Suess	CR	A2acd
+Amaranthaceae	Quaternella glabratoides	(Suess.) Pedersen	EN	A2acd
+Amaranthaceae	Sarcocornia fruticosa	(L.) A.J. Scott	EN	B1ab(i,iv)
+Amaranthaceae	Sarcocornia perennis	(Mill.) A.J. Scott	CR	A2acd
+Amaryllidaceae	Hippeastrum angustifolium	Pax	EN	A2ace+3ce+4ace; B1ab(ii,iii,v)c(ii,iv)+2ab(ii,iii,v)c(iv); C1; E
+Amaryllidaceae	Hippeastrum breviflorum	Herb.	EN	B2ab(i,ii,iii)
+Amaryllidaceae	Hippeastrum papilio	(Ravenna) Van Scheepen	CR	D 
+Amaryllidaceae	Hippeastrum santacatarina	(Traub) Dutilh	EN	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Amaryllidaceae	Zephyranthes americana	(Hoffmanns.) Ravenna	VU	B1ab(i,ii,iii)
+Anacardiaceae	Myracrodruon balansae	(Engl.) Santin	EN	B2ab(iii)
+Annonaceae	Annona cacans	Warm.	VU	B1ab(iii)+2ab(iii)
+Annonaceae	Annona emarginata	(Schltdl.) H.Rainer	VU	B1b(iii)c(ii)+2b(iii)c(ii)
+Annonaceae	Annona glabra	L.	CR	B1ab(ii)+2ab(iii)
+Annonaceae	Annona maritima	(Záchia) H .Rainer	EN	B2ab(iii)
+Annonaceae	Annona neosericea	H. Rainer	CR	B1ab(iii)
+Annonaceae	Duguetia lanceolata	A. St.-Hil.	EN	B1ab(iii)+2ab(iii)
+Annonaceae	Guatteria australis	A. St.-Hil.	VU	B1ab(iii)+2ab(iii)
+Annonaceae	Xylopia brasiliensis	Spreng.	CR	B1ab(iii)
+Apiaceae	Eryngium dorae	Norman	CR	B1ab(iii)
+Apiaceae	Eryngium dusenii	H. Wolff	CR	B2ab(iii)
+Apiaceae	Eryngium falcifolium	Irgang	CR	B2ab(iii,iv)
+Apiaceae	Eryngium ramboanum	Mathias & Constance	CR	B2ab(iii,iv)
+Apiaceae	Eryngium smithii	Mathias & Constance	VU	D2
+Apiaceae	Eryngium urbanianum	H. Wolff	EN	B1ab(ii,iii)
+Apiaceae	Eryngium zosterifolium	H. Wolff	EN	B1ab(ii,iii)
+Apocynaceae	Araujia angustifolia	(Hook. & Arn.) Steud.	EN	B2ab(iii)
+Apocynaceae	Araujia brachystephana	(Griseb.) Fontella & Goyder	EN	B1ab(ii,iii)+2ab(ii,iii)	
+Apocynaceae	Araujia odorata	(Hook. & Arn.) Fontella & Goyder	CR	B1ab(iii)+2ab(iii)
+Apocynaceae	Aspidosperma quebracho-blanco	Schltdl.	EN	B1ab(iii)+2ab(iii)
+Apocynaceae	Aspidosperma riedelii	Müll. Arg.	CR	A4c
+Apocynaceae	Fischeria stellata	(Vell.) E.Fourn.	VU	B2ab(iii)
+Apocynaceae	Funastrum flavum	(Decne.) Schltr.	CR	B1ab(iii)+2ab(iii)
+Apocynaceae	Gyrostelma bornmulleri	Schltr. ex Malme	EN	B1ab(iii)+2ab(iii)
+Apocynaceae	Macroscepis dutrae	(Malme) Morillo	CR	B1ab(iii)
+Apocynaceae	Mandevilla coccinea	(Hook. & Arn.) Woodson	VU	A3c
+Apocynaceae	Mandevilla funiformis	(Vell.) K. Schum.	CR	B2ab(iii)
+Apocynaceae	Mandevilla velame	(A. St.-Hil.) Pichon	CR	B2ab(iii)
+Apocynaceae	Marsdenia montana	Malme	EN	B2ab(iii)
+Apocynaceae	Matelea denticulata	(Vahl) Fontella & E.A.Schwarz	EN	B1ab(iii)+2ab(iii)
+Apocynaceae	Matelea dusenii	Morillo	CR	A4ac
+Apocynaceae	Jobinia latipes	(Decne.) Liede & Meve	CR	B2ab(iii)
+Apocynaceae	Oxypetalum argentinum	Malme	EN	B1ab(iii)+2ab(iii)
+Apocynaceae	Oxypetalum balansae	Malme	CR	B1ab(iii)
+Apocynaceae	Oxypetalum banksii	R. Br. ex Schult.	EN	B2ab(iii)
+Apocynaceae	Oxypetalum coccineum	(Griseb.) Malme	VU	B1ab(iii)
+Apocynaceae	Oxypetalum commersonianum	(Decne.) Fontella & E.A. Schwarz	VU	A3c
+Apocynaceae	Oxypetalum crispum	Wight ex Hook. & Arn.	VU	A3c
+Apocynaceae	Oxypetalum dusenii	Malme	CR	C2a(i); D
+Apocynaceae	Oxypetalum erectum	Mart.	VU	B1ab(iii)
+Apocynaceae	Oxypetalum insigne	(Decne.) Malme	EN	B1ab(iii)+2ab(iii)
+Apocynaceae	Oxypetalum macrolepis	(Hook. & Arn.) Decne.	EN	A2c
+Apocynaceae	Oxypetalum microphyllum	Hook. & Arn.	VU	B1ab(iii)
+Apocynaceae	Oxypetalum molle	Hook. & Arn.	EN	A2c
+Apocynaceae	Oxypetalum muticum	E. Fourn.	CR	A2c; B1ab(iii)
+Apocynaceae	Oxypetalum pedicellatum	Decne.	VU	A2c; B1ab(iii)
+Apocynaceae	Oxypetalum stipatum	Malme	VU	A2c
+Apocynaceae	Oxypetalum sylvestre	(Hook. & Arn.) Goyder & Rapini	VU	B1ab(iii)
+Apocynaceae	Peplonia axillaris	(Vell.) Fontella & Rapini	EN	B1ab(iii)+2ab(ii)
+Apocynaceae	Rauvolfia sellowii	Müll. Arg.	EN	A2c
+Apocynaceae	Temnadenia odorifera	(Vell.) J.F. Morales	EN	B1ab(iii)+2ab(iii)
+Araceae	Asterostigma reticulatum	E.G. Gonç.	VU	B1ab(i,ii,iii)
+Araceae	Mangonia tweediana	Schott	CR	B2ab(iii)
+Araliaceae	Aralia warmingiana	(Marchal) J. Wen	VU	B1ab(i,iii)
+Araliaceae	Oreopanax fulvus	Marchal	VU	B1ab(i,iii)
+Arecaceae	Butia catarinensis	Noblick & Lorenzi	CR	A4acd
+Arecaceae	Butia eriospatha	(Mart.) Becc.	EN	A4cd
+Arecaceae	Butia exilata	Deble & Marchiori	CR	B1ab(i,ii,iii,iv,v)
+Arecaceae	Butia lallemantii	Deble & Marchiori	EN	A4acd
+Arecaceae	Butia odorata	(Barb. Rodr.) Noblick	EN	A4cd
+Arecaceae	Butia paraguayensis	(Barb. Rodr.) L.H. Bailey	CR	B1ab(i,ii,iii,v)
+Arecaceae	Butia witeckii	K. Soares & Longhi	CR	A4c
+Arecaceae	Butia yatay	(Mart.) Becc.	EN	B2ab(ii,iii,v)
+Arecaceae	Euterpe edulis	Mart.	EN	A4abcd
+Arecaceae	Geonoma gamiova	Barb. Rodr.	VU	B1ab(ii,iii)
+Arecaceae	Geonoma schottiana	Mart.	EN	B2ab(i,ii,iii)
+Arecaceae	Trithrinax acanthocoma	Drude	CR	A4acd
+Arecaceae	Trithrinax brasiliensis	Mart.	CR	A4acd
+Aristolochiaceae	Aristolochia curviflora	Malme	EN	B2ab(iii)
+Aristolochiaceae	Aristolochia robertii	Ahumada	EN	B1ab(iii)+2ab(iii)
+Asparagaceae	Clara gracilis	R.C. Lopes e Andreata	EN	B2ab(ii)
+Asparagaceae	Clara ophiopogonoides	Kunth	EN	B2ab(i)
+Asparagaceae	Clara stricta	(L.B. Sm.) R.C. Lopes e Andreata	VU	A2c
+Asteraceae	Acmella pusilla	(Hook. & Arn.) R. K. Jansen	CR	B1ab(i)
+Asteraceae 	Aldama guaranitica	(Chodat ) E.E. Schill. & Panero	EN	B1ab(iii)
+Asteraceae	Aldama knobiana	(Mondin & Magenta) E.E. Schill. & Panero	CR	B1ab(iii)
+Asteraceae	Aldama meridionalis	(Magenta) E.E. Schill. & Panero	CR	B1ab(iii)
+Asteraceae	Aldama santacatarinensis	(H. Rob. & A.J. Moore) E.E. Schill. & Panero	EN	B1ab(iii)
+Asteraceae	Aldama tuberosa	Griseb.	CR	B1ab(iii)
+Asteraceae	Ambrosia scabra	Hook. & Arn.	CR	B2ab(iii)
+Asteraceae	Aspilia pascalioides	Griseb.	CR	B2ab(iii)
+Asteraceae	Asteropsis megapotamica	(Spreng.) Marchesi et al.	EN	B1b(iv)c(iii)
+Asteraceae	Baccharis albilanosa	A.S. Oliveira & Deble	CR	B1b(iii)c(i)
+Asteraceae	Baccharis deblei	A.S. Oliveira & Marchiori	EN	B1ab(iii)
+Asteraceae	Baccharis hyemalis	Deble	VU	B1ab(iii)
+Asteraceae	Baccharis hypericifolia	Baker	EN	B1ab(iii)
+Asteraceae	Baccharis multifolia	A.S. Oliveira et al.	EN	B1ab(iii)
+Asteraceae	Baccharis napaea	G.Heiden	CR	B1b(iii)c(ii)
+Asteraceae	Baccharis sphagnophila	A.A. Schneid. & G. Heiden	EN	B1ab(iv) 
+Asteraceae	Calea clematidea	Baker	VU	B1ab(iii)
+Asteraceae 	Calea kristiniae	Pruski	VU	D2
+Asteraceae 	Chaptalia arechavaletae	Hieron.	EN	B2ab(ii,iii)
+Asteraceae 	Chaptalia cordifolia	(Baker) Cabrera	EN	B2ab(ii,iii,iv)
+Asteraceae 	Chaptalia graminifolia	(Dusén ex Malme) Cabrera	VU	B1ab(iii)+2ab(iii)
+Asteraceae 	Chaptalia ignota	Burkart	EN	B2ab(iv)c(iii); C1
+Asteraceae 	Dasyphyllum synacanthum	(Baker) Cabrera	EN	B2ab(iii)c(ii)
+Asteraceae 	Dimerostemma grisebachii	(Baker) M.D. Moraes	VU	B1ab(iii)
+Asteraceae 	Dimerostemma tenuifolium	(Hassl.) M.D. Moraes	VU	B1ab(iii)
+Asteraceae 	Eupatorium angusticeps	Malme	VU	B1ab(iii)
+Asteraceae 	Grindelia atlantica	Deble & Oliveira-Deble	CR	B1b(iii)
+Asteraceae 	Grindelia gaucha	Deble & Oliveira-Deble	EN	B1ab(iv)
+Asteraceae 	Helenium radiatum	(Less.) Seckt	EN	B2ab(iii)
+Asteraceae 	Holocheilus hieracioides	(D. Don.) Cabrera	EN	B2ab(iii)
+Asteraceae 	Holocheilus monocephalus	Mondin	CR	B2ab(ii,iii,iv)
+Asteraceae 	Hymenoxys tweediei	Hook. & Arn.	CR	B1ab(iii)+2ab(iii); D
+Asteraceae 	Hysterionica pinnatiloba	Matzenb. & Sobral	EN	B1ab(iii)
+Asteraceae 	Ianthopappus corymbosus	(Less.) Roque & D. J.N. Hind	EN	B1ab(iii); C2a(i)
+Asteraceae 	Isostigma crithmifolium	Less.	CR	B1ab(iii)
+Asteraceae 	Isostigma peucedanifolium	(Spreng.) Less.	VU	B1b(iii,iv)c(iii)
+Asteraceae 	Jaumea linearifolia	(Juss.) DC.	CR	B1ab(iii)
+Asteraceae 	Melanthera latifolia	(Gardner) Cabr.	CR	B1ab(iii)+2ab(iii)
+Asteraceae 	Mikania anethifolia	(DC.) Matzenbacher	EN	B2ab(iii); D
+Asteraceae 	Mikania capricorni	B.L. Rob.	EN	B2ab(iii); D
+Asteraceae 	Mikania chlorolepis	Baker	VU	D2
+Asteraceae 	Mikania clematidifolia	Dusén	CR	B1ab(iii); D
+Asteraceae 	Mikania decumbens	Malme	EN	B1ab(iii)
+Asteraceae 	Mikania dusenii	B.L. Rob.	CR	B1ab(iii); D
+Asteraceae 	Mikania hemisphaerica	Sch. Bip. ex Baker	EN	B2ab(iii); D
+Asteraceae 	Mikania lindleyana	DC.	VU	D2
+Asteraceae 	Mikania lundiana	DC.	CR	B1b(ii,iii,iv)c(i,ii,iii); C1
+Asteraceae 	Mikania microptera	DC.	EN	B1ab(iii); D
+Asteraceae 	Mikania oblongifolia	DC.	CR	B2ab(iii)
+Asteraceae	Mikania oreophila	M.R. Ritter & Miotto	EN	B1ab(iii); D
+Asteraceae 	Mikania periplocifolia	Hook. & Arn.	EN	B2ab(iii)
+Asteraceae	Mikania rufescens	Sch. Bip. ex Baker	CR	B2ab(iii); D
+Asteraceae 	Mikania salviifolia	Gardner	VU	B1ab(iii)
+Asteraceae 	Mikania smaragdina	Dusén ex Malme	EN	B1ab(iii); D
+Asteraceae 	Mikania trinervis	Hook. & Arn.	EN	B1ab(iii)
+Asteraceae 	Mikania ulei	Hieron.	EN	B1ab(iii)
+Asteraceae 	Mikania variifolia	Hieron.	VU	D2
+Asteraceae 	Mikania viminea	DC.	EN	B1ab(i,ii,iii); D
+Asteraceae	Moquiniastrum cinereum	(Hook. & Arn.) G. Sancho	EN	B1ab(i,iii)
+Asteraceae	Moquiniastrum mollissimum	(Malme ) G. Sancho	CR	C2a(i)
+Asteraceae	Moquiniastrum polymorphum subsp. floccosum	(Less. ) G. Sancho	EN	B1ab(i,iii)
+Asteraceae	Moquiniastrum ramboi	(Cabrera) G.Sancho	EN	B1ab(iii)+2ab(iii)
+Asteraceae	Moquiniastrum sordidum	(Less. ) G. Sancho	EN	C1
+Asteraceae	Pamphalea araucariophila	Cabrera	VU	B2b(iii,iv)c(ii)
+Asteraceae	Pamphalea blupeurifolia	Less.	VU	B1ab(i,ii,iii)
+Asteraceae	Pamphalea cardaminifolia	Less.	EN	B1ab(i,ii,iii)+2ab(ii,iii)
+Asteraceae	Pamphalea commersonii	Cass.	EN	B1b(iii)c(ii)
+Asteraceae	Pamphalea maxima	Less.	CR	B2b(ii,iii)c(ii)
+Asteraceae	Pamphalea missionum	Cabrera	CR	B2b(iii)c(ii)
+Asteraceae	Pamphalea ramboi	Cabrera	EN	B2b(iii)c(ii)
+Asteraceae	Pamphalea smithii	Cabrera	EN	B1ab(iii)+2ab(iii)
+Asteraceae	Perezia multiflora ssp. sonchifolia	(Baker) Vuilleum.	EN	B2b(ii)c(ii)
+Asteraceae	Perezia squarrosa ssp. cubataensis	(Less.) Vuilleum.	VU	B1ab(ii,iii)
+Asteraceae	Perezia squarrosa ssp. squarrosa	(Vahl) Less.	CR	B2ab(iii); C1
+Asteraceae	Porophyllum linifolium	(Ard.) DC.	EN	B2ab(iii)
+Asteraceae	Senecio heteroschizus	Baker	EN	B1ab(iii)
+Asteraceae	Senecio promatensis	Matzenb.	CR	B2b(ii)
+Asteraceae	Smallanthus araucariophilus	Mondin	CR	B1ab(iii)
+Asteraceae	Smallanthus riograndensis	Mondin	EN	B1ab(iii)
+Asteraceae	Trichocline catharinensis var. discolor	Cabrera	VU	B1ab(iv)
+Asteraceae	Trichocline cisplatina	E. Pasini & M.R. Ritter	VU	B1ab(iii,iv)
+Asteraceae	Trichocline humilis	Less.	CR	B2ab(iii)
+Asteraceae	Trichocline incana	(Lam.) Cass.	EN	B2b(ii,iii)c(ii)
+Asteraceae	Trichocline macrocephala	Less.	EN	B2ab(iii)
+Asteraceae	Trixis pallida	Less.	VU	D2
+Asteraceae	Trixis thyrsoidea	Dusén ex Malme	CR	B1ab(iii)+2ab(iii)
+Asteraceae	Vernonia constricta	Matzenb. & Mafioleti	CR	B1b(iii)c(iii)
+Asteraceae	Viguiera megapotamica	Malme	VU	B1ab(iii)
+Balanophoraceae	Lophophytum leandri	Eichler	EN	D
+Begoniaceae	Begonia calvescens	(Brade ex L.B. Sm. & R.C. Sm.) E.L. Jacques & Mamede	EN	B1ab(i,ii,iii)
+Begoniaceae	Begonia catharinensis	Brade	EN	B1ab(iii)
+Begoniaceae	Begonia fischeri	Schrank	VU	B1ab(iii)
+Begoniaceae	Begonia fruticosa	(Klotzsch) A. DC.	VU	B1ab(i,ii,iii)
+Begoniaceae	Begonia itatinensis	Irmsch. ex Brade	CR	B2ab(iii)
+Begoniaceae	Begonia perdusenii	Brade	CR	B1ab(i,ii,iii)
+Bignoniaceae	Amphilophium dusenianum	(Kraenzl.) L.G. Lohmann	EN	B1ab(iii)+2ab(iii)
+Bignoniaceae	Lundia nitidula	DC.	EN	B1ab(iii)+2ab(iii)
+Boraginaceae	Moritzia ciliata	(Cham.) DC.	VU	A3c
+Bromeliaceae	Aechmea winkleri	Reitz	EN	B1ab(i,ii,iii)
+Bromeliaceae	Ananas fritzmuelleri	Camargo	CR	B2ab(iii)
+Bromeliaceae	Dyckia agudensis	Irgang & Sobral	CR	B1ab(iii)+2ab(iii)
+Bromeliaceae	Dyckia alba	S. Winkl.	CR	B1ab(iii)+2ab(iii)
+Bromeliaceae	Dyckia brevifolia	Baker	EN	A2ac
+Bromeliaceae	Dyckia choristaminea	Mez	EN	B1ab(i,ii,iii,iv,v)
+Bromeliaceae	Dyckia delicata	Larocca & Sobral	CR	B2ab(iii)
+Bromeliaceae	Dyckia distachya	Hassl.	CR	A4c
+Bromeliaceae	Dyckia domfelicianensis	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Dyckia elisabethae	S. Winkl.	VU	B1ab(i,ii,iii)
+Bromeliaceae	Dyckia hebdingii	L.B. Sm.	EN	B1ab(i,ii,iii)
+Bromeliaceae	Dyckia ibicuiensis	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Dyckia irmgardiae	L. B. Sm.	CR	B2ab(iii)
+Bromeliaceae	Dyckia julianae	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Dyckia leptostachya	Baker	VU	B1ab(ii)
+Bromeliaceae	Dyckia maritima	Baker	VU	A3cd
+Bromeliaceae	Dyckia reitzii	L. B. Sm.	CR	B1ab(ii)
+Bromeliaceae	Dyckia remotiflora	Otto & A. Dietr.	VU	A3c
+Bromeliaceae	Dyckia retardata	S. Winkl.	EN	B1ab(iii)+2ab(iii)
+Bromeliaceae	Dyckia retroflexa	S. Winkl.	CR	B2ab(iii)
+Bromeliaceae	Dyckia strehliana	H. Büneker & R. Pontes	CR	B2ac(ii,iii,iv)
+Bromeliaceae	Dyckia tuberosa	(Vell.) Beer	VU	A3cd
+Bromeliaceae	Dyckia vicentensis	T. Strehl	EN	B1ab(iii)+2ab(ii)
+Bromeliaceae	Dyckia waechteri	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Tillandsia afonsoana	T. Strehl	CR	B2ab(i,ii,iii)
+Bromeliaceae	Tillandsia bella	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Tillandsia duratii	Vis.	CR	B2ab(iii)
+Bromeliaceae	Tillandsia itaubensis	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Tillandsia ixioides	Griseb.	CR	B1ab(iii)
+Bromeliaceae	Tillandsia jonesii	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Tillandsia recurvifolia	Hook.	VU	B1ab(iii)
+Bromeliaceae	Tillandsia toropiensis	Rauh	CR	B2ab(iii)
+Bromeliaceae	Tillandsia winkleri	T. Strehl	CR	B2ab(iii)
+Bromeliaceae	Tillandsia xiphioides	Ker Gawl.	CR	B1ab(iii)
+Bromeliaceae	Vriesea corcovadensis	Mez	CR	B2ab(iii)
+Bromeliaceae	Vriesea erytrodactylon	E. Morren ex Mez	CR	B2ab(iii)
+Bromeliaceae	Vriesea procera	(Mart. ex Schult. & Schult. f.) Wittm.	VU	B1ab(iii)
+Buddlejaceae	Buddleja ramboi	L.B. Sm.	VU	B1ab(iii)	
+Burmanniaceae	Apteria aphylla	(Nutt.) Barnhart ex Small	VU	B1ab(i,ii,iii)
+Burmanniaceae	Burmannia australis	Malme	VU	B1ab(i,ii,iii)
+Burseraceae	Protium kleinii	Cuatrec.	CR	B1ab(i,ii,iii)
+Cabombaceae	Cabomba caroliniana var. flavida	Orgaard	EN	B2ab(iii)
+Cabombaceae	Cabomba furcata	Schult. & Schult. f.	CR	B1ab(i)+2ab(ii)
+Cactaceae	Echinopsis oxygona	(Link) Zucc. ex Pfeiff.	VU	A3cd	
+Cactaceae	Epiphyllum phyllanthus	(L.) Haw.	VU	C1
+Cactaceae	Frailea buenekeri	W.R. Abraham	EN	B2ab(ii,iii,v)
+Cactaceae	Frailea castanea	Backeb.	EN	B2ab(ii,iii,v)
+Cactaceae	Frailea cataphracta	(Dams) Britton & Rose	CR	B1ab(ii,iii,v)+2ab(ii,iii,v)
+Cactaceae	Frailea curvispina	Buining & Brederoo	EN	B1ab(ii,iii,v)+2ab(ii,iii,v)
+Cactaceae	Frailea fulviseta	Buining & Brederoo	CR	B1ab(iii,v)+2ab(iii,v)
+Cactaceae	Frailea gracillima	(Lem.) Britton & Rose	VU	A2ac
+Cactaceae	Frailea mammifera	Buining & Brederoo	EN	B2ab(iii,v)
+Cactaceae	Frailea phaeodisca	(Speg.) Backeb. & F.M. Knuth	VU	A2c
+Cactaceae	Frailea pumila	(Lem.) Britton & Rose	VU	A2ac; B1ab(iii,v)
+Cactaceae	Frailea pygmaea	(Speg.) Britton & Rose	VU	A2ac
+Cactaceae	Frailea schilinzkyana	(F.Haage ex K.Schum.) Britton & Rose	EN	B1ab(iii,v)
+Cactaceae	Gymnocalycium denudatum	(Link & Otto) Pfeiff ex Mittler	EN	A2ac
+Cactaceae	Gymnocalycium horstii	Buining	EN	A2ac
+Cactaceae	Gymnocalycium hyptiacanthum subsp.uruguayense (Arechav.)	Britton & Rose	VU	A2ac
+Cactaceae	Parodia alacriportana	Backeb. & Voll	EN	B1ab(iii,v)
+Cactaceae	Parodia allosiphon	(Marchesi) N.P. Taylor	EN	B1ab(iii,v)
+Cactaceae	Parodia arnostiana	(Lisal & Kolarik) Hofacker	CR	A4ac; B1ab(iii,v)
+Cactaceae	Parodia buiningii	(Buxb.) N.P. Taylor	CR	A4ac
+Cactaceae	Parodia concinna	(Monv.) N.P.Taylor	EN	A4acd
+Cactaceae	Parodia crassigiba	(F. Ritter) N. P.Taylor	EN	B2ab(iii,v)
+Cactaceae	Parodia erinacea	(Haw.) N.P. Taylor	EN	A2acd
+Cactaceae	Parodia fusca	(F. Ritter) Hofacker & P.J. Braun	EN	A4ac
+Cactaceae	Parodia gaucha	M. Machado & Larocca	CR	B1ab(iii)
+Cactaceae	Parodia glaucina	(F. Ritter) Hofacker & M. Machado	EN	A4acd
+Cactaceae	Parodia haselbergii	(Haage) F.H. Brandt	VU	A4acd
+Cactaceae	Parodia herteri	(Wedermann) N.P. Taylor	CR	A4ac
+Cactaceae	Parodia horstii	(F. Ritter) N. P.Taylor	EN	C1
+Cactaceae	Parodia langsdorfii	(Lehm.) D.R. Hunt	CR	A4ac
+Cactaceae	Parodia leninghausii	(F. Haage) F.H. Brandt	EN	A4ac
+Cactaceae	Parodia linkii	(Lehm.) R. Kiesling	VU	A4acd
+Cactaceae	Parodia magnifica	(F. Ritter) F.H. Brandt	EN	A4ac; B1ab(iii,v)+2ab(iii,v)
+Cactaceae	Parodia mammulosa	(Lem.) N.P. Taylor	VU	A4ac
+Cactaceae	Parodia mueller-melchersii	(Fric ex Backeb.) N.P. Taylor	EN	A4ac; B1ab(iii,v)
+Cactaceae	Parodia muricata	(Otto) Hofacker	EN	A4ac
+Cactaceae	Parodia neoarechavaletae	(Havlicek) D.R. Hunt	CR	B1ab(i,iii,v)
+Cactaceae	Parodia neohorstii	(Theun.) N.P. Taylor	CR	A4ac
+Cactaceae	Parodia nothorauschii	Hunt	CR	B2ab(iii,v)
+Cactaceae	Parodia ottonis	(Lehm.) N.P. Taylor	VU	A4acd
+Cactaceae	Parodia oxycostata	(Buining & Brederoo) Hofacker	VU	A4ac
+Cactaceae	Parodia permutata	(F. Ritter) Hofacker	EN	B1ab(iii,v)
+Cactaceae	Parodia rechensis	(Buining) F.H. Brandt	CR	B1ab(iii,v)+2ab(iii,v); C2a(ii)
+Cactaceae	Parodia rudibuenekeri	(W.R.Abraham) Hofacker & P.J.Braun	CR	A4ac
+Cactaceae	Parodia schumanniana subsp. claviceps	(F.Ritter) Hofacker	CR	B1ab(ii,iii)
+Cactaceae	Parodia scopa	(Spreng.) N. P. Taylor	EN	A4acd
+Cactaceae	Parodia stockingeri	(Prestle) Hofacker & P.J. Braun	EN	B1ab(i,iii,v); C1
+Cactaceae	Parodia tenuicylindrica	(F. Ritter) D.R. Hunt	EN	A4ac; B1ab(iii,v)
+Cactaceae	Parodia turbinata	(Arechav.) Hofacker	CR	B2ab(iii,v)
+Cactaceae	Parodia warasii	(F. Ritter) F.H. Brandt	EN	B1ab(iii,v)
+Cactaceae	Rhipsalis campos-portoana	Loefgr.	CR	B1ab(iii)+2ab(iii)
+Cactaceae	Rhipsalis paradoxa	Salm-Dyck	CR	B1ab(iii)
+Cactaceae	Schlumbergera rosea	(Lagerh.) Calvente & Zappi	EN	B1ab(iii,v)+2ab(iii,v)
+Caprifoliaceae	Valeriana glechomifolia	F.G.Mey.	EN	B1ab(iii)
+Caprifoliaceae	Valeriana tajuvensis	Sobral	VU	B1ab(i)
+Celastraceae	Maytenus boaria	Molina	VU	B1b(iii,iv)c(ii)
+Celastraceae	Maytenus evonymoides	Reissek	EN	B1ab(iii)
+Celastraceae	Maytenus floribunda	Reissek	EN	B1ab(i,ii,iii)
+Ceratophyllaceae	Ceratophyllum demersum	L.	EN	B1ab(i)+2ab(iii)
+Clethraceae	Clethra scabra	Pres.	VU	B1ab(i,iii)
+Clethraceae	Clethra uleana	Sleumer	EN	B1ab(i,iii)
+Clusiaceae	Clusia criuva	Cambess.	VU	B1b(ii,iii,iv)c(ii,iii)+2b(ii,iii,iv)c(iii)
+Combretaceae	Buchenavia kleinii	Exell	EN	B1ab(ii,iii,iv)+2ab(ii,iii,iv)
+Commelinaceae	Dichorisandra hexandra	(Aubl.) C.B. Clarke	VU	B1ab(i)
+Convolvulaceae	Convolvulus ensifolius	P.P.A. Ferreira & Sim.-Bianch.	CR	D
+Convolvulaceae	Cressa truxillensis	Kunth	CR	B1ab(i,ii,iii)
+Convolvulaceae	Ipomoea guaranitica	Chodat & Hassl.	EN	B1ab(i,ii,iii)
+Convolvulaceae	Ipomoea lanuginosa	O'Donell	CR	B1ab(i,ii,iii)
+Convolvulaceae	Ipomoea malpighiphila	O'Donell	EN	B1ab(i,ii,iii)
+Convolvulaceae	Ipomoea maurandioides	Meisn.	CR	B1ab(i,ii,iii)
+Convolvulaceae	Ipomoea mirabilis	P.P.A. Ferreira & Sim.-Bianch.	EN	D
+Convolvulaceae	Ipomoea pampeana	P.P.A. Ferreira & Miotto	CR	D
+Convolvulaceae	Jacquemontia selloi	Hallier	VU	B1ab(i,ii,iii)
+Cyperaceae	Carex seticulmis	Boeck.	EN	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Cyperaceae	Carex uruguensis	Boeck.	CR	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Cyperaceae	Cyperus berroi	(C.B. Clarke) Barros	VU	D2
+Cyperaceae	Cyperus celluloso-reticulatus	Boeck.	VU	B1ab(iii)
+Cyperaceae	Cyperus mundulus	Kunth	EN	B1ab(iii)
+Cyperaceae	Cyperus uncinulatus	Schrad. ex Nees	VU	D2
+Cyperaceae	Eleocharis atrobrunnea	R. Trevis. & S. González	CR	B2ab(iii)
+Cyperaceae	Eleocharis quinquangularis	Boeck.	VU	D2
+Cyperaceae	Eleocharis rabenii	Boeck.	EN	B1ab(iii)
+Dilleniaceae	Doliocarpus glomeratus	Eichler	EN	B1ab(iii)
+Dioscoreaceae	Dioscorea furcata	Griseb.	EN	B2ab(iii)
+Eriocaulaceae	Actinocephalus polyanthus	(Bong.) Sano	VU	A2a
+Eriocaulaceae	Eriocaulon gomphrenoides	Kunth	VU	A2a; D1
+Eriocaulaceae	Eriocaulon ligulatum	(Vell.) L.B. Sm.	VU	B1ab(iii)
+Eriocaulaceae	Eriocaulon magnificum	Ruhland	VU	A2a
+Eriocaulaceae	Eriocaulon modestum	Kunth	VU	A2a
+Eriocaulaceae	Eriocaulon reitzii	Moldenke & L.B. Sm	VU	A2a
+Eriocaulaceae	Paepalanthus caldensis	Malme	VU	A2a
+Eriocaulaceae	Paepalanthus catharinae	Ruhland	VU	A2a
+Eriocaulaceae	Syngonanthus chrysanthus	(Bong.) Ruhland	EN	A2a+4a; C1
+Erythroxylaceae	Erythroxylum substriatum	O.E. Schulz	EN	B1ab(i,iii)
+Escalloniaceae	Escallonia farinacea	A. St.-Hil.	CR	B2b(i,ii,iii)
+Escalloniaceae	Escallonia petrophila	Rambo & Sleumer	EN	A1cd
+Euphorbiaceae	Chiropetalum foliosum	(Müll.Arg.) Pax & K.Hoffm.	EN	B2ab(iii)
+Euphorbiaceae	Croton macrobothrys	Baill.	CR	B1ab(i)
+Euphorbiaceae	Pausandra morisiana	(Casar.) Radlk.	CR	B1ab(i,ii,iii)
+Fabaceae	Abarema langsdorfii	Barneby & J.W. Grimes	EN	B1ab(iii)+2ab(iii)
+Fabaceae	Adesmia rocinhensis	Burkart	EN	B1ab(iii)+2ab(iii)
+Fabaceae	Adesmia sessilifolia	Iganci & Miotto	EN	B2ab(iii)
+Fabaceae	Aeschynomene fructipendula	Abruzzi de Oliveira	CR	B1ab(ii,iii)
+Fabaceae	Aeschynomene montevidensis	Vogel	EN	B1ab(ii)c(i)
+Fabaceae	Apuleia leiocarpa	(Vogel) Macbr.	CR	A4c
+Fabaceae	Arachis villosa	Benth.	CR	B2ab(iii)
+Fabaceae	Bauhinia uruguayensis	Benth.	CR	B2ab(ii,iii,iv,v)
+Fabaceae	Calliandra brevicaulis	Micheli	EN	D
+Fabaceae	Chaetocalyx nigricans	Burkart	VU	D2
+Fabaceae	Collaea speciosa	(Lois.) DC.	EN	B2ab(ii,iii)
+Fabaceae	Dahlstedtia pentaphylla	(Taub.) BurkartCyperaceae Cyperus berroi (C.B. Clarke) Barros	VU	D2
+Cyperaceae	Cyperus celluloso-reticulatus	Boeck.	VU	B1ab(iii)
+Cyperaceae	Cyperus mundulus	Kunth	EN	B1ab(iii)
+Cyperaceae	Cyperus uncinulatus	Schrad. ex Nees	VU	D2
+Cyperaceae	Eleocharis atrobrunnea	R. Trevis. & S. González	CR	B2ab(iii)
+Cyperaceae	Eleocharis quinquangularis	Boeck.	VU	D2
+Cyperaceae	Eleocharis rabenii	Boeck.	EN	B1ab(iii)
+Dilleniaceae	Doliocarpus glomeratus	Eichler	EN	B1ab(iii)
+Dioscoreaceae	Dioscorea furcata	Griseb.	EN	B2ab(iii)
+Eriocaulaceae	Actinocephalus polyanthus	(Bong.) Sano	VU	A2a	
+Eriocaulaceae	Eriocaulon gomphrenoides	Kunth	VU	A2a; D1
+Eriocaulaceae	Eriocaulon ligulatum	(Vell.) L.B. Sm.	VU	B1ab(iii)
+Eriocaulaceae	Eriocaulon magnificum	Ruhland	VU	A2a
+Eriocaulaceae	Eriocaulon modestum	Kunth	VU	A2a
+Eriocaulaceae	Eriocaulon reitzii	Moldenke & L.B. Sm	VU	A2a
+Eriocaulaceae	Paepalanthus caldensis	Malme	VU	A2a
+Eriocaulaceae	Paepalanthus catharinae	Ruhland	VU	A2a
+Eriocaulaceae	Syngonanthus chrysanthus	(Bong.) Ruhland	EN	A2a+4a; C1
+Erythroxylaceae	Erythroxylum substriatum	O.E. Schulz	EN	B1ab(i,iii)
+Escalloniaceae	Escallonia farinacea	A. St.-Hil.	CR	B2b(i,ii,iii)
+Escalloniaceae	Escallonia petrophila	Rambo & Sleumer	EN	A1cd
+Euphorbiaceae	Chiropetalum foliosum	(Müll.Arg.) Pax & K.Hoffm.	EN	B2ab(iii)
+Euphorbiaceae	Croton macrobothrys	Baill.	CR	B1ab(i)
+Euphorbiaceae	Pausandra morisiana	(Casar.) Radlk.	CR	B1ab(i,ii,iii)
+Fabaceae	Abarema langsdorfii	Barneby & J.W. Grimes	EN	B1ab(iii)+2ab(iii)
+Fabaceae	Adesmia rocinhensis	Burkart	EN	B1ab(iii)+2ab(iii)
+Fabaceae	Adesmia sessilifolia	Iganci & Miotto	EN	B2ab(iii)
+Fabaceae	Aeschynomene fructipendula	Abruzzi de Oliveira	CR	B1ab(ii,iii)
+Fabaceae	Aeschynomene montevidensis	Vogel	EN	B1ab(ii)c(i)
+Fabaceae	Apuleia leiocarpa	(Vogel) Macbr.	CR	A4c
+Fabaceae	Arachis villosa	Benth.	CR	B2ab(iii)
+Fabaceae	Bauhinia uruguayensis	Benth.	CR	B2ab(ii,iii,iv,v)
+Fabaceae	Calliandra brevicaulis	Micheli	EN	D
+Fabaceae	Chaetocalyx nigricans	Burkart	VU	D2
+Fabaceae	Collaea speciosa	(Lois.) DC.	EN	B2ab(ii,iii)
+Fabaceae	Dahlstedtia pentaphylla	(Taub.) Burkart	VU	D2
+Fabaceae	Desmodium craspediferum	Azevedo & Oliveira	CR	B1ab(ii,iii,v)+2ab(ii)
+Fabaceae	Desmodium hassleri	(Schindler.) Burkart	CR	B2ab(iv)
+Fabaceae	Desmodium venosum	Vogel	EN	B2ab(iii)
+Fabaceae	Discolobium psoraleaefolium	Benth.	EN	B2ab(i,ii,iii,iv); D
+Fabaceae	Gleditsia amorphoides	(Griseb.) Taub.	EN	A4c
+Fabaceae	Lathyrus acutifolius	Vogel	VU	D2
+Fabaceae	Lathyrus paraguariensis	Hassl.	CR	B2ab(ii,iii)
+Fabaceae	Lathyrus parodii	Burkart	CR	C2a(i)
+Fabaceae	Lonchocarpus torrensis	N.F. Mattos	EN	B1ab(iii)
+Fabaceae	Machaerium nyctitans	(Vell.) Benth.	VU	D2
+Fabaceae	Mimosa sprengelii	DC.	CR	B1ab(iii)
+Fabaceae	Mimosa balduini	Burkart	CR	B1ab(iii)
+Fabaceae	Mimosa barnebiana	Fortunato et Tressens	CR	B2ab(i,ii,iii)
+Fabaceae	Mimosa involucrata	Benth.	EN	B1ab(i,ii,iii)
+Fabaceae	Mimosa rocae	Lorentz & Niederlein	EN	D
+Fabaceae	Mimosa sobralii	Grings & O.S. Ribas	EN	B1ab(iii)
+Fabaceae	Mucuna urens	(L.) Medik.	VU	D2
+Fabaceae	Myrocarpus frondosus	Allemão	VU	A2cd
+Fabaceae	Piptadenia affinis	Burkart	CR	A4ac
+Fabaceae	Poecilanthe parviflora	Benth.	CR	C2a(i)
+Fabaceae	Prosopis affinis	Spreng.	VU	B1ab(iii)
+Fabaceae	Prosopis nigra	(Griseb.) Hieron.	CR	B2ab(iii)
+Fabaceae	Sellocharis paradoxa	Taub.	CR	D
+Fabaceae	Senegalia magnibracteosa	(Burkart) Seigler & Ebinger	CR	B1ab(i,ii,iii,iv)
+Fabaceae	Senna nana	(Benth.) H.S. Irwin & Barneby	CR	B2ab(ii,iii)c(ii,iii)
+Fabaceae	Trifolium argentinense	Speg.	EN	B1ab(i,ii,iii,iv)+2ab(i,ii,iii,iv)
+Fabaceae	Vachellia ibirocayensis	(Marchiori) Deble & Marchiori	CR	B1ab(i,ii,iii,iv); C2a(i)
+Fabaceae	Vicia tephrosioides	Vogel	CR	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Gesneriaceae	Codonanthe gracilis	(Mart.) Hanst.	CR	B2b(ii)
+Gesneriaceae	Nematanthus fissus	(Vell.) L.E. Skog	CR	B2ab(ii,iii)
+Gesneriaceae	Nemathanthus tessmanii	(Hoehne) Chautems	CR	B1ab(iii)
+Gesneriaceae	Sinningia bullata	Chautems & M.Peixoto	CR	B2ab(iii)
+Gesneriaceae	Sinningia curtiflora	(Malme) Chautems	CR	B1b(ii,iii)
+Gesneriaceae	Sinningia lineata	(Hjem) Chautems	EN	B2ab(iii)
+Gesneriaceae	Sinningia nivalis	Chautems	EN	B2ab(iii)
+Gesneriaceae	Sinningia polyantha	(DC.) Wiehler	EN	B1ab(ii,iii)
+Gesneriaceae	Sinningia ramboi	G.E. Ferreira, Waechter & Chautems	EN	B1ab(iii)+2ab(iii)
+Gesneriaceae	Sinningia warmingii	(Mart.) Whieler	EN	B1ab(ii,iii)
+Griseliniaceae	Griselinia ruscifolia	(Clos) Taubert	VU	B1ab(i,iii)
+Gunneraceae	Gunnera herteri	Osten	VU	B2b(ii,iii)c(ii); D1
+Haloragaceae	Laurembergia tetrandra	(Schott) Kanitz	VU	B1ab(i,ii,iii)
+Hypericaceae	Hypericum cordatum	(Vell.) N. Robson	VU	B1b(iii)c(iii)
+Hypericaceae	Hypericum gentianoides	(L.) Britton, Sterns & Poggenb.	EN	B2ab(iii)
+Hypericaceae	Hypericum pedersenii	N. Robson	EN	B1ab(iii,iv)+2ab(iii,iv)
+Hypericaceae	Hypericum rigidum subsp. sellowianum	(R. Keller) N. Robson	CR	B1b(iii,iv)c(ii)+2b(iii,iv)c(ii)
+Hypericaceae	Hypericum salvadorense	N. Robson	EN	B2b(iii,iv)c(iv)
+Hypericaceae	Hypericum teretiusculum	A. St.-Hil.	VU	B1ab(iii,iv)
+Hypericaceae	Hypericum ternum	A. St.-Hil.	CR	B2b(iii,iv)c(i)
+Iridaceae	Calydorea crocoides	Ravenna	EN	B1ab(iii)
+Iridaceae	Catila amabilis	Ravenna	CR	C2a(i); D
+Iridaceae	Cypella aquatilis	Ravenna	CR	D
+Iridaceae	Cypella discolor	Ravenna	EN	B1ab(iii)
+Iridaceae	Cypella hauthalii ssp. opalina	Ravenna	EN	B1ab(iii)
+Iridaceae	Cypella laxa	Ravenna	CR	B2ab(iii,iv); D
+Iridaceae	Cypella luteogibbosa	Deble	CR	B1ab(iii); D
+Iridaceae	Cypella magnicristata	Deble	CR	B1ab(iii); D
+Iridaceae	Cypella pusilla	(Link & Otto) Benth. & Hook. f. ex B.D. Jacks.	CR	B2ab(iii)
+Iridaceae	Gelasine coerulea	(Vell.) Ravenna	CR	B2ab(iii); D
+Iridaceae	Gelasine elongata	(Graham) Ravenna	EN	B2ab(i,ii,iii)
+Iridaceae	Herbertia crosae	Roitman & J.A. Castillo	EN	B1ab(iii)
+Iridaceae	Herbertia darwinii	Roitman & J.A. Castillo	EN	B2ab(iii)
+Iridaceae	Herbertia zebrina	Deble	CR	B1ab(iii,iv)
+Iridaceae	Kelissa brasiliensis	(Baker) Ravenna	VU	B1ab(i,iii)
+Iridaceae	Sisyrinchium flabellatum	Aita & L.Eggers	CR	B2ab(iii); D
+Iridaceae	Sisyrinchium rambonis	R.C. Foster	EN	B1ab(iii)
+Juncaginaceae	Triglochin scilloides	(Poir.) Mering & Kadereit	EN	B2ab(ii)
+Lamiaceae	Cunila fasciculata	Bentham	VU	B1ab(i,iii)
+Lamiaceae	Cunila platyphylla	Epling	EN	B1ab(i,iii)
+Lamiaceae	Glechon discolor	Epling	EN	B1ab(i,ii,iii)
+Lamiaceae	Hesperozygis nitida	(Benth.) Epling	CR	B1ab(i,ii,iii)
+Lamiaceae	Hesperozygis ringens	(Benth.) Epling	VU	B1ab(i,iii)
+Lamiaceae	Hyptis tetracephala	Bordignon	CR	B1ab(i,ii,iii)
+Lamiaceae	Hyptis uliginosa	A.St.-Hil. ex Benth.	EN	B1ab(i)
+Lamiaceae	Ocimum neurophyllum	Briquet	CR	B1b(i,ii,iii,iv)c(i,ii,iii)+2b(i,ii,iii,iv)c(i,ii,iii)
+Lamiaceae	Ocimum procurrens	Epling	CR	B1ab(ii,iii,iv)c(i,ii,iii)+2ab(i,ii,iii,iv)c(i,ii,iii,iv)
+Lamiaceae	Salvia congestiflora	Epling	EN	B1b(ii,iii)c(ii)+2b(ii,iii)c(ii)
+Lamiaceae	Salvia scoparia	Epling	EN	B1ab(i,ii,iii,iv)c(i,ii,iii)
+Lamiaceae	Salvia uliginosa	Bentham	VU	B2b(ii,iii)c(iii)
+Lauraceae	Aniba firmula	(Nees & Mart.) Mez	CR	B1ab(i,iii,iv)
+Lauraceae	Cinnamomum triplinerve	(Ruiz & Pav.) Kosterm.	EN	B1ab(i,ii,iii)
+Lauraceae	Licaria armeniaca	(Nees) Kosterm.	CR	A4cd
+Lauraceae	Nectandra angustifolia	(Schrad.) Nees	EN	B2ab(ii,iii)
+Lauraceae	Ocotea catharinensis	Mez	VU	A1acd
+Lauraceae	Ocotea lancifolia	(Schott) Mez	EN	A4c
+Lauraceae	Ocotea lobbii	(Meisn.) Rohwer	CR	A4acd
+Lauraceae	Ocotea nectandrifolia	Mez	VU	A4c
+Lauraceae	Ocotea odorifera	(Vell.) Rohwer	CR	A1abcd
+Lauraceae	Ocotea porosa	(Nees et Mart.) L. Barroso	EN	B1ab(i,ii,iii)
+Lauraceae	Ocotea silvestris	Vatt.-Gil	VU	B1ab(i,ii,iii)
+Lauraceae	Ocotea teleiandra	(Meisn.) Mez	VU	B1ab(i,ii,iii)
+Lauraceae	Ocotea tristis	(Nees & Mart.) Mez	EN	B1ab(i,ii,iii)
+Lauraceae	Persea venosa	Nees & Mart. ex Nees	CR	A4cd
+Lauraceae	Persea willdenovii	Kosterm.	CR	A4cd
+Lythraceae	Cuphea confertiflora	A.St.-Hil.	CR	B2ab(i,ii,iii)
+Lythraceae	Lafoensia nummularifolia	A. St.-Hil.	EN	B1ab(iii)+2ab(ii,iii);C2a(i); D
+Magnoliaceae	Magnolia ovata	(A. St.-Hil.) Spreng.	EN	B1ab(i,ii,iii)
+Malpighiaceae	Amorimia exotropica	(Griseb.) W.R. Anderson	VU	B2ab(ii,iii)
+Malpighiaceae	Bunchosia maritima	(Vell.) J.F. Macbr.	EN	B1ab(i,ii,iii,iv)
+Malpighiaceae	Byrsonima niedenzuiana	Skottsb.	VU	B1ab(ii,iii)+2ab(ii,iii)
+Malpighiaceae	Dicella bracteosa	(A. Juss.) Griseb.	VU	B1ab(iv)
+Malpighiaceae	Heteropterys dusenii	Nied.	EN	B1ab(i,ii,iii,iv)
+Malpighiaceae	Mascagnia divaricata	(Kunth) Nied.	EN	B2ab(iii,iv)
+Malpighiaceae	Stigmaphyllon bonariense	(Hook. & Arn.) C.E.Anderson	CR	B2ab(iv)
+Malpighiaceae	Stigmaphyllon ciliatum	(Lam.) A.Juss.	EN	B2ab(iii,iv)
+Malvaceae	Callianthe rufinerve	(A. St.-Hil.) Donnel	CR	B1ab(iii)
+Malvaceae	Calyculogygas serrana	Grings	CR	B1ab(iii)c(ii)
+Malvaceae	Calyculogygas uruguayensis	Krapov.	CR	D
+Malvaceae	Ceiba speciosa	(A. St.-Hil.) Ravenna	VU	B1ab(i,ii,iv)
+Malvaceae	Cienfuegosia drumondii	(A. Gray) Lewt.	EN	B1ab(iii)
+Malvaceae	Cienfuegosia sulfurea	(A. St.-Hil.) Garcke	EN	B1ab(iii)
+Malvaceae	Cienfuegosia ulmifolia	Fryxell	EN	B1ab(iii)
+Malvaceae	Herissantia nemoralis	(St. Hil.) Briz.	CR	B1ab(iii)
+Malvaceae	Hochreutinera hasslerana	(Hocher) Krapov.	VU	B1ab(iii)
+Malvaceae	Melochia hermannioides	A. St.-Hil.	EN	B1ab(iii)
+Malvaceae	Monteiroa ptarmicifolia	(St. Hil. et Naud.) Krap.	VU	B2ab(iii)
+Malvaceae	Monteiroa reitzii	Krapov.	VU	B1ab(iii)
+Malvaceae	Monteiroa triangularifolia	Krapov.	CR	B1ab(iii)
+Malvaceae	Pavonia angustipetala	Krapov. & Cristóbal	VU	B2b(iii)c(iii)
+Malvaceae	Pavonia commutata	Garcke	EN	B1ab(iii)c(iii)
+Malvaceae	Pavonia cryptica	Krapov. & Cristóbal	CR	B1ab(iii)
+Malvaceae	Pavonia dusenii	Krapov. & Cristóbal	VU	B1ab(iii)
+Malvaceae	Pavonia glutinosa	Krapov. & Cristóbal	CR	B1ab(iii)+2ab(iii)
+Malvaceae	Pavonia horrida	Krapov.	EN	B1ac(iii)
+Malvaceae	Pavonia kleinii	Krapov.	EN	B1ab(iii)
+Malvaceae	Pavonia lanata	R.E. Fries	EN	B1ab(iii)
+Malvaceae	Pavonia nana	R.E. Fries	CR	B1ab(iii)+2ab(iii)
+Malvaceae	Pavonia ramboi	Krapov.	EN	B1b(iii)c(ii)+2b(iii)c(ii)
+Malvaceae	Pavonia renifolia	Krapov.	CR	B1ab(iii)+2ab(iii)
+Malvaceae	Pavonia rosengurtii	Krapov. & Cristóbal	EN	B1ab(iii)
+Malvaceae	Pavonia secreta	Grings & Krapov.	CR	B2ab(iii); D
+Malvaceae	Pavonia stenopetala	Krapov.	VU	B1ab(iii)
+Malvaceae	Pavonia subrotunda	A. St.-Hil. & Naudin	CR	B1ab(iii)
+Malvaceae	Peltaea edouardii	(Hochr.) Krapov. & Cristóbal	CR	B2ab(iii)
+Malvaceae	Rhynchosida physocalyx	(A. Gray) Fryxell	EN	B1ab(iii)
+Malvaceae	Sida confusa	Hassl.	EN	B2ab(iii)
+Malvaceae	Sida paradoxa	Rodrigo	EN	B1ab(iii)
+Malvaceae	Sida pseudorubifolia	Krapov. & Bueno	VU	B2ab(iii)
+Malvaceae	Sphaeralcea bonariensis	(Cav.) Griseb.	CR	B1ac(iv)
+Malvaceae	Talipariti pernambucense	(Arruda) Bovini	EN	B1ab(iii)
+Malvaceae	Tropidococcus pinnatipartitus	(A. St.-Hil. & Naudin) Krapov.	VU	B1ab(iii)
+Marantaceae	Thalia multiflora	Horkel ex Koern.	CR	B2ab(iii)
+Marcgraviaceae	Marcgravia polyantha	Delpino	VU	B1ab(i,ii,iii)
+Melastomataceae	Huberia semiserrata	DC.	CR	B2ab(i,ii,iii); E
+Melastomataceae	Leandra catharinensis	Cong.	EN	B1ab(i,ii,iii)
+Melastomataceae	Ossaea amygdaloides	(DC.) Triana	EN	B2ab(i,ii,iii)
+Melastomataceae	Tibouchina asperior	(Cham.) Cogn.	EN	A3c+4acd
+Melastomataceae	Tibouchina hospita	Cogn.	EN	B2ab(i,ii,iii)
+Melastomataceae	Tibouchina rupestris	Cogn.	EN	B2ab(i,ii,iii)
+Melastomataceae	Tibouchina trichopoda	(DC.) Baillon	EN	B2ab(i,ii,iii)
+Melastomataceae	Tibouchina urvilleana	(DC.) Cogn.	EN	B2ab(i,ii,iii)
+Meliaceae	Trichilia casarettoi	C.DC.	EN	A2cd+4c
+Meliaceae	Trichilia lepidota	Mart.	EN	A2c+4c
+Meliaceae	Trichilia pallens	C. DC.	EN	A2c+4c
+Monimiaceae	Mollinedia triflora	(Spreng.) Tul.	EN	B1b(iii)c(i)+2b(iii)c(i)
+Moraceae	Brosimum glazioui	Taub.	EN	B1ab(iii)
+Moraceae	Ficus citrifolia	Mill.	VU	B1ab(iii,v)
+Moraceae	Ficus eximia	Schott	EN	B1ab(iii,iv,v)+2ab(iii,iv,v)
+Myristicaceae	Virola bicuhyba	(Schott ex Spreng.) Warb.	EN	B1ab(i,ii,iii)
+Myrtaceae	Calyptranthes pileata	D. Legrand	EN	B1ab(i,iii)
+Myrtaceae	Campomanesia guaviroba	(DC.) Kiaersk.	CR	A4acd
+Myrtaceae	Campomanesia littoralis	D. Legrand	EN	B1ab(iii)
+Myrtaceae	Eugenia anomala	D. Legrand	EN	B2ab(i,ii,iii)
+Myrtaceae	Eugenia arenosa	Mattos	EN	B1ab(i,iii)
+Myrtaceae	Eugenia dimorpha	O. Berg	VU	A4a
+Myrtaceae	Eugenia gracillima	Kiaersk.	EN	B2ab(i)
+Myrtaceae	Eugenia hamiltonii	(Mattos) Mattos	CR	A4acd
+Myrtaceae	Eugenia neomyrtifolia	Sobral	EN	B1ab(i,iii,iv)
+Myrtaceae	Eugenia rotundicosta	D. Legrand	CR	A4acd
+Myrtaceae	Myrceugenia foveolata	(O.Berg) Sobral	EN	B1ab(i,iii)
+Myrtaceae	Myrceugenia ovalifolia	(O.Berg) Landrum	CR	B1ab(iii)
+Myrtaceae	Myrcia anomala	Cambess.	CR	A4acd
+Myrtaceae	Myrcianthes riparia	Sobral et al.	CR	B2ab(iii)
+Myrtaceae	Plinia pseudodichasiantha	(Kiaersk.) G.M. Barroso ex Sobral	EN	B1ab(i,ii,iii)
+Myrtaceae	Psidium longipetiolatum	D. Legrand	EN	A4acd
+Nymphaeaceae	Nymphaea amazonum	Mart. & Zucc.	CR	B1ab(iii)+2ab(iii)
+Nymphaeaceae	Nymphaea prolifera	Wiersema	EN	B2ab(iii)
+Olacaceae	Heisteria silvianii	Schwacke	EN	D
+Oleaceae	Chionanthus filiformis	(Vell.) Green	VU	B1ab(i,iii)
+Opiliaceae	Agonandra excelsa	Griseb.	VU	B1ab(iii)
+Orchidaceae	Baptistonia riograndensis	(Cogn.) Chiron & V.P. Castro	VU	A3c
+Orchidaceae	Baptistonia venusta	(Drapiez) Chiron	CR	B1ab(ii,iii)
+Orchidaceae	Bipinnula biplumata	(L. f.) Rchb. f.	CR	B2ab(ii,iii); C1
+Orchidaceae	Bipinnula gibertii	Rchb. f.	CR	B2ab(iv)
+Orchidaceae	Bipinnula montana	Arechav.	VU	B1ab(iii)
+Orchidaceae	Bipinnula penicillata	(Rchb. f.) Cisternas & Salazar	EN	B1ab(i,ii,iii)+2ab(i,ii,iii); D
+Orchidaceae	Brachystele subfiliformis	(Cogn.) Schltr.	EN	B1ab(i,ii,iii); D
+Orchidaceae	Brasilaelia purpurata	(Lindl. & Paxton) Campacci	EN	A3cd; B1ab(i,ii,iii)
+Orchidaceae	Catasetum atratum	Lindl.	VU	D2
+Orchidaceae	Catasetum cernuum	(Lindl.) Rchb. f.	VU	D2
+Orchidaceae	Catasetum fimbriatum	(C.Morren) Lindl.	VU	D2
+Orchidaceae	Cattleya intermedia	Grah.	VU	A4cd
+Orchidaceae	Cattleya tigrina	A. Rich.	EN	A3cd; B1ab(i,ii,iii)
+Orchidaceae	Chloraea membranaceae	Lindl.	VU	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Orchidaceae	Cleistes ramboi	Pabst	CR	B1ab(iii)
+Orchidaceae	Codonorchis canisioi	Mansf.	CR	A1ac; B2ab(i,ii,iii); C1; D
+Orchidaceae	Cyanaeorchis arundinae	(Rchb.f.) Barb.Rodr.	VU	B1ab(iii)
+Orchidaceae	Cyrtopodium witeckii	L.C. Menezes	VU	D2
+Orchidaceae	Habenaria dutrae	Schltr.	CR	B1ab(iii)+2ab(iii); D
+Orchidaceae	Habenaria ekmaniana	Kraenzl.	CR	C2a(i)
+Orchidaceae	Habenaria exaltata	Barb. Rodr.	VU	B2ab(iii); D1
+Orchidaceae	Habenaria henscheniana	Barb. Rodr.	EN	C2a(i)
+Orchidaceae	Habenaria pentadactyla	Lindl.	EN	C2a(i)
+Orchidaceae	Pelexia ekmanii	(Kraenzl.) Schltr.	EN	B2ab(i,ii,iii); D
+Orchidaceae	Sarcoglottis uliginosa	(Barb. Rodr.) Barb. Rodr.	EN	B1ab(i,ii,iii); D
+Oxalidaceae	Oxalis cytisoides	C. Mart. & Zucc.	CR	B1ab(i,ii)
+Oxalidaceae	Oxalis geralensis	R. Knuth	EN	B1ab(i)+2ab(iii)
+Oxalidaceae	Oxalis myriophylla	A. St.-Hil.	CR	B2ab(i,ii)
+Oxalidaceae	Oxalis refracta	A.St.-Hil.	CR	B2ab(i,ii)
+Oxalidaceae	Oxalis subvillosa	Norlind	CR	B2ab(i,ii)
+Passifloraceae	Passiflora actinia	Hook.	EN	B2ab(i,ii,iii,iv)
+Passifloraceae	Passiflora eichleriana	Mast.	VU	B1ab(i,ii,iii,iv)
+Passifloraceae	Passiflora organensis	Vell.	EN	B1ab(i,ii,iii,iv)
+Passifloraceae	Passiflora urnifolia	Rusby	VU	A1a
+Passifloraceae	Passiflora urubiciensis	Cervi	CR	B2ab(ii,iii,v)
+Pentaphyllaceae	Ternstroemia brasiliensis	Cambess.	EN	B1ab(i,iii)
+Phyllanthaceae	Margaritaria nobilis	L. f.	EN	B1b(i,ii,iii)
+Phytolaccaceae	Microtea scabrida	Urban	CR	A2acd
+Phytolaccaceae	Seguieria langsdorffii	Moq.	EN	A2acd
+Poaceae	Agrostis lenis	Roseng., B.R. Arrill. & Izag.	VU	B2b(iii)c(i)
+Poaceae	Agrostis longiberbis	Hackel ex L. B. Smith	EN	B1ab(iii)+2ab(ii,iii)
+Poaceae	Agrostis ramboi	Parodi	VU	B1ab(iii)
+Poaceae	Aristida constricta	Longhi-Wagner	EN	B2ab(iv)c(iii)
+Poaceae	Aulonemia ulei	(Hack.) McClure & L.B. Sm.	EN	B1ab(i,iii)+2ab(i,iii)
+Poaceae	Bothriochloa brasiliensis	(Hack) Henrard	VU	D2
+Poaceae	Bothriochloa imperatoides	(Hack.) Herter	VU	D2
+Poaceae	Bothriochloa meridionalis	M. Marchi	VU	B1ab(iii,iv)c(iii)
+Poaceae	Chascolytrum brasiliense	(Nees ex Steud.) Essi, Longhi-Wagner & Souza-Chies	VU	D2
+Poaceae	Chascolytrum bulbosum	(Parodi) Essi, Longhi-Wagner & Souza-Chies	EN	B1ab(iii,iv)
+Poaceae	Chascolytrum latifolium	Essi, Souza-Chies & Longhi-Wagner	VU	D2
+Poaceae	Chascolytrum parodianum	(Roseng., B.R. Arrrill. & Izag.) Matthei	CR	B1ab(iii)
+Poaceae	Chascolytrum scabrum	(Nees ex Steud.)Matthei	EN	B2ab(i,iii)
+Poaceae	Chusquea bambusoides	(Raddi) Hack.	CR	B2ab(i,ii,iii)
+Poaceae	Chusquea capituliflora	Trin.	EN	B1ab(i)
+Poaceae	Chusquea gracilis	McClure & L.B.	EN	B1ab(i,iii)
+Poaceae	Chusquea leptophylla	Nees	EN	B1ab(i,iii)
+Poaceae	Chusquea sellowii	Rupr.	EN	B1ab(i,ii,iii)
+Poaceae	Colanthelia cingulata	(McClure & L.B.Sm.)McClure	CR	B1ab(i,iii)
+Poaceae	Colanthelia lanciflora	(McClure & L.B.Sm.)McClure	EN	B1ab(i)
+Poaceae	Colanthelia rhizantha	(Hack.) McClure	VU	B1ab(i)
+Poaceae	Deschampsia caespitosa	(L.) Beauv.	EN	B1ab(iii)
+Poaceae	Guadua chacoensis	(Rojas) Londoño & P.M.Peterson	CR	B2ab(iii)
+Poaceae	Guadua tagoara	(Nees) Kunth	CR	B1ab(i,iii)
+Poaceae	Melica arzivencoi	Valls & Barcellos	VU	D2
+Poaceae	Melica riograndensis	Longhi-Wagner & Valls	VU	D2
+Poaceae	Melica spartinoides	L.B. Sm.	CR	B2ab(iii,iv)
+Poaceae	Merostachys caucaiana	Send.	CR	B2ab(i,iii)
+Poaceae	Merostachys pilifera	Send.	CR	B2ab(i,iii)
+Poaceae	Merostachys speciosa	Spreng.	EN	B1ab(i,iii)
+Poaceae	Merostachys ternata	Nees	CR	B2ab(i,iii)
+Poaceae	Nassella planaltina	(A. Zanin & Longhi-Wagner) Peñail	EN	B1ab(iii)c(iii)
+Poaceae	Nassella rhizomata	(A. Zanin & Longhi-Wagner) Peñail	CR	B1ab(iii,iv)
+Poaceae	Nassella rosengurttii	(Chase) Barkworth	VU	D2
+Poaceae	Panicum aristellum	Doell	EN	B2ab(iii,iv)c(iii)
+Poaceae	Panicum pedersenii	Zuloaga	EN	B1ab(i,iii,iv)
+Poaceae	Paspalum rawitscheri	(Parodi) Chase ex G.H.Rua & Valls	VU	B1ab(iii,iv)
+Poaceae	Piptochaetium alpinum	L.B. Sm.	CR	B1ab(iii,iv)c(iii)+2ab(iv)c(iii)
+Poaceae	Poa bradei	Pilger	VU	B1ab(iii)
+Poaceae	Poa reitzii	Swallen	CR	B2ab(iv)c(ii,iii)
+Poaceae	Rhynchoriza subulata	(Nees) Baillon	CR	B2ab(i,ii)c(i)
+Poaceae	Schizachyrium	scabriflorum (Rupr. ex Hack.) A.Camus	CR	B2ab(iii,iv)
+Poaceae	Setaria hassleri	Hackel	CR	B2ab(iv)
+Poaceae	Setaria paucifolia	(Morong). Lind.	EN	B2ab(iii,iv)c(iii)
+Poaceae	Setaria stolonifera	(Steud.) Griseb.	CR	B2ab(iii,iv)
+Poaceae	Streptochaeta spicata	Schrad. ex Nees	CR	B1ab(i,ii,iii)
+Podostemaceae	Apinagia yguazuensis	Chodat & Vischer	CR	B1ab(iii)+2ab(iii)
+Podostemaceae	Marathrum azarensis	Tur	CR	B1ab(i,ii,iii)+2ab(i,ii)
+Podostemaceae	Podostemum comatum	Hicken	EN	B2b(i,ii,iii,iv)c(i)
+Podostemaceae	Podostemum irgangii	C. Philbrick & Novelo	CR	B2b(i,ii,iii,iv)c(i,ii)
+Polygalaceae	Polygala selaginoides	A. W. Ben.	VU	D2
+Polygonaceae	Coccoloba argentinensis	Speg.	VU	B1ab(i,ii,iii)
+Pontederiaceae	Heteranthera limosa	(Sw.) Willd.	EN	B2ab(ii)
+Pontederiaceae	Heteranthera zosterifolia	Mart.	EN	B2ab(ii)
+Pontederiaceae	Pontederia subovata	(Seub.) Lowden	EN	B1ab(i)+2ab(ii)
+Portulacaceae	Portulaca papulifera	D. Lengrand	CR	B2ab(i,ii,iii)
+Potamogetonaceae	Potamogeton ferrugineus	Hagstr.	EN	B2ab(iii,iv)
+Potamogetonaceae	Potamogeton gayi	A.Benn.	EN	B2ab(iii)
+Potamogetonaceae	Potamogeton illinoensis	Morong	EN	B2ab(iii); E	
+Potamogetonaceae	Potamogeton montevidensis	A.Benn.	EN	B2ab(iii,iv); E
+Potamogetonaceae	Potamogeton polygonus	Cham. & Schltdl.	EN	B2ab(iii)
+Potamogetonaceae	Potamogeton pusillus	L.	EN	B2ab(ii,iv)
+Potamogetonaceae	Potamogeton spirilliformis	Hagstr.	CR	E
+Potamogetonaceae	Stuckenia pectinata	(L.) Börner	EN	B1ac(iii)+2ab(iv); E
+Proteaceae	Euplassa nebularis	Rambo & Sleumer	EN	B1ab(i,iii)
+Rhamnaceae	Colletia paradoxa	(Spreng.) Escalante	VU	A3c
+Rhamnaceae	Colubrina glandulosa var reitzii	(M.C. Johnst.) M.C. Johnst.	VU	B1ab(iii)
+Rhamnaceae	Condalia buxifolia	Reissek	VU	A3c
+Rhamnaceae	Discaria americana	Gillies & Hooker	VU	A3c
+Rhamnaceae	Rhamnus sphaerosperma var.	pubescens (Reissek) M.C.Johnst.	VU	B1ab(iii)
+Rubiaceae	Bathysa australis	(A. St.-Hil.) K.Schum.	EN	B1ab(i,ii,iii)
+Rubiaceae	Hillia parasitica	Jacq.	EN	B1ab(i,ii,iii)
+Rubiaceae	Manettia verticillata	Wernham	VU	A4a
+Rutaceae	Esenbeckia hieronymi	Engl.	CR	A2ce+4ce
+Salicaceae	Azara uruguayensis	(Speg.) Sleumer	VU	A3c
+Santalaceae	Phoradendron berteroanum	(DC.) Griseb.	CR	D
+Santalaceae	Phoradendron habrostachyum	Eichler	CR	D
+Santalaceae	Phoradendron hexastichum	(DC.) Griseb.	EN	D
+Santalaceae	Phoradendron inaequidentatum	Rusby	CR	D
+Santalaceae	Phoradendron undulatum	(Pohl ex DC.) Eichler	EN	D
+Sapindaceae	Allophylus puberulus	(Cambess.) Randlk.	VU	A2c+4c
+Simaroubaceae	Castela tweediei	Planch.	EN	B2ab(iii)
+Simaroubaceae	Picramnia parvifolia	Engl.	VU	A4c
+Simaroubaceae	Picramnia sellowii	Planch.	VU	A4c; B1ab(i,iii)
+Simaroubaceae	Picrasma crenata	(Vell.) Engl.	VU	A2c+4c; B1ab(iii)
+Smilacaceae	Smilax quinquenervia	Vell.	VU	B1ab(iii)
+Solanaceae	Athenaea picta	(Mart.) Sendtn.	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Calibrachoa cordifolia	Stehmann & L.W. Aguiar	CR	B1ab(i,ii,iii)
+Solanaceae	Calibrachoa humilis	(R.E. Fr.) Stehmann & Semir	VU	B1ab(i,ii,iii)
+Solanaceae	Calibrachoa irgangiana	Stehmann	CR	B1ab(i,ii,iii)
+Solanaceae	Calibrachoa linoides	(Sendtn.) Wijsman	EN	B1ab(i,ii,iii)
+Solanaceae	Calibrachoa missionica	Stehmann & Semir	EN	B1ab(i,ii,iii)
+Solanaceae	Calibrachoa pygmaea	(R.E.Fr.) Wijsman	EN	B2b(i,ii)c(i,ii); E
+Solanaceae	Calibrachoa thymifolia	(A. St.-Hil.) Stehmann & Semir	CR	B1ab(i,ii,iii)
+Solanaceae	Dyssochroma longipes	(Sendt.) Miers	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Lycianthes rantonnei	(Carrière) Bitter	CR	B1ab(iii)
+Solanaceae	Nicotiana mutabilis	Stehmann & Semir	EN	B1ab(i,ii,iii)
+Solanaceae	Nierembergia pinifolia	Miers	CR	B1ab(i,ii,iii)
+Solanaceae	Petunia exserta	Stehmann	CR	B1ab(i,ii,iii)
+Solanaceae	Petunia secreta	Stehmann & Semir	CR	B1ab(i,ii,iii)
+Solanaceae	Sessea regnellii	Taub.	CR	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Solanaceae	Sessea vestioides	(Schltdl.) Hunz.	EN	B1ab(iii)
+Solanaceae	Solandra grandiflora	Sw.	CR	B1b(i,ii,iii,iv)
+Solanaceae	Solanum affine	Sendtn.	CR	B1ab(i,ii,iii)
+Solanaceae	Solanum alatirameum	Bitter	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum amygdalifolium	Steud.	VU	A2ce+3ce+4c; B2b(iii,iv)c(ii,iii)
+Solanaceae	Solanum aparadense	L.A. Mentz & M. Nee	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum arenarium	Sendtn.	EN	B2ab(i,ii,iii)
+Solanaceae	Solanum chacoense	Bitter	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum delicatulum	L.B. Sm. & Downs	EN	B2ab(i,ii,iii,iv)
+Solanaceae	Solanum diploconos	(Mart.) Bohs	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum fusiforme	L.B. Sm. & Downs	EN	B2ab(i,ii,iii,iv)
+Solanaceae	Solanum neei	Chiarini & L.A. Mentz	EN	A2c; B2ab(i,ii,iii,iv)
+Solanaceae	Solanum reitzii	L.B. Sm. & Downs	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum sciadostylis	(Sendtn.) Bohs	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum viscosissimum	Sendtn.	EN	B1ab(i,ii,iii,iv)
+Solanaceae	Solanum wacketii	Witasek	EN	B1ab(i,ii,iii,iv)
+Styracaceae	Styrax acuminatus	Pohl	EN	B1ab(i,iii)
+Theaceae	Laplacea fructicosa	(Schrader) Kobuski	EN	B1ab(i,iii)
+Triuridaceae	Triuris hyalina	Miers	CR	B2ab(iii)
+Urticaceae	Pilea aparadensis	P. Brack	EN	B1ab(ii)c(ii)+2ab(ii)
+Urticaceae	Pilea flammula	P. Brack	EN	B2ab(ii)
+Urticaceae	Pilea hilariana	Weddel	VU	B1ab(ii)c(ii,iv)+2ab(ii)
+Urticaceae	Pilea hydra	P. Brack	EN	B1ab(ii); C2a(i); D
+Urticaceae	Urera nitida	(Vell.) Brack	VU	B1ab(ii)
+Verbenaceae	Aloysia virgata	(Ruiz & Pav.) Pers.	EN	B1ab(i,ii,iii)
+Verbenaceae	Glandularia guaibensis	P. Peralta & Thode	CR	B1ab(i,ii,iii)
+Verbenaceae	Glandularia guaranitica	Tronc.	VU	B1ab(iii)
+Verbenaceae	Glandularia hasslerana	(Briq.) Troncoso	VU	B1ab(i,ii,iii)
+Verbenaceae	Glandularia herteri	(Moldenke) Tronc.	CR	B1ab(i,ii,iii)
+Verbenaceae	Glandularia jordanensis	(Moldenke) O'Leary & P.Peralta	EN	B1ab(i,ii,iii)
+Verbenaceae	Glandularia megapotamica	(Spreng.) Cabrera & Dawson	CR	B2ab(i,ii,iii)
+Verbenaceae	Glandularia nana	(Moldenke) Tronc.	CR	B1ab(i,ii,iii)
+Verbenaceae	Glandularia platensis	(Spreng.) Schnack & Covas	VU	D2
+Verbenaceae	Glandularia pulchra	(Moldenke) Botta	CR	B1ab(i,iii)
+Verbenaceae	Glandularia rectiloba	(Moldenke) P. Peralta & Thode	CR	B1ab(i,ii,iii)
+Verbenaceae	Lippia angustifolia	Cham.	EN	B1ab(i,ii,iii)
+Verbenaceae	Lippia coarctata	Tronc.	EN	B1ab(i,iii)
+Verbenaceae	Lippia ekmanii	Moldenke	VU	B1ab(i,ii,iii)
+Verbenaceae	Lippia villafloridana	Kuntze	EN	B1ab(i,ii,iii)	
+Verbenaceae	Recordia reitzii	(Moldenke) Thode & O'Leary	EN	B1ab(iii)
+Verbenaceae	Verbena intercedens	Briq.	VU	B1ab(i,ii,iii)
+Verbenaceae	Verbena ovata	Cham.	EN	B1ab(i,ii,iii)
+Violaceae	Viola gracillima	A.St.-Hil.	CR	B2ab(iii,iv)
+Vochysiaceae	Callistene inundata	Bueno, Magalhães & Nilson	EN	A1c; B1ab(i,ii,iii)+2ab(ii,iii); C1; D; E
+Winteraceae	Drimys angustifolia	Miers	VU	B1b(ii,iii,v)c(iii)
+Xyridaceae	Xyris capensis	Thunb.	VU	B1ab(ii,iii)
+Xyridaceae	Xyris filifolia	L.A. Nilsson	CR	B2ab(i,iii)
+Xyridaceae	Xyris guaranitica	Malme	VU	B1ab(i,ii,iii)
+Xyridaceae	Xyris rigida	Kunth	EN	B1ab(i,ii,iii)
+Xyridaceae	Xyris teres	L.A. Nilsson	VU	B1ab(i,ii,iii)
+Xyridaceae	Xyris vacillans	Malme	EN	B1ab(i,ii,iii)
+Araucariaceae	Araucaria angustifolia	(Bert.) O. Ktze.	VU	A2cd+3cd+4c; E
+Ephedraceae	Ephedra tweediana	Fish. & C.A. Mey.	VU	A2c; B1b(ii,iii)c(ii)+2b(ii,iii)c(iii)
+Podocarpaceae	Podocarpus sellowii	Klotzsch ex Endl.	CR	B1ab(ii,iii)
+Anemiaceae	Anemia warmingii	Plantl	EN	B1ab(i,iv)
+Aspleniaceae	Asplenium abscissum	Willd.	CR	B2ab(i,ii,iii)
+Aspleniaceae	Asplenium alatum	Humb. & Bonpl. ex Willd.	CR	B2ab(i,ii,iii)
+Aspleniaceae	Asplenium auriculatum	Sw.	CR	B2ab(i,ii,iii)
+Aspleniaceae	Asplenium bradei	Rosenst.	VU	B1ab(i,ii,iii)
+Aspleniaceae	Asplenium mucronatum	C. Presl	VU	B1ab(i,ii,iii)
+Athyriaceae	Athyrium dombeyi	Desv.	EN	B1ab(i,ii,iii)
+Athyriaceae	Diplazium riedelianum	(Bong. ex Kuhn) Kuhn ex C. Chr.	EN	B2ab(i,ii,iii)
+Blechnaceae	Blechnum divergens	Mett.	CR	B2ab(i,ii,iii)
+Blechnaceae	Blechnum gracile	Kaulf.	VU	A2c
+Blechnaceae	Blechnum lehmannii	Hieron.	CR	B2ab(i,ii,iii)
+Blechnaceae	Blechnum mochaenum var. squamipes	de la Sota	CR	B2ab(iii)
+Blechnaceae	Blechnum penna-marina	(Poiret) Jun	VU	B1b(i,iii)
+Blechnaceae	Blechnum usterianum	(Christ) C. Chr.	EN	B2ab(ii,iii)
+Cyatheaceae	Alsophila capensis subsp. polypodioides	(Sw.) Conant	EN	B1ab(ii,iii)
+Cyatheaceae	Cyathea corcovadensis	(Raddi) Domin	VU	B1ab(i,ii,iii)
+Cyatheaceae	Cyathea phalerata	Mart.	CR	B2ab(ii,iii)
+Cystopteridaceae	Cystopteris fragilis	(L.) Benth.	VU	A2c
+Dicksoniaceae	Dicksonia sellowiana	Hook.	VU	A2ce
+Dryopteridaceae	Ctenitis oreocharis	(Sehnem) R. Bueno	VU	A4c
+Dryopteridaceae	Elaphoglossum beaurepairei	(Fée) Brade	EN	B1ab(i,ii,iii)
+Dryopteridaceae	Elaphoglossum dutraei	Brade	CR	B2ab(iii)
+Dryopteridaceae	Elaphoglossum macrophyllum	(Mett. ex Kuhn) Christ	EN	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Dryopteridaceae	Elaphoglossum montanum	Kieling-Rubio & P.G.Windisch	EN	B1ab(i,ii,iii)
+Dryopteridaceae	Elaphoglossum scolopendrifolium	(Raddi) J. Sm.	EN	A2c
+Dryopteridaceae	Elaphoglossum ulei	Christ	CR	B2ab(iii)
+Dryopteridaceae	Polystichum laniceps	Rosenst.	CR	B2ab(iii)
+Dryopteridaceae	Polystichum opacum	Rosenst.	EN	A2c
+Dryopteridaceae	Rumohra turficola	R.M. Senna	CR	B2ab(i,ii)
+Gleicheniaceae	Gleichenella pectinata	(Willd.) Ching	EN	B1ab(i,ii,iii)
+Hymenophyllaceae	Hymenophyllum delicatulum	Sehnem	VU	B2ab(ii,iii)
+Hymenophyllaceae	Hymenophyllum magellanicum	Willd. ex Kunze	VU	B2ab(ii)
+Hymenophyllaceae	Hymenophyllum peltatum	(Poir.) Desv.	VU	D2
+Hymenophyllaceae	Trichomanes cristatum	Kaulf.	EN	B1b(ii,iii)
+Isoetaceae	Isoetes fusco-marginata	H.P. Fuchs	VU	D2
+Isoetaceae	Isoetes maxima	Hickey, Macluf & Link-Pérez	VU	D2
+Isoetaceae	Isoetes mourabaptistae	J.B.S. Pereira, P.G.Windisch, Lorscheitter & Labiak	EN	B1ab(ii,iii)
+Isoetaceae	Isoetes sehnemii	H.P. Fuchs	CR	B2ab(ii,iii)
+Lycopodiaceae	Phlegmariurus erythrocaulon	(Fée) B.Øllg.	VU	D2
+Lycopodiaceae	Pseudolycopodiella carnosa	(Silveira) Holub	VU	D2
+Lygodiaceae	Lygodium volubile	Sw.	VU	D2
+Marattiaceae	Eupodium kaulfussii	(J. Sm.) J. Sm.	VU	B2ab(i,ii,iii)
+Marsileaceae	Regnellidium diphyllum	Lindm.	VU	A3c
+Ophioglossaceae	Botrychium virginianum	(L.) Sw.	VU	A4ac
+Ophioglossaceae	Ophioglossum palmatum	Plum.	VU	B2ab(i,ii,iii)
+Ophioglossaceae	Osmundastrum cinnamomeum	(L.) C. Presl	VU	B2ab(i,ii,iii)
+Plagiogyriaceae	Plagiogyria fialhoi	(Glaz. & Fee) Copel.	EN	A2c
+Polypodiaceae	Ceradenia albidula	(Baker) L.E. Bishop	EN	B1ab(i,ii,iii)+2ab(i,ii,iii)
+Polypodiaceae	Lellingeria brevistipes	(Mett. ex Kuhn) A.R.Sm. & R.C. Moran	VU	B1ab(i,iii)
+Polypodiaceae	Lellingeria itatimensis	(C. Chr.) A.R. Sm. & R.C.Moran	EN	B1ab(iii)
+Polypodiaceae	Pecluma truncorum	(Lindm.) Price	VU	A3c
+Pteridaceae	Adiantopsis cheilanthoides	R.M. Senna	CR	B2ab(iii)
+Pteridaceae	Adiantum latifolium	Lam.	VU	D2
+Pteridaceae	Cheilanthes juergensii	Rosenst.	EN	B2ab(ii,iii)
+Pteridaceae	Doryopteris crenulans	(Fée) Christ	EN	B1ab(ii,iii)
+Pteridaceae	Doryopteris lomariacea	Klotzsch	EN	B1ab(i,ii,iii)
+Pteridaceae	Eriosorus areniticola	Schwartsb. & Labiak	CR	B2ab(i,ii,iii)
+Pteridaceae	Jamesonia osteniana	(Dutra) J.G. Gastony	EN	B1ab(i,ii,iii)
+Pteridaceae	Microlepia speluncae	(L.) Moore	VU	D2
+Pteridaceae	Polytaenium lineatum	(Sw.) J.Sm.	EN	B1ab(i,iii)
+Pteridaceae	Vittaria scabrida	Klotzsch	CR	A3c
+Schizaeaceae	Actinostachys subtrijuga	(Mart.) C. Presl	CR	B2ab(iii)
+Schizaeaceae	Schizaea elegans	(Vahl) Sw.	VU	D2
+Thelypteridaceae	Thelypteris podotricha	(Sehnem) Ponce	CR	B2ab(iii)
+Archidiaceae	Archidium tenerrimum	Mitt.	EN	B1ab(i,ii,iii)
+Balantiopsidaceae	Balantiopsis	crocea Herzog	VU	D2
+Bartramiaceae	Leiomela bartramioides	(Hook.) Paris	VU	D2
+Bryaceae	Bryum chryseum	Mitt.	VU	D2; E
+Fissidentaceae	Fissidens amoenus	Müll. Hal.	VU	D2
+Grimmiaceae	Grimmia laevigata	(Brid.) Brid.	VU	D2
+Hedwigiaceae	Braunia plicata	(Mitt.) A. Jaeger	VU	D2
+Leugeniaceae	Sclerodontium clavinerve	(Müll. Hal.) H.A. Crum	EN	B1ab(iii)
+Orthotrichaceae	Schlotheimia appressifolia	Mitt.	VU	B1ab(i,ii,iii)
+Pilotrichaceae	Callicostella guatemalensis	(Bartr.) Florsch.-de Waard	VU	D2
+Pottiaceae	Pleurochaete luteola	(Besch.) Thér.	VU	D2
+Pottiaceae	Weissia riograndense	(Broth.) R.H. Zander	VU	B1ab(iii)
+Ricciaceae	Riccia jovet-astiae	E. Vianna	VU	B1ab(iii); D2
+Ricciaceae	Riccia taeniaeformis	Jovet-Ast	VU	D2
+Sphaerocarpaceae	Sphaerocarpos mucilloi	E. Vianna	CR	B1ab(iii)
+Asteraceae	Trichocline maxima	Less.	RE
+Cyperaceae	Rhynchospora latibracteata	Guagl.	RE
+Cyperaceae	Rhynchospora pseudomacrostachya	Gerry Moore, Guagl. & Zartman	EX
+Dioscoreaceae	Dioscorea microcephala	Uline	EX
+Dioscoreaceae	Dioscorea sellowiana	Uline ex R. Knuth	EX
+Fabaceae	Aeschynomene selloi	Vogel	RE
+Fabaceae	Lathyrus hasslerianus	Burkart	RE
+Fabaceae	Lathyrus hookeri	G. Don	RE
+Fabaceae	Mimosa bracteolaris	Benth.	EX
+Fabaceae	Neptunia pubescens	Benth.	RE
+Fabaceae	Senna leiophylla	(Vogel) H.S. Irwin & Barneby	RE
+Fabaceae	Vicia pampicola	Burkart	RE
+Malvaceae	Pavonia belophylla	Hochr.	RE
+Poaceae	Melica argyrea	Hack. ex Stuck.	RE
+Santalaceae	Arjona megapotamica	Malme	RE
+Violaceae	Hybanthus paraguariensis	(Chodat) Schulze-Menz	RE
+Violaceae	Hybanthus velutinus	Schulze-Menz	RE
+Aspleniaceae	Asplenium balansae	(Baker) Sylvestre	RE
+Aspleniaceae	Asplenium resiliens	Kunze	RE
+Dennstaedtiaceae	Hypolepis acantha	Schwartsb.	RE
+Dennstaedtiaceae	Hypolepis rugosula subsp. pradoana	Schwartsb.	RE
+Dryopteridaceae	Ctenitis abyssi	(Sehnem) Salino & Morais	EX
+Isoetaceae	Isoetes brasiliensis	H.P. Fuchs	RE
+Isoetaceae	Isoetes ramboi	Herter	EX
+Isoetaceae	Isoetes weberi	Herter	RE
+Lycopodiaceae	Austrolycopodium erectum	(Philippi) Holub	RE
+Lygodiaceae	Lygodium venustum	Sw.	RE
+Marsileaceae	Pilularia americana	A. Braun	RE
+Pteridaceae	Anogramma lorentzii	(Hieron.) Diels	RE
+Pteridaceae	Doryopteris juergensii	Rosenst.	EX
+Amaranthaceae	Alternanthera micrantha	R.E. Fr.	NT	B1b(iii,v)c(iv)
+Amaranthaceae	Alternanthera paronychioides	A. St.-Hil.	NT	B1b(i)c(i)
+Amaranthaceae	Chamissoa acuminata	Mart.	NT	A2ab
+Amaranthaceae	Gomphrena graminea	Moq.	NT	A2acd
+Amaranthaceae	Gomphrena perenis	L.	NT	B1b(i,ii,iii)
+Amaranthaceae	Gomphrena vaga	Mart.	NT	B1b(i,ii,iii)
+Amaranthaceae	Pfaffia gnaphaloides	(L. f.) Mart.	NT	A2a
+Apiaceae	Eryngium divaricatum	Hook. & Arn.	NT	B1ab(i,ii,iii)
+Asteraceae	Mikania hastato-cordata	Malme	NT	B1ab(iii)
+Asteraceae	Moquiniastrum cordatum	(Less. ) G. Sancho	NT	B1ab(iii)
+Asteraceae	Schlechtendahlia luzulifolia	Less.	NT	B1ab(iii)
+Bignoniaceae	Jacaranda puberula	Cham.	NT	A1ac
+Bromeliaceae	Bromelia balansae	Mez	NT	B1ab(iii)
+Bromeliaceae	Tillandsia mallemontii	Glaz. ex Mez	NT	B1ab(iii)
+Bromeliaceae	Tillandsia streptocarpa	Baker	NT	B1ab(iii)
+Bromeliaceae	Vriesea carinata	Wawra	NT	B1ab(iii)
+Bromeliaceae	Vriesea gigantea	Gaudich.	NT	B1ab(iii)
+Bromeliaceae	Vriesea platynema	Gaudich.	NT	B1ab(iii)
+Caricaceae	Jacaratia spinosa	(Aubl.) A. DC.	NT	B1ab(i,ii,iii)
+Celastraceae	Maytenus aquifolia	Mart.	NT	B1ab(iii)
+Convolvulaceae	Convolvulus hasslerianus	(Chodat) O'Donell	NT	B1ab(i,ii,iii)
+Cunoniaceae	Weinmannia paulliniifolia	Pohl ex Ser.	NT	A1ab; B1b(i,ii); C1; D
+Fabaceae	Inga lentiscifolia	Benth.	NT	A3c
+Gentianaceae	Voyria aphylla	(Jacq.) Pers.	NT	B1ab(i,ii,iii)
+Hypericaceae	Hypericum mutilum	L.	NT	B1b(iii)c(ii)
+Iridaceae	Herbertia quareimana	Ravenna	NT	B1ab(iii)
+Lauraceae	Nectantra grandiflora	Nees	NT	B1ab(ii,iii)
+Lauraceae	Ocotea elegans	Mez	NT	A1a
+Onagraceae	Fuchsia regia	(Vell.) Munz	NT	B1ab(iii)
+Passifloraceae	Passiflora edulis	Sims	NT	B1ab(iii)
+Passifloraceae	Passiflora tricuspis	Mast.	NT	B1ab(iii)
+Poaceae	Chusquea mimosa ssp. australis	L.G. Clark	NT	B1b(i,iii)
+Poaceae	Melica brevicoronata	Roseng., B.R. Arrill. & Izag.	NT	B1ab(iii)
+Santalaceae	Phoradendron argentinum	Urb.	NT	D2
+Solanaceae	Bouchetia anomala	(Miers) Britton & Rusby	NT	B1b(i,ii)
+Solanaceae	Calibrachoa heterophylla	(Sendtn.) Wijsman	NT	B1ab(iii)
+Solanaceae	Cestrum bracteatum	Link & Otto	NT	B1ab(i,ii,iii)
+Solanaceae	Nierembergia micrantha	Cabrera	NT	B1ab(i,ii,iii)
+Violaceae	Viola cerasifolia	A. St.-Hil.	NT	B1ab(iii)
+Violaceae	Viola subdimidiata 	A. St.-Hil.	NT	A2c
+Cryphaeaceae	Cryphaea filiformis	(Hedw.) Brid.	NT	B1ab(iii)
+Bryopteridaceae	Bryopteris diffusa	(Sw.) Nees	NT	B1ab(iii)
+Lunulariaceae	Lunularia cruciata	(L.) Dumort. ex Lindenb.	NT	B1ab(iii)
+Ricciaceae	Riccia cavernosa	Hoffm.	NT	B1ab(iii)

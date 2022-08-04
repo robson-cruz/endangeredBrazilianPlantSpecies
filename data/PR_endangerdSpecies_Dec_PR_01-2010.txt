@@ -1,0 +1,204 @@
+Supplied Name	guid	scientificName	family	kingdom	status	sourceStatus	year	family_1
+Oxymycterus quaestorThomas, 1903					NE	Não Avaliado	2010	
+Kannabateomys amblyonyx(Wagner, 1845)	215546	Kannabateomys amblyonyx	Echimyidae		DD	Dados Insuficientes	2010	Echimyidae
+Sylvilagus brasiliensis(Linnaeus, 1758)	167672	Sylvilagus brasiliensis	Leporidae		VU	Vulnerável	2010	Leporidae
+Artibeus fimbriatus Gray, 1838		Artibeus fimbriatus			LC	Pouco Preocupante	2010	
+Kogia sima(Owen, 1866)	193127	Kogia sima	Kogiidae		DD#	Dados Insuficientes	2010	Kogiidae
+Gracilinanus microtarsus(Wagner, 1842)	178735	Gracilinanus microtarsus	Didelphidae		LC	Pouco Preocupante	2010	Didelphidae
+Delphinus delphis( Linnaeus, 1758)	142265	Delphinus delphis	Delphinidae		DD#	Dados Insuficientes	2010	Delphinidae
+Oecomys catherinaeThomas, 1909					NE	Não Avaliado	2010	
+Pecari tajacu(Linnaeus, 1758)	130576	Pecari tajacu	Tayassuidae		VU	Vulnerável	2010	Tayassuidae
+Micoureus paraguayanus (Tate, 1931)		Micoureus paraguayanus			LC	Pouco Preocupante	2010	
+Noctilio leporinus(Linnaeus, 1758)	270765	Noctilio leporinus	Noctilionidae		VU	Vulnerável	2010	Noctilionidae
+Delomys sublineatus(Thomas, 1903)	188570	Delomys sublineatus	Cricetidae		DD	Dados Insuficientes	2010	Cricetidae
+Cynomops abrasus(Temminck, 1827)	145449	Cynomops abrasus	Molossidae		VU	Vulnerável	2010	Molossidae
+Delomys dorsalis(Hensel, 1873)	189002	Delomys dorsalis	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Akodon serrensisThomas, 1902					DD	Dados Insuficientes	2010	
+Phyllostomus discolorWagner, 1843					DD	Dados Insuficientes	2010	
+Mimon bennettii(Gray, 1838)	206091	Mimon bennettii	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Histiotus velatus(I. Geoffroy, 1824)	151316	Histiotus velatus	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Juliomys pictipes(Osgood, 1933)	251605	Juliomys pictipes	Cricetidae		DD	Dados Insuficientes	2010	Cricetidae
+Dasypus septemcinctusLinnaeus, 1758					NE	Não Avaliado	2010	
+Phyiomys dasythrixHensel, 1872					DD	Dados Insuficientes	2010	
+Molossus rufus É. Geoffroy, 1805		Molossus rufus			LC	Pouco Preocupante	2010	
+Gracilinanus agilis(Burmeister, 1854)	241511	Gracilinanus agilis	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Bradypus variegatusSchinz, 1825		Chiroderma doriae			RE	Regionalmente Extinto	2010	
+Trachops cirrhosus(Spix, 1823)	142469	Trachops cirrhosus	Phyllostomidae		VU	Vulnerável	2010	Phyllostomidae
+Promops nasutus(Spix, 1823)	247937	Promops nasutus	Molossidae		VU	Vulnerável	2010	Molossidae
+Leopardus wiedii(Schinz, 1821)	131597	Leopardus wiedii	Felidae		VU	Vulnerável	2010	Felidae
+Mazama gouazoubira(Fischer, 1814)	200015	Mazama gouazoubira	Cervidae		LC	Pouco Preocupante	2010	Cervidae
+Cerdocyon thous(Linnaeus, 1766)	158906	Cerdocyon thous	Canidae		LC	Pouco Preocupante	2010	Canidae
+Myocastor coypus(Molina, 1782)	183812	Myocastor coypus	Echimyidae		LC	Pouco Preocupante	2010	Echimyidae
+Monodelphis scalops(Thomas, 1888)	114305	Monodelphis scalops	Didelphidae		NE	Não Avaliado	2010	Didelphidae
+Myotis levis(I. Geoffroy, 1824)	151310	Myotis levis	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Tayassu pecari(Link, 1795)	225421	Tayassu pecari	Tayassuidae		CR	Criticamente em Perigo	2010	Tayassuidae
+Brucepattersonius iheringi(Thomas, 1896)	220401	Brucepattersonius iheringi	Cricetidae		DD	Dados Insuficientes	2010	Cricetidae
+Oligoryzomis nigripes(Olfers, 1818)	188577	Oligoryzomys nigripes	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Mazama americana(Erxleben, 1777)	262097	Mazama americana	Cervidae		VU	Vulnerável	2010	Cervidae
+Chiroderma doriae Thomas, 1891		Chiroderma doriae			VU	Vulnerável	2010	
+Panthera onca(Linnaeus, 1758)	257864	Panthera onca	Felidae		CR	Criticamente em Perigo	2010	Felidae
+Euphractus sexcinctus(Linnaeus, 1758)	267658	Euphractus sexcinctus	Dasypodidae		LC	Pouco Preocupante	2010	Dasypodidae
+Leopardus pardalis(Linnaeus, 1758)	195743	Leopardus pardalis	Felidae		VU	Vulnerável	2010	Felidae
+Cavia aperea Erxleben, 1777		Cavia aperea			LC	Pouco Preocupante	2010	
+Didelphis albiventris Lund, 1840		Didelphis albiventris			LC	Pouco Preocupante	2010	
+Eumops auripendulus(Shaw, 1800)	185343	Eumops auripendulus	Molossidae		DD	Dados Insuficientes	2010	Molossidae
+Macrophyllum macrophyllum(Schinz, 1821)	237018	Macrophyllum macrophyllum	Phyllostomidae		DD	Dados Insuficientes	2010	Phyllostomidae
+Nyctinomops macrotis(Gray, 1839)	121450	Nyctinomops macrotis	Molossidae		DD	Dados Insuficientes	2010	Molossidae
+Cabassous tatouay(Desmarest, 1804)	236445	Cabassous tatouay	Dasypodidae		DD	Dados Insuficientes	2010	Dasypodidae
+Cynomops planirostris(Peters, 1865)	153708	Cynomops planirostris	Molossidae		DD	Dados Insuficientes	2010	Molossidae
+Molossops neglectus Willians & Genoways, 1980		Molossops neglectus			EN	Em Perigo	2010	
+Myotis albescens(É. Geoffroy, 1806)	245505	Myotis albescens	Vespertilionidae		DD	Dados Insuficientes	2010	Vespertilionidae
+Pygoderma bilabiatum(Wagner, 1843)	206109	Pygoderma bilabiatum	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Eira barbara(Linnaeus, 1758)	174474	Eira barbara	Mustelidae		LC	Pouco Preocupante	2010	Mustelidae
+Marmosops incanus(Lund, 1840)	147497	Marmosops incanus	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Sooretamys angouya(Fischer, 1814)	220461	Sooretamys angouya	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Anoura caudifer(É. Geoffroy, 1818)	142435	Anoura caudifer	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Hydrochoerus hydrochaeris(Linnaeus, 1766)	129660	Hydrochoerus hydrochaeris	Caviidae		LC	Pouco Preocupante	2010	Caviidae
+Euryzygomatomys spinosus(Fischer, 1814)	136869	Euryzygomatomys spinosus	Echimyidae		DD	Dados Insuficientes	2010	Echimyidae
+Leopardus geoffroyi(d’Orbigny & Gervais, 1844)	226823	Leopardus geoffroyi	Felidae		NE	Não Avaliado	2010	Felidae
+Pteronura brasiliensis(Gmelin, 1788)	174417	Pteronura brasiliensis	Mustelidae		CR	Criticamente em Perigo	2010	Mustelidae
+Caluromys philander(Linnaeus, 1758)	147345	Caluromys philander	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Lasiurus cinereus(Beauvois, 1796)	151329	Lasiurus (Lasiurus) cinereus	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Artibeus lituratus(Olfers, 1818)	174123	Artibeus (Artibeus) lituratus	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Vampyressa pusilla(Wagner, 1843)	142697	Vampyressa pusilla	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Myrmecophaga tridactyla Linnaeus, 1758		Myrmecophaga tridactyla			CR	Criticamente em Perigo	2010	
+Puma yagouaroundi(É. Geoffroy, 1803)	131599	Puma yagouaroundi	Felidae		DD	Dados Insuficientes	2010	Felidae
+Mazama bororo Duarte, 1996		Mazama bororo			VU	Vulnerável	2010	
+Chrotopterus auritus(Peters, 1856)	236767	Chrotopterus auritus	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Tapirus terrestris(Linnaeus, 1758)	256113	Tapirus terrestris	Tapiriidae		EN	Em Perigo	2010	Tapiriidae
+Balaenoptera acutorostrata(Lacépède, 1804)	234706	Balaenoptera acutorostrata	Balaenopteridae		DD	Dados Insuficientes	2010	Balaenopteridae
+Euryoryzomys russatus(Wagner, 1848)	220450	Euryoryzomys russatus	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Galictis cuja(Molina, 1782)	188944	Galictis cuja	Mustelidae		LC	Pouco Preocupante	2010	Mustelidae
+Micronycteris megalotis(Gray, 1842)	206123	Micronycteris megalotis	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Diaemus youngi(Jentink, 1893)	142731	Diaemus youngii	Phyllostomidae		DD	Dados Insuficientes	2010	Phyllostomidae
+Brachyteles arachnoides(É. Geoffroy, 1806)	200802	Brachyteles arachnoides	Atelidae		CR	Criticamente em Perigo	2010	Atelidae
+Physeter macrocephalus(Linnaeus, 1758)	268113	Physeter macrocephalus	Physeteridae		VU	Vulnerável	2010	Physeteridae
+Eumops hansae Sanborn, 1932		Eumops hansae			VU	Vulnerável	2010	
+Nectomys squamipes(Brants, 1827)	175452	Nectomys squamipes	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Tonatia bidens(Spix, 1823)	267883	Tonatia bidens	Phyllostomidae		DD	Dados Insuficientes	2010	Phyllostomidae
+Peropteryx macrotis(Wagner, 1843)	120883	Peropteryx macrotis	Emballonuridae		VU	Vulnerável	2010	Emballonuridae
+Noctilio albiventris Desmarest, 1818		Noctilio albiventris			VU	Vulnerável	2010	
+Guerlinguetus ingrami (Thomas, 1901)		Guerlinguetus ingrami			LC	Pouco Preocupante	2010	
+Thaptomys nigrita(Lichtenstein, 1829)	157388	Thaptomys nigrita	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Oligoryzomys flavescens(Waterhouse, 1837)	157369	Oligoryzomys flavescens	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Diphylla ecaudata Spix, 1823		Diphylla ecaudata			NT	Quase Ameaçada	2010	
+Steno bredanensis(Cuvier 1828)	205949	Steno bredanensis	Delphinidae		DD#	Dados Insuficientes	2010	Delphinidae
+Lutreolina crassicaudata(Desmarest, 1804)	147502	Lutreolina crassicaudata	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Oxymycterus judexThomas, 1909					DD	Dados Insuficientes	2010	
+Dasypus novemcinctus Linnaeus, 1758		Dasypus novemcinctus			LC	Pouco Preocupante	2010	
+Philander frenatus(Olfers, 1818)	241541	Philander frenatus	Didelphidae		LC	Pouco Preocupante	2010	Didelphidae
+Eumops perotis(Schinz, 1821)	121447	Eumops perotis	Molossidae		DD	Dados Insuficientes	2010	Molossidae
+Eptesicus diminutus Osgood, 1915		Eptesicus diminutus			LC	Pouco Preocupante	2010	
+Speothos venaticus(Lund, 1842)	253012	Speothos venaticus	Canidae		VU	Vulnerável	2010	Canidae
+Lasiurus blossevillii(Lesson & Garnot, 1826)	214193	Lasiurus (Lasiurus) blossevilli	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Sphiggurus spinosus (F. Cuvier, 1823)		Sphiggurus spinosus			LC	Pouco Preocupante	2010	
+Lycalopex gymnocercus(Fischer, 1814)	190794	Lycalopex gymnocercus	Canidae		NE	Não Avaliado	2010	Canidae
+Stenella frontalis(Cuvier, 1812)	268222	Stenella frontalis	Delphinidae		DD#	Dados Insuficientes	2010	Delphinidae
+Carollia perspicillata(Linnaeus, 1758)	237011	Carollia perspicillata	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Chrysocyon brachyurus(Illiger, 1815)	126597	Chrysocyon brachyurus	Canidae		VU	Vulnerável	2010	Canidae
+Cebus nigritus(Goldfuss, 1809)					DD	Dados Insuficientes	2010	
+Uroderma bilobatumPeters, 1866					DD	Dados Insuficientes	2010	
+Chironectes minimus(Zimmermann, 1780)	178881	Chironectes minimus	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Eumops glaucinus(Wagner, 1843)	153954	Eumops glaucinus	Molossidae		DD	Dados Insuficientes	2010	Molossidae
+Eptesicus taddeii Miranda, Bernardi & Passos, 2006		Eptesicus taddeii			NT	Quase Ameaçada	2010	
+Lobodon carcinophagus(Hombron & Jacquinot, 1842)	235043	Lobodon carcinophaga	Phocidae		DD#	Dados Insuficientes	2010	Phocidae
+Sphiggurus viiosus (F. Cuvier, 1823)		Sphiggurus viiosus			LC	Pouco Preocupante	2010	
+Balaenoptera edeni(Anderson, 1878)	265567	Balaenoptera edeni	Balaenopteridae		DD	Dados Insuficientes	2010	Balaenopteridae
+Molossus molossus(Pallas, 1766)	184849	Molossus molossus	Molossidae		LC	Pouco Preocupante	2010	Molossidae
+Cuniculus paca(Linnaeus, 1766)	198749	Cuniculus paca	Cuniculidae		EN	Em Perigo	2010	Cuniculidae
+Monodelphis iheringi(Thomas, 1888)	116261	Monodelphis iheringi	Didelphidae		NE	Não Avaliado	2010	Didelphidae
+Hydrurga leptonyx(Blainville, 1820)	140540	Hydrurga leptonyx	Phocidae		DD#	Dados Insuficientes	2010	Phocidae
+Ziphius cavirostrisCuvier, 1823					DD#	Dados Insuficientes	2010	
+Caluromys lanatus(Olfers, 1818)	241517	Caluromys lanatus	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Calomys tener(Winge, 1887)	188967	Calomys tener	Cricetidae		NE	Não Avaliado	2010	Cricetidae
+Procyon cancrivorus(G. Cuvier, 1798)	172270	Procyon cancrivorus	Procyonidae		LC	Pouco Preocupante	2010	Procyonidae
+Eumops bonariensis(Peters, 1874)	185340	Eumops bonariensis	Molossidae		EN	Em Perigo	2010	Molossidae
+Phyllostomus hastatus(Pallas, 1767)	142728	Phyllostomus hastatus	Phyllostomidae		VU	Vulnerável	2010	Phyllostomidae
+Glossophaga soricina(Pallas, 1766)	142718	Glossophaga soricina	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Akodon montensis Thomas, 1913		Akodon montensis			LC	Pouco Preocupante	2010	
+Molossops temminckii(Burmeister, 1854)	153938	Molossops temminckii	Molossidae		DD	Dados Insuficientes	2010	Molossidae
+Nyctinomops laticaudatus(É. Geoffroy, 1805)	216823	Nyctinomops laticaudatus	Molossidae		LC	Pouco Preocupante	2010	Molossidae
+Platyrrhinus lineatus(É. Geoffroy, 1810)	236775	Platyrrhinus lineatus	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Sturnira lilium(É. Geoffroy, 1810)	236778	Sturnira (Sturnira) lilium	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Glyphonycteris sylvestrisThomas, 1896					DD	Dados Insuficientes	2010	
+Myotis riparius Handley, 1960		Myotis riparius			NT	Quase Ameaçada	2010	
+Phyiomys nigrispinus(Wagner, 1842)					DD	Dados Insuficientes	2010	
+Alouatta clamitans Cabrera, 1940		Alouatta clamitans			NT	Quase Ameaçada	2010	
+Mirounga leonina(Linnaeus, 1758)	266044	Mirounga leonina	Phocidae		DD#	Dados Insuficientes	2010	Phocidae
+Akodon paranaensisChristoff, Fagundes, Sbalqueiro,Mattevi & Y.-Yassuda, 2000					DD	Dados Insuficientes	2010	
+Dasypus hybridus(Desmarest, 1804)	142083	Dasypus hybridus	Dasypodidae		NE	Não Avaliado	2010	Dasypodidae
+Arctocephalus tropicalis(Gray, 1872)	127117	Arctocephalus tropicalis	Otariidae		DD#	Dados Insuficientes	2010	Otariidae
+Artibeus planirostris(Spix, 1823)	267985	Artibeus (Artibeus) planirostris	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Necromys lasiurus(Lund, 1840)	157421	Necromys lasiurus	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Leopardus tigrinus(Schreber, 1775)	226826	Leopardus tigrinus	Felidae		VU	Vulnerável	2010	Felidae
+Hylaeamys megacephalus(Fischer, 1814)	251579	Hylaeamys megacephalus	Cricetidae		DD	Dados Insuficientes	2010	Cricetidae
+Histiotus montanus(Philippi & Landbeck, 1861)	214196	Histiotus montanus	Vespertilionidae		DD	Dados Insuficientes	2010	Vespertilionidae
+Alouatta caraya(Humboldt, 1812)	200494	Alouatta caraya	Atelidae		VU	Vulnerável	2010	Atelidae
+Phyiomys medius(Thomas, 1909)					DD	Dados Insuficientes	2010	
+Oxymycterus nasutus(Waterhouse, 1837)	125332	Oxymycterus nasutus	Cricetidae		DD	Dados Insuficientes	2010	Cricetidae
+Marmosops paulensis(Tate, 1931)	147471	Marmosops paulensis	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Puma concolor(Linnaeus, 1771)	131593	Puma concolor	Felidae		VU	Vulnerável	2010	Felidae
+Mazama nana(Hensel, 1872)	136370	Mazama nana	Cervidae		VU	Vulnerável	2010	Cervidae
+Metachirus nudicaudatus(É. Geoffroy, 1803)	116246	Metachirus nudicaudatus	Didelphidae		DD	Dados Insuficientes	2010	Didelphidae
+Monodelphis americana(Müller, 1776)	114318	Monodelphis americana	Didelphidae		NE	Não Avaliado	2010	Didelphidae
+Myotis nigricans(Schinz, 1821)	245509	Myotis nigricans	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Chiroderma vilosumPeters, 1860		Dasyprocta azarae			VU	Vulnerável	2010	
+Orcinus orca(Linnaeus, 1758)	268218	Orcinus orca	Delphinidae		DD#	Dados Insuficientes	2010	Delphinidae
+Conepatus chinga(Molina, 1782)	149422	Conepatus chinga	Mephitidae		NE	Não Avaliado	2010	Mephitidae
+Eubalaena australis(Desmoulins, 1822)	202658	Eubalaena australis	Balaenidae		EN	Em Perigo	2010	Balaenidae
+Lontra longicaudis(Olfers, 1818)	174453	Lontra longicaudis	Mustelidae		NT	Quase Ameaçada	2010	Mustelidae
+Platyrrhinus recifinus(Thomas, 1901)	267979	Platyrrhinus recifinus	Phyllostomidae		VU	Vulnerável	2010	Phyllostomidae
+Dasyprocta azarae Lichtenstein, 1823		Dasyprocta azarae			LC	Pouco Preocupante	2010	
+Megaptera novaengliae (Borowski, 1781)		Megaptera novaengliae			VU	Vulnerável	2010	
+Artibeus cinereus(Gervais, 1856)	267973	Artibeus (Dermanura) cinereus	Phyllostomidae		VU	Vulnerável	2010	Phyllostomidae
+Eptesicus furinalis(d’Orbigny & Gervais, 1847)	130143	Eptesicus furinalis	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Desmodus rotundus(É. Geoffroy, 1810)	174098	Desmodus rotundus	Phyllostomidae		LC	Pouco Preocupante	2010	Phyllostomidae
+Myotis ruber(É. Geoffroy, 1806)	182548	Myotis ruber	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Rogheessa hussoniiGenoways & Baker, 1996					DD	Dados Insuficientes	2010	
+Akodon cursor(Winge, 1887)	188633	Akodon cursor	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Arctocephalus australis(Zimmermann, 1783)	127122	Arctocephalus australis	Otariidae		DD#	Dados Insuficientes	2010	Otariidae
+Lycalopex vetulus(Lund, 1842)	126593	Lycalopex vetulus	Canidae		DD	Dados Insuficientes	2010	Canidae
+Ozotoceros bezoarticus(Linnaeus, 1758)	200018	Ozotoceros bezoarticus	Cervidae		CR	Criticamente em Perigo	2010	Cervidae
+Didelphis aurita(Wied-Neuwied, 1826)	241514	Didelphis aurita	Didelphidae		LC	Pouco Preocupante	2010	Didelphidae
+Monodelphis sorex(Hensel, 1872)	114312	Monodelphis sorex	Didelphidae		NE	Não Avaliado	2010	Didelphidae
+Nasua nasua(Linnaeus, 1766)	235871	Nasua nasua	Procyonidae		LC	Pouco Preocupante	2010	Procyonidae
+Holochilus brasiliensis(Desmarest, 1819)	188584	Holochilus brasiliensis	Cricetidae		LC	Pouco Preocupante	2010	Cricetidae
+Wilfredomys oenax(Thomas, 1928)	251609	Wilfredomys oenax	Cricetidae		CR	Criticamente em Perigo	2010	Cricetidae
+Blastocerus dichotomus(Illiger, 1815)	230886	Blastocerus dichotomus	Cervidae		CR	Criticamente em Perigo	2010	Cervidae
+Trinomys iheringi(Thomas, 1911)	152696	Trinomys iheringi	Echimyidae		DD	Dados Insuficientes	2010	Echimyidae
+Sturnira tildae De la Torre, 1959		Sturnira tildae			VU	Vulnerável	2010	
+Eptesicus brasiliensis(Desmarest, 1819)	182562	Eptesicus brasiliensis	Vespertilionidae		LC	Pouco Preocupante	2010	Vespertilionidae
+Tamandua tetradactyla(Linnaeus, 1758)	127148	Tamandua tetradactyla	Myrmecophagidae		LC	Pouco Preocupante	2010	Myrmecophagidae
+Otaria flavescens(Shaw, 1800)	127119	Otaria flavescens	Otariidae		LC	Pouco Preocupante	2010	Otariidae
+Artibeus obscurus Schinz, 1821		Artibeus obscurus			LC	Pouco Preocupante	2010	
+Tadarida brasiliensis(I. Geoffroy, 1824)	153701	Tadarida brasiliensis	Molossidae		LC	Pouco Preocupante	2010	Molossidae
+Tursiops truncatus(Montagu, 1821)	173932	Tursiops truncatus	Delphinidae		DD#	Dados Insuficientes	2010	Delphinidae
+Sotalia guianensis(Van Béneden, 1864)	236599	Sotalia guianensis	Delphinidae		VU	Vulnerável	2010	Delphinidae
+Anoura geoffroyi Gray, 1838		Anoura geoffroyi			LC	Pouco Preocupante	2010	
+Pontoporia.blainvillei (Gervais & D’Orbigny, 1844)		Pontoporia blainvillei			EN	Em Perigo	2010	
+Leontopithecus caissara Lorini & Persson, 1990		Leontopithecus caissara			EN	Em Perigo	2010	
+Lasiurus ega(Gervais, 1856)	118599	Lasiurus (Dasypterus) ega	Vespertilionidae		DD	Dados Insuficientes	2010	Vespertilionidae
+Stenella longirostris(Gray, 1828)	173922	Stenella longirostris	Delphinidae		DD#	Dados Insuficientes	2010	Delphinidae
+Thyroptera tricolorSpix, 1823					DD	Dados Insuficientes	2010	
+Oxymycterus delatorThomas, 1903					DD	Dados Insuficientes	2010	
+Dyckia hatschbachii	327638	Dyckia hatschbachii	Bromeliaceae		EN	Em Perigo	2008	Bromeliaceae
+Casearia paranaensis	280489	Casearia paranaensis	Salicaceae		R	Rara	2008	Salicaceae
+Vriessea mulleri	329012	Vriesea muelleri	Bromeliaceae		R	Rara	2008	Bromeliaceae
+Dyckia distachya	327625	Dyckia distachya	Bromeliaceae		EN	Em Perigo	2008	Bromeliaceae
+Myrcia tenuivenosa	341471	Myrcia tenuivenosa	Myrtaceae		V	Vulnerável	2008	Myrtaceae
+Ocotea porosa	334757	Ocotea porosa	Lauraceae		V	Vulnerável	2008	Lauraceae
+Vriessea pinotti	329066	Vriesea pinottii	Bromeliaceae		EN	Em Perigo	2008	Bromeliaceae
+Dorstenia tenuis	339641	Dorstenia tenuis	Moraceae		V	Vulnerável	2008	Moraceae
+Araucaria angustifolia	353101	Araucaria angustifolia	Araucariaceae		V	Vulnerável	2008	Araucariaceae
+Balfourodendron riedelianum	365024	Balfourodendron riedelianum	Rutaceae		R	Rara	2008	Rutaceae
+Aspidosperma australis		Aspidosperma australis			R	Rara	2008	
+Euxylophora paraensis	365598	Euxylophora paraensis	Rutaceae		V	Vulnerável	2008	Rutaceae
+Ocotea catharinensis	334675	Ocotea catharinensis	Lauraceae		V	Vulnerável	2008	Lauraceae
+Dicksonia sellowiana	299127	Dicksonia sellowiana	Dicksoniaceae		EN	Em Perigo	2008	Dicksoniaceae
+Aspidosperma polyneuron	369993	Aspidosperma polyneuron	Apocynaceae		R	Rara	2008	Apocynaceae
+Vriessea brusquensis	328786	Vriesea brusquensis	Bromeliaceae		R	Rara	2008	Bromeliaceae
+Machaerium paraguariense	319593	Machaerium paraguariense	Fabaceae		R	Rara	2008	Fabaceae
+Aspidosperma cylindrocarpon	369980	Aspidosperma cylindrocarpon	Apocynaceae		R	Rara	2008	Apocynaceae
+Ocotea odorifera	334751	Ocotea odorifera	Lauraceae		EN	Em Perigo	2008	Lauraceae
+Myrocarpus frondosus	288153	Myrocarpus frondosus	Fabaceae		R	Rara	2008	Fabaceae
+Aspidosperma ramiflorum	370000	Aspidosperma ramiflorum	Apocynaceae		R	Rara	2008	Apocynaceae
