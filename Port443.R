@@ -16,14 +16,14 @@ dwca_cache$list()
 
 ## Read a specif dataset
 port443 <- read.delim2(
-        'C:\\Users\\rcflo\\AppData\\Local/Cache/R/finch/f16a8c36d81df24225745220dcdc604156ac0ac6/taxon.txt',
+        'C:\\Users\\671470~1\\AppData\\Local/Cache/R/finch/f16a8c36d81df24225745220dcdc604156ac0ac6/taxon.txt',
         header = TRUE, encoding = 'UTF-8', sep = '\t'
 )
 head(port443)
 
 ## get status code
 code <- read.delim2(
-        'C:\\Users\\rcflo\\AppData\\Local/Cache/R/finch/f16a8c36d81df24225745220dcdc604156ac0ac6/distribution.txt',
+        'C:\\Users\\671470~1\\AppData\\Local/Cache/R/finch/f16a8c36d81df24225745220dcdc604156ac0ac6/distribution.txt',
         header = TRUE, encoding = 'UTF-8', sep = '\t'
 )
 head(code)
@@ -37,7 +37,7 @@ head(port443)
 ## Save the list of endangered species
 write.csv2(
         port443,
-        'D:/Robson/data/endangeredSpecies/endangeredBrazilianPlantSpecies/data/port443.csv', 
+        './data/port443.csv', 
         row.names = FALSE
 )
 
