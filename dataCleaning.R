@@ -9,7 +9,7 @@ listStatus <- read.delim('./data/listStatus.txt', sep = '\t', encoding = 'UTF-8'
 ## Read the endangered species of the state of Minas Gerais 
 MG <- read.delim(
         './data/MG_Delib_COPAM_367-2008.txt',
-        sep = '\t'
+        sep = '\t', fileEncoding = 'latin1'
 ) %>%
         mutate(
                 scientificName = if_else(scientificName == "", 
@@ -102,7 +102,7 @@ PA <- read.delim(
 ## Read the endangered species of the state of Parana
 PR <- read.delim(
         './data/PR_endangerdSpecies_Dec_PR_01-2010.txt',
-        sep = '\t'
+        sep = '\t', fileEncoding = 'latin1'
 ) %>%
         mutate(status = recode(status, 'V' = 'VU')) %>%
         filter(sourceStatus != 'Dados Insuficientes') %>%
@@ -177,7 +177,7 @@ ES <- read.csv(
 
 ## Read the endangered species of the state of Bahia
 BA <- read.csv(
-        './data/BA_fauna_flora._Avaliação_de_2017..csv', sep = ',', 
+        './data/BA_fauna_flora._Avaliacao_de_2017.csv', sep = ',', 
         encoding = 'UTF-8'
 ) %>%
         mutate(statusSource = recode(statusSource, 'En' = 'Em Perigo')) %>%
@@ -195,7 +195,7 @@ BA <- read.csv(
 
 ## Read the endangered species of the state of Santa Catarina
 SC <- read.csv(
-        './data/SC_Flora_(Avaliação_de_2014)_Fauna_(Avaliação_de_2011).csv',
+        './data/SC_Flora_Avaliacao_2014_Fauna_avaliacao_2011.csv',
         sep = ',', encoding = 'UTF-8'
 ) %>%
         mutate(
@@ -229,16 +229,15 @@ port443 <- read.csv('./data/port443.csv', sep = ';') %>%
 
 ## Read the list of endangered species from the Brazilian Ministry of Environment ##
 flora_fauna <- read.csv2(
-        'D:/Robson/data/endangeredSpecies/endangeredBrazilianPlantSpecies/data/MMA_lista-de-especies-ameacas-2020.csv',
+        './data/MMA_lista-de-especies-ameacas-2020.csv',
         encoding = 'UTF-8', header = TRUE, sep = ';'
 ) %>%
-        filter(X.U.FEFF.Lista == 'Fauna') %>%
+        filter(Lista == 'Fauna') %>%
         select(Especie.Simplificado) %>%
         rename(scientificName = Especie.Simplificado)
 
 ## CITES
-cites <- read.csv('D:/Robson/data/cites/cites_listings_2021-08-13 07_10.csv') %>%
-        filter(Kingdom == 'Plantae') %>%
+cites <- read.csv2('./data/cites_listings_2022-11-17 13_50_semicolon_separated.csv') %>%
         rename(scientificName = Scientific.Name) %>%
         rename(family = Family) %>%
         # mutate(statusSource = '') %>%
@@ -262,9 +261,10 @@ endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
                 fonte = source,
                 lista = list,
                 dispositivo_legal = dispLegal
-        ) %>%
+        )
+
+endangered_list_app <- endangered_list %>%
         select(nome_cientifico, status_conservacao, fonte, lista, dispositivo_legal)
-        
 
 # endangered_by_state <- rbind(BA, ES, MG, PA, PR, RS, SC, SP) %>%
 #         anti_join(flora_fauna, by = 'scientificName')
@@ -279,27 +279,21 @@ endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
 # endangered_BRA <- rbind(port443_cleaned, endangered_by_state)
         
 
-## Save the data set ##
-write.csv2(endangered_list, './app/endangered_BRA_list.csv', row.names = FALSE)
+## Save the data sets ##
+write.csv2(endangered_list_app, './app/endangered_BRA_list.csv', row.names = FALSE)
+
+write.csv2(endangered_list, './output/Especies_Ameacadas_BRA.csv', 
+           row.names = FALSE, 
+           fileEncoding = 'latin1')
 
 ## List Chart ##
-
-endangered_BRA <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
-        #Remove species of fauna
-        anti_join(flora_fauna, by = 'scientificName') %>%
-        left_join(cites, by = 'scientificName') %>%
-        filter(!is.na(scientificName)) %>%
-        mutate(CITES = ifelse(is.na(CITES), 'Não', CITES))
-
-write.csv2(endangered_BRA, './output/endangered_BRA.csv', row.names = FALSE)
-
 species_source <- endangered_list %>%
-        group_by(source) %>%
-        count(source, sort = TRUE)
+        group_by(fonte) %>%
+        count(fonte, sort = TRUE)
 
-species_source$source <- with(species_source, reorder(source, n))
+species_source$fonte <- with(species_source, reorder(fonte, n))
         
-bra <- ggplot(species_source, aes(x = source, y = n, fill = n)) +
+bra <- ggplot(species_source, aes(x = fonte, y = n, fill = n)) +
         geom_col() +
         coord_flip() +
         theme(plot.title = element_text(hjust = 0.5, size = 14),
@@ -348,14 +342,14 @@ sp_status <- ggplot(species_status, aes(x = status, y = n)) +
 
 ## Family Chart ##
 statusFamily <- endangered_list %>%
-        filter(family != "") %>%
-        mutate(family = stringr::str_to_title(family)) %>%
-        count(family, sort = TRUE) %>%
-        slice_max(n, n=10)
+        filter(familia != "") %>%
+        mutate(familia = stringr::str_to_title(familia)) %>%
+        count(familia, sort = TRUE) %>%
+        slice_max(n, n = 10)
 
-statusFamily$family <- with(statusFamily, reorder(family, n))
+statusFamily$familia <- with(statusFamily, reorder(familia, n))
 
-f <- ggplot(statusFamily, aes(family, n)) +
+f <- ggplot(statusFamily, aes(familia, n)) +
         geom_col(fill = 'steelblue') + coord_flip() +
         geom_text(aes(label = n, hjust = 2), color = 'white') +
         theme(plot.title = element_text(hjust = 0.5, size = 14)) +
