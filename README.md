@@ -1,6 +1,6 @@
-# [Espécies da Flora Brasileira Ameaçadas de Extinção](https://wcj7es-robson0cruz.shinyapps.io/specBra/)
-Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar à analistas ambientais informações sobre a flora brasileira ameaçada de extinção em apenas um único dataset.
-Foram atualizados os nomes científicos da Lista de Espécies da Flora Ameaçadas de Extinção no Estado do Pará, a saber: _Tabebuia impetiginosa_, atual _Handroanthus impetiginosus_, porém foi inserido o nome incorreto _Handroanthus impetiginosum_, o qual consta no banco de dados do SISTAXON (IBAMA). A espécies _Manilkara huberi_ foi atualizada com o atual nome científico _Manilkara elata_.
+<h1 align="center"><a href="https://wcj7es-robson0cruz.shinyapps.io/specBra/">Espécies da Flora Brasileira Ameaçadas de Extinção</a></h1>
+<p align="justify">Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar à analistas ambientais informações sobre a flora brasileira ameaçada de extinção em apenas um único dataset.</p>
+<p align="justify">Foram atualizados os nomes científicos da Lista de Espécies da Flora Ameaçadas de Extinção no Estado do Pará, a saber: <i>Tabebuia impetiginosa</i>, atual <i>Handroanthus impetiginosus</i>, porém foi inserido o nome incorreto <i>Handroanthus impetiginosum</i>, o qual consta no banco de dados do SISTAXON (IBAMA). A espécies _Manilkara huberi_ foi atualizada com o atual nome científico <i>Manilkara elata</i>.</p>
 
 # Fonte dos dados
 1. Portaria MMA Nº 443, de 17 de dezembro de 2014;
@@ -29,5 +29,5 @@ Foram atualizados os nomes científicos da Lista de Espécies da Flora Ameaçada
 </p>
 
 ## Citar
-Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: https://wcj7es-robson0cruz.shinyapps.io/specBra/
-Acesso em: Jul 2021. DOI: https://zenodo.org/record/5083815
+<p align="justify">Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: https://rcdev.shinyapps.io/specBra/_ga=2.134687217.1862688075.1675954230-954436830.1675954230 
+Acesso em: Jul 2021. DOI: https://zenodo.org/record/5083815</p>
