@@ -11,7 +11,7 @@ shinyUI(navbarPage(
         tabPanel('Categorias', plotOutput('status')),
         tabPanel('Familias', plotOutput('family')),
         tabPanel('Download', downloadLink('DownloadData', 'Download')),
-        tabPanel(a(href='https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/blob/main/README.md', 'Leia!'))
+        tabPanel(a(href = 'https://github.com/rcflorestal/endangeredBrazilianPlantSpecies/blob/main/README.md', 'Leia!'))
         #h5('Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: https://wcj7es-robson0cruz.shinyapps.io/specBra/ Acesso em: Jul 2021. DOI: https://zenodo.org/record/5083815')
         )
 )

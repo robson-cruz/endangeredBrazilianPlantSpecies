@@ -12,8 +12,14 @@ listBRA <- read.csv2('./endangered_BRA_list.csv', sep = ';', encoding = 'latin1'
 shinyServer(function(input, output, session) {
         # Data frame
         output$tbl <- DT::renderDataTable({
-                DT::datatable(listBRA, 
-                              options = list(pageLength = 6, rownames = FALSE))
+                DT::datatable(
+                        listBRA, 
+                        options = list(
+                                pageLength = 6, 
+                                rownames = FALSE,
+                                language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json')
+                                )
+                        )
         })
         # Charts
         output$bra <- renderPlot(bra, width = 800, height = 450)
