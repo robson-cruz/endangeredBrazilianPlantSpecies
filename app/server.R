@@ -32,7 +32,7 @@ shinyServer(function(input, output, session) {
                         paste('speciesProtegidas', Sys.Date(), '.csv', sep = '_')
                 },
                 content = function(file) {
-                        write.csv2(listBRA, file, row.names = FALSE)
+                        write.csv2(listBRA, file, row.names = FALSE, fileEncoding = 'latin1')
                 }
         )
         
