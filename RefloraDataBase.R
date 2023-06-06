@@ -3,37 +3,42 @@ library(finch)
 library(dplyr)
 library(stringr)
 
+## setting the httr package's config option to use the openssl SSL library
+httr::set_config(httr::config(ssl_verifypeer = 0L, ssl_lib = "openssl"))
 
 ## Set the website of REFLORA data base
-url <- 'https://ipt.jbrj.gov.br/jbrj/archive.do?r=lista_especies_flora_brasil&v=393.368'
+url <- 'https://ipt.jbrj.gov.br/jbrj/archive.do?r=lista_especies_flora_brasil&v=393.378'
 
 ## Convert the URL to a location object
 as.location(url)
 
-## Show the numbers and name of datasets        
+## Get the numbers and name of data sets      
 out <- dwca_read(url)
 
 ## Show file data sets
 dw_cache <- dwca_cache$list()
 
-## Read a specif data set
-reflora <- read.delim2(
+## Read the "taxon" data set
+taxon <- read.delim2(
         paste0(dw_cache[8]),
         sep = '\t',
         encoding = 'UTF-8'
 ) %>%
-filter(kingdom == 'Plantae') %>% 
+        filter(kingdom == 'Plantae') %>%
         filter(taxonRank == 'ESPECIE') %>%
+        # create a new column called "specie" by combining the "genus" and
+        # "specificEpithet" columns with a space separator.
         mutate(specie = paste(genus, specificEpithet, sep = ' ')) %>%
         select(c(1, 27, 6, 7, 16:19, 22, 23)) %>%
-        mutate(
+        mutate( # Use regular expression to extract only genus and specific
+                # epithet and subspecies from acceptedNameUsage column
                 acceptedNameUsage = str_extract(
-                        acceptedNameUsage, 
+                        acceptedNameUsage,
                         '(\\w+\\s\\w+)(-\\w+)?(\\s\\w+\\ssubsp.\\s\\w+)?(\\ssubsp.\\s\\w+)?(\\svar.\\s\\w+)?(\\.\\s\\w+)?'
                 )
         )
 
-
+# Read "distribution" data set (geographic distribution) 
 dist <- read.delim(
         paste0(dw_cache[2]),
         header = TRUE, encoding = 'UTF-8', sep = '\t'
@@ -42,13 +47,19 @@ dist <- read.delim(
         # Extracts the last two letters from location code
         mutate(locationID = substring(locationID , 4))
 
-## Merge data sets
-reflora <- reflora %>%
+## Merge data sets based on the "id" column
+reflora <- taxon %>%
         left_join(dist, by = 'id')
 
-## Save data set in .csv file format
-write.csv2(reflora, './data/reflora20230324.csv', row.names = FALSE)
+## Save merged data sets as a CSV file
+write.csv2(
+        reflora,
+        paste0('./data/reflora', gsub('-', '', Sys.Date()), '.csv'),
+        row.names = FALSE
+)
 
 ## Delete the database files from local disk
 dwca_cache$delete_all()
+
+## Remove the "dw_cache" object from the environment
 rm(dw_cache)
