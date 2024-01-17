@@ -1,4 +1,10 @@
-<h1 align="center"><a href="https://rcdev.shinyapps.io/specBra/">Espécies da Flora Brasileira Ameaçadas de Extinção</a></h1>
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/rcDeveloping/endangeredBrazilianPlantSpecies?label=Release%20Date)
+![GitHub repo size](https://img.shields.io/github/repo-size/rcDeveloping/endangeredBrazilianPlantSpecies?label=Repo%20Size)
+![GitHub License](https://img.shields.io/github/license/rcDeveloping/endangeredBrazilianPlantSpecies?label=License)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/rcDeveloping/endangeredBrazilianPlantSpecies?label=Commit)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rcDeveloping/endangeredBrazilianPlantSpecies?label=Commit%20Activity)
+
+<h1 align="left"><a href="https://rcdev.shinyapps.io/specBra/">Espécies da Flora Brasileira Ameaçadas de Extinção</a></h1>
 <p align="justify">Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar à analistas ambientais informações sobre a flora brasileira ameaçada de extinção em apenas um único data set.</p>
 <p align="justify">Foram atualizados os nomes científicos da Lista de Espécies da Flora Ameaçadas de Extinção no Estado do Pará, a saber: <i>Tabebuia impetiginosa</i>, atual <i>Handroanthus impetiginosus</i>, porém foi inserido o nome incorreto <i>Handroanthus impetiginosum</i>, o qual consta no banco de dados do SISTAXON (IBAMA). A espécies <i>Manilkara huberi</i> foi atualizada com o atual nome científico <i>Manilkara elata</i>.</p>
 
