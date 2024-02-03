@@ -1,12 +1,11 @@
 library(dplyr, warn.conflicts = FALSE)
 library(ggplot2)
 
-Sys.setlocale(category = 'LC_ALL', locale = 'Portuguese')
 
-## Read the data sets
+# Read the data sets
 endangered_BRA <- read.csv2('./endangered_BRA.csv', sep = ';', encoding = 'latin1')
 
-## List Chart ##
+# List Chart ##
 species_source <- endangered_BRA %>%
         group_by(source) %>%
         count(source, sort = TRUE)
@@ -24,20 +23,20 @@ bra <- ggplot(species_source, aes(x = source, y = n, fill = n)) +
                 fill = ''
         )
 
-## Species Chart by status ##
+# Species Chart by status ##
 species_status <- endangered_BRA %>%
         group_by(status) %>%
         count(status, sort = T)
 
-## Reorder the data set by number of status 
+# Reorder the data set by number of status 
 species_status$status <- with(species_status, reorder(status, desc(n)))
 
-## Set status code table 
+# Set status code table 
 statusCodeTable <- endangered_BRA %>%
         group_by(status, statusSource) %>%
         summarise()
 
-## Set chart
+# Set chart
 sp_status <- ggplot(species_status, aes(x = status, y = n)) +
         geom_col(fill = 'steelblue') +
         scale_fill_manual(name = 'Status',
@@ -54,7 +53,7 @@ sp_status <- ggplot(species_status, aes(x = status, y = n)) +
                 y = 'Nº de espécies'
         )
 
-## Family Chart ##
+# Family Chart ##
 statusFamily <- endangered_BRA %>%
         filter(family != "") %>%
         mutate(family = stringr::str_to_title(family)) %>%
