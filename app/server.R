@@ -1,6 +1,5 @@
 library(shiny)
 
-Sys.setlocale(category = 'LC_ALL', locale = 'Portuguese')
 
 source('./scriptApp.R')
 
