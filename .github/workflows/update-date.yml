@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      
-    - name: Executar script
-      run: |
-        chmod +x update-date.sh
-        ./update-date.sh
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Executar script de atualização da data
+        run: |
+          chmod +x update-date.sh
+          ./update-date.sh
+        working-directory: ${{ github.workspace }}
