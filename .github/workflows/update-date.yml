@@ -21,10 +21,13 @@ jobs:
       - name: Executar script de atualização da data
         run: |
           chmod +x update-date.sh
+          git remote set-url origin https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git config --global user.name "${{ github.actor }}"
-          git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+          git pull https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
           ./update-date.sh
-          git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+          git push https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
+          "${{ github.actor }}"
+          "${{ secrets.ACCESS_TOKEN }}"
           
         working-directory: ${{ github.workspace }}
