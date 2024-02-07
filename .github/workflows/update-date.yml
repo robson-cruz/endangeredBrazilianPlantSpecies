@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        run:
-          git remote set-url origin https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
