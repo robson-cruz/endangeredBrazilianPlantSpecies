@@ -16,4 +16,5 @@ jobs:
 
       - name: Executar script de atualização da data
         run:
+          cd /endangeredBrazilianPlantSpecies/tree/main
           ./update-date.sh
