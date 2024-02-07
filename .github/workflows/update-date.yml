@@ -14,6 +14,11 @@ jobs:
 
       - name: Executar script de atualização da data
         run: |
+        
+          git pull origin main
+          # Configura o nome e o email do usuário do Git
+          git config user.email "rcflorestal@yahoo.com.br"
+          git config user.name "rcDeveloping"
           chmod +x update-date.sh
           ./update-date.sh
         working-directory: ${{ github.workspace }}
