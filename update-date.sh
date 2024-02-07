@@ -10,8 +10,8 @@ SED_COMMAND="s/Acesso em: [A-Za-z]* [0-9]\{4\}/Acesso em: ${CURRENT_DATE}/g"
 sed -i -E "${SED_COMMAND}" README.md
 
 # Configura o nome e o email do usuário do Git
-git config user.email "rcflorestal@yahoo.com.br"
-git config user.name "rcDeveloping"
+git config user.email rcflorestal@yahoo.com.br
+git config user.name rcDeveloping
 
 # Atualiza o repositório local com as alterações remotas
 git pull origin main
