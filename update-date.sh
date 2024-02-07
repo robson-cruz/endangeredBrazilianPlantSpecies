@@ -23,6 +23,9 @@ fi
 
 echo "Data atualizada no README.md com sucesso!"
 
+# Autenticação no Repositório
+git remote set-url origin git remote set-url origin https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
+
 # Configura o nome e o email do usuário do Git
 git config --global user.email rcflorestal@yahoo.com.br
 git config --global user.name rcDeveloping
