@@ -3,10 +3,11 @@ name: Atualizar Data
 on:
   schedule:
     - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
-defaults:
-  run:
-    shell: bash
-    
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  
 jobs:
   update-date:
     runs-on: ubuntu-latest
@@ -14,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Pull changes from remote repository
         run: git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
@@ -30,8 +31,6 @@ jobs:
           git pull https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
           ./update-date.sh
           git push https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
-          echo "${{ github.actor }}"
-          echo "${{ secrets.GITHUB_TOKEN }}"
           
         working-directory: ${{ github.workspace }}
 
