@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Pull changes from remote repository
-        run: git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+        run: git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       - name: Executar script de atualização da data
@@ -25,9 +25,9 @@ jobs:
           git remote set-url origin https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git
           git config --global user.email "rcflorestal@yahoo.com.br"
           git config --global user.name "${{ github.actor }}"
-          git pull https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
+          git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
           ./update-date.sh
-          git push https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
+          git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
           
         working-directory: ${{ github.workspace }}
 
