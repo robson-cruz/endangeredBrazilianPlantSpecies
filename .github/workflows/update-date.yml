@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do código
-        uses: actions/checkout@v2
-      
       - name: Executar script de atualização da data
         run: |
           chmod +x endangeredBrazilianPlantSpecies/update-date.sh
