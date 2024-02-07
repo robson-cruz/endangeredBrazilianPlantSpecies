@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        env:
+      - uses: actions/checkout@v4
+        env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Pull changes from remote repository
