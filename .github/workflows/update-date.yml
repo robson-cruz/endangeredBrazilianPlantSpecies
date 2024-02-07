@@ -26,12 +26,14 @@ jobs:
       
       - name: Executar script de atualização da data
         run: |
+          cd ..
+          cd ..
           chmod +x update-date.sh
           git remote set-url origin https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git
           git config --global user.email "rcflorestal@yahoo.com.br"
           git config --global user.name "${{ github.actor }}"
           git pull https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
-          ../update-date.sh
+          ./update-date.sh
           git push https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
           echo "${{ github.actor }}"
           echo "${{ secrets.GITHUB_TOKEN  }}"
