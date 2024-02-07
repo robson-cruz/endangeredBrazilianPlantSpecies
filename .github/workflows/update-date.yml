@@ -11,14 +11,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
+    
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Configurar identidade do usuário Git
         run: |
           git config user.email rcflorestal@yahoo.com.br
           git config user.name rcDeveloping
         
       - name: Pull changes from remote repository
-        run: git pull
+        run: git pull origin master
 
       - name: Executar script de atualização da data
         run: |
