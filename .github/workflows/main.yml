@@ -1,0 +1,21 @@
+name: Atualizar Data do README.md
+
+on:
+ # schedule:
+   # - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
+ # workflow_dispatch:
+  push:
+    branches:
+      - main
+  
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código-fonte
+        uses: actions/checkout@v2
+      - name: Executar script de atualização da data
+        run:
+          chmod +x ./update-date.sh
+          ./update-date.sh
