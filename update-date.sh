@@ -13,8 +13,8 @@ sed -i -E "${SED_COMMAND}" README.md
 git pull origin main
 
 # Configura o nome e o email do usuário do Git
-git config --global user.email "rcflorestal@yahoo.com.br"
-git config --global user.name "rcDeveloping"
+git config user.email "rcflorestal@yahoo.com.br"
+git config user.name "rcDeveloping"
 
 # Adiciona as alterações ao commit
 git add README.md
