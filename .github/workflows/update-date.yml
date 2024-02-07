@@ -17,12 +17,16 @@ jobs:
       
       - name: Configurar identidade do usuário Git
         run: |
-          git config user.email rcflorestal@yahoo.com.br
-          git config user.name rcDeveloping
+          git config --global user.email "rcflorestal@yahoo.com.br"
+          git config --global user.name "rcDeveloping"
         
       - name: Pull changes from remote repository
         run: git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
       - name: Executar script de atualização da data
+      
+      - name: Dar permissões de execução ao script
         run: |
+          chmod +x update-date.sh
           ./update-date.sh
+          
         working-directory: ${{ github.workspace }}
