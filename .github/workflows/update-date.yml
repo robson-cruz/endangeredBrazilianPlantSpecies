@@ -12,10 +12,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Configurar identidade do usuário
+      - name: Configurar identidade do usuário Git
         run: |
           git config --global user.email "rcflorestal@yahoo.com.br"
           git config --global user.name "rcDeveloping"
+        
+      - name: Pull changes from remote repository
+        run: git pull origin main
+
 
       - name: Executar script de atualização da data
         run: |
