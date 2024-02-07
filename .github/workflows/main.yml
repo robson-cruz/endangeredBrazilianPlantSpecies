@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout do código-fonte
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          
       - name: Executar script de atualização da data
         run:
           chmod +x ./update-date.sh
