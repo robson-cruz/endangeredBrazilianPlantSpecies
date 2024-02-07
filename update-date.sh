@@ -24,8 +24,8 @@ fi
 echo "Data atualizada no README.md com sucesso!"
 
 # Configura o nome e o email do usuário do Git
-git config user.email rcflorestal@yahoo.com.br
-git config user.name rcDeveloping
+git config --global user.email rcflorestal@yahoo.com.br
+git config --global user.name rcDeveloping
 
 # Atualiza o repositório local com as alterações remotas
 git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
