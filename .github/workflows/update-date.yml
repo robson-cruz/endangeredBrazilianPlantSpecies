@@ -18,8 +18,7 @@ jobs:
           git config user.name rcDeveloping
         
       - name: Pull changes from remote repository
-        run: git pull endangeredBrazilianPlantSpecies
-
+        run: git pull
 
       - name: Executar script de atualização da data
         run: |
