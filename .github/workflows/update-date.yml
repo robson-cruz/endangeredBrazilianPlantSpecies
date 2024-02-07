@@ -17,7 +17,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       - name: Executar script de atualização da data
         run: |
-          chmod +x update-date.sh
+          chmod +x endangeredBrazilianPlantSpecies/update-date.sh
+          cd endangeredBrazilianPlantSpecies
           git remote set-url origin https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
           git config --global user.email "rcflorestal@yahoo.com.br"
           git config --global user.name "rcDeveloping"
