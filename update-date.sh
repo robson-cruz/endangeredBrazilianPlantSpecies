@@ -40,5 +40,5 @@ git add README.md
 git commit -m "Atualizar data no README"
 
 # Faz o push das alterações para o repositório remoto
-#git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
