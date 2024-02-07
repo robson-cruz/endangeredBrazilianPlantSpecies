@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Define a data atual
-CURRENT_DATE=$(date "+%B %Y" --quiet)
+CURRENT_DATE=$(date "+%B %Y")
 
 if [[ $? -ne 0 ]]; then
   echo "Erro ao obter a data atual!" >&2
