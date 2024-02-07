@@ -16,5 +16,4 @@ jobs:
 
       - name: Executar script de atualização da data
         run:
-          cd main
           ./update-date.sh
