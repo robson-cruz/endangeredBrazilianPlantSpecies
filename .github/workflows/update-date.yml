@@ -16,7 +16,6 @@ jobs:
       - name: Executar script de atualização da data
         run: |
           cd ..
-          cd ..
           chmod +x update-date.sh
           cd endangeredBrazilianPlantSpecies
           ./update-date.sh
