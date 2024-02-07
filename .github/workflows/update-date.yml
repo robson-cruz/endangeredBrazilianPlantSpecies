@@ -24,6 +24,10 @@ jobs:
           chmod +x update-date.sh
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git config --global user.name "${{ github.actor }}"
+          git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
           ./update-date.sh
-          
+          git add README.md
+          git commit -m "Atualizar data no README"
+          git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+
         working-directory: ${{ github.workspace }}
