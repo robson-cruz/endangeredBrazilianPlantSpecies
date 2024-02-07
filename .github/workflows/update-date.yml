@@ -3,7 +3,7 @@ name: Atualizar Data
 on:
   schedule:
     - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
-  workflow_dispatch:
+ # workflow_dispatch:
   push:
     branches:
       - main
@@ -15,9 +15,5 @@ jobs:
     steps:
       - name: Executar script de atualização da data
         run: |
-          cd ..
-          cd ..
-          cd ..
           chmod +x update-date.sh
-          cd endangeredBrazilianPlantSpecies
           ./update-date.sh
