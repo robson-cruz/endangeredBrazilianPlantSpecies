@@ -31,11 +31,11 @@ jobs:
           cd ..
           cd ..
           chmod +x update-date.sh
-          git remote set-url origin https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git
+          git remote set-url origin https://github.com/"${{ github.repository_owner }}"/endangeredBrazilianPlantSpecies.git
           git config --global user.email "rcflorestal@yahoo.com.br"
-          git config --global user.name "${{ github.actor }}"
-          git pull https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
+          git config --global user.name "${{ github.repository_owner }}"
+          git pull https://github.com/"${{ github.repository_owner }}"/endangeredBrazilianPlantSpecies.git main
           ./update-date.sh
-          git push https://github.com/"${{ github.actor }}"/endangeredBrazilianPlantSpecies.git main
+          git push https://github.com/"${{ github.repository_owner }}"/endangeredBrazilianPlantSpecies.git main
           
         working-directory: ${{ github.workspace }}
