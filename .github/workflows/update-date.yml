@@ -16,4 +16,4 @@ jobs:
 
       - name: Executar script de atualização da data
         run:
-          cd .. && cd .. && ls -la
+          cd endangeredBrazilianPlantSpecies && ls -la
