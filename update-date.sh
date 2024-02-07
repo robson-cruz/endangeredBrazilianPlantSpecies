@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Define a data atual
 CURRENT_DATE=$(date "+%B %Y" --quiet)
