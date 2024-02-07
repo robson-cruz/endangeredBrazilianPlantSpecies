@@ -28,7 +28,7 @@ git config user.email rcflorestal@yahoo.com.br
 git config user.name rcDeveloping
 
 # Atualiza o repositório local com as alterações remotas
-git pull origin master
+git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
 # Adiciona as alterações ao commit
 git add README.md
@@ -37,5 +37,5 @@ git add README.md
 git commit -m "Atualizar data no README"
 
 # Faz o push das alterações para o repositório remoto
-git push origin master
+git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
