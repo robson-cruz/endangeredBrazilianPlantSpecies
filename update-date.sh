@@ -28,7 +28,7 @@ git config user.email rcflorestal@yahoo.com.br
 git config user.name rcDeveloping
 
 # Atualiza o repositório local com as alterações remotas
-git pull
+git pull origin master
 
 # Adiciona as alterações ao commit
 git add README.md
