@@ -1,8 +1,8 @@
 name: Atualizar Data
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
+ # schedule:
+   # - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
  # workflow_dispatch:
   push:
     branches:
@@ -13,7 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout do código-fonte
+        uses: actions/checkout@v2
+        
       - name: Executar script de atualização da data
-        run: |
-          chmod +x update-date.sh
+        run:
           ./update-date.sh
