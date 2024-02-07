@@ -24,7 +24,7 @@ fi
 echo "Data atualizada no README.md com sucesso!"
 
 # Autenticação no Repositório
-#git remote set-url origin git remote set-url origin https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
+git remote set-url origin https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
 
 # Configura o nome e o email do usuário do Git
 #git config --global user.email rcflorestal@yahoo.com.br
@@ -34,10 +34,10 @@ echo "Data atualizada no README.md com sucesso!"
 #git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
 # Adiciona as alterações ao commit
-#git add README.md
+git add README.md
 
 # Realiza o commit das alterações com uma mensagem descritiva
-#git commit -m "Atualizar data no README"
+git commit -m "Atualizar data no README"
 
 # Faz o push das alterações para o repositório remoto
 #git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
