@@ -16,6 +16,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
+      - name: Checkout do código
+        uses: actions/checkout@v2
+        
       - name: Pull changes from remote repository
         run: |
           cd endangeredBrazilianPlantSpecies
