@@ -13,11 +13,10 @@ jobs:
         uses: actions/checkout@v2
     
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Pull changes from remote repository
         run: git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
-      - name: Executar script de atualização da data
       
       - name: Executar script de atualização da data
         run: |
@@ -26,8 +25,6 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
           ./update-date.sh
-          git add README.md
-          git commit -m "Atualizar data no README"
           git push https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
-
+          
         working-directory: ${{ github.workspace }}
