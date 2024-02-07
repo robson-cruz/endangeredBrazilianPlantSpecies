@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Realiza o checkout do código do repositório
+git clone https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git temp_repo
+
+# Navega para o diretório clonado
+cd temp_repo
+
 # Define a data atual
 CURRENT_DATE=$(date "+%B %Y" --quiet)
 
