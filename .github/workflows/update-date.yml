@@ -16,4 +16,5 @@ jobs:
 
       - name: Executar script de atualização da data
         run:
-          ls -la $GITHUB_WORKSPACE
+          cd ..
+          ls -la
