@@ -37,7 +37,7 @@ echo "Data atualizada no README.md com sucesso!"
 #git config --global user.name rcDeveloping
 
 # Atualiza o repositório local com as alterações remotas
-#git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
 # Adiciona as alterações ao commit
 git add README.md
