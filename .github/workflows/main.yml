@@ -1,13 +1,14 @@
 name: Atualizar Data do README.md
 
 on:
- # schedule:
-   # - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
- # workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Executar diariamente à meia-noite UTC
+  
+  workflow_dispatch:
   push:
     branches:
       - main
-  
+
 jobs:
   update-date:
     runs-on: ubuntu-latest
