@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+# Atualiza o repositório local com as alterações remotas
+git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+
 # Define a data atual
 CURRENT_DATE=$(date "+%B %Y")
 
@@ -29,9 +32,6 @@ echo "Data atualizada no README.md com sucesso!"
 # Configura o nome e o email do usuário do Git
 #git config --global user.email rcflorestal@yahoo.com.br
 #git config --global user.name rcDeveloping
-
-# Atualiza o repositório local com as alterações remotas
-git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
 # Adiciona as alterações ao commit
 git add README.md
