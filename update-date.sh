@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Atualiza o repositório local com as alterações remotas
-git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+# Defina a variável de ambiente LC_TIME para pt_BR.UTF-8
+export LC_TIME=pt_BR.UTF-8
 
-# Define a data atual
-CURRENT_DATE=$(date "+%B %Y")
+# Obtenha a data atual no formato desejado
+CURRENT_DATE=$(date "+%b %Y" | sed "s/\b\w/\u&/")
 
 if [[ $? -ne 0 ]]; then
   echo "Erro ao obter a data atual!" >&2
@@ -12,11 +12,14 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
+# Atualiza o repositório local com as alterações remotas
+git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
+
 # Define o comando sed para substituir a data no README.md
-SED_COMMAND="s/Acesso em: [A-Za-z]* [0-9]\{4\}/Acesso em: ${CURRENT_DATE}/g"
+SED_COMMAND=$(sed "s/Acesso em: [A-Za-z]* [0-9]\{4\}\./Acesso em: $CURRENT_DATE./g" README.md)
 
 # Executa o comando sed para substituir a data no README.md
-sed -i -E "${SED_COMMAND}" README.md
+echo "$SED_COMMAND" > README.md
 
 if [[ $? -ne 0 ]]; then
   echo "Erro ao atualizar a data no README.md!" >&2
@@ -25,13 +28,6 @@ if [[ $? -ne 0 ]]; then
 fi
 
 echo "Data atualizada no README.md com sucesso!"
-
-# Autenticação no Repositório
-#git remote set-url origin https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git
-
-# Configura o nome e o email do usuário do Git
-#git config --global user.email rcflorestal@yahoo.com.br
-#git config --global user.name rcDeveloping
 
 # Adiciona as alterações ao commit
 git add README.md
