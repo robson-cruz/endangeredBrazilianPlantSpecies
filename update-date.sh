@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # Atualiza o repositório local com as alterações remotas
 git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
