@@ -2,7 +2,7 @@ name: Atualizar Data do README.md
 
 on:
   schedule:
-    - cron: '45 7 * * *' # Executar diariamente à meia-noite UTC 0 0 * * *
+    - cron: '00 21 * * *' # Executar diariamente à meia-noite no horário de São Paulo Brasil
   
   workflow_dispatch:
   push:
