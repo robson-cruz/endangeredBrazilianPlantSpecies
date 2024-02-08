@@ -20,6 +20,6 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           
       - name: Executar script de atualização da data
-        run:
+        run: |
           chmod +x ./update-date.sh
           ./update-date.sh
