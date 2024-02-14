@@ -12,6 +12,10 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
+# Git Credentials
+git config --global user.email "rcflorestal@yahoo.com.br"
+git config --global user.name "robson-cruz"
+
 # Atualiza o repositório local com as alterações remotas
 git pull https://github.com/rcDeveloping/endangeredBrazilianPlantSpecies.git main
 
