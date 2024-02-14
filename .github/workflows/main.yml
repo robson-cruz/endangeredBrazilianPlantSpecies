@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout do código-fonte
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           
