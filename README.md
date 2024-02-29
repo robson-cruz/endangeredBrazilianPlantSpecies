@@ -19,7 +19,7 @@
 8. Resolução do Conselho Estadual de Meio Ambiente de Santa Catarina (CONSAMA) Nº 51, de 05 de dezembro de 2014;
 9. <a href="https://www.semas.pa.gov.br/anexos_legislacao/Anexo_resolucao_054%20coema.pdf" target="_blank">Resolução</a> do Conselho Estadual do Meio Ambiente do Pará (COEMA) Nº 54, de 24 de outubro de 2007;
 10. Portaria Secretaria Estadual de Meio Ambiente do Estado da Bahia Nº 40, de 21 de agosto de 2017;
-11. Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Disponível em: <a href="<http://floradobrasil.jbrj.gov.br" target="_blank">http://floradobrasil.jbrj.gov.br</a>. Acesso em: 06 jul. 2021 
+11. Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Disponível em: <a href="<http://floradobrasil.jbrj.gov.br" target="_blank">http://floradobrasil.jbrj.gov.br</a>. Acesso em: 29 fev. 2024 
 
 # Resultados
 <p align="center">
