@@ -5,7 +5,7 @@ library(magrittr)
 
 
 # Read and join data sets
-endangered_BRA <- read.csv2('../output/Especies_Ameacadas_BRA.csv', fileEncoding = "latin1")
+endangered_BRA <- read.csv2('Especies_Ameacadas_BRA.csv', fileEncoding = "latin1")
 
 # List Chart ##
 species_source <- endangered_BRA %>%
