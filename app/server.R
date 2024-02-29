@@ -1,24 +1,24 @@
 library(shiny)
 
-
 source('./scriptApp.R')
 
-# list to download and table
-listBRA <- read.csv2('./endangered_BRA_list.csv', sep = ';', encoding = 'latin1')
-
-# list to plots
 
 shinyServer(function(input, output, session) {
         # Data frame
         output$tbl <- DT::renderDataTable({
                 DT::datatable(
-                        listBRA, 
+                    endangered_BRA, 
                         options = list(
                                 pageLength = 6, 
                                 rownames = FALSE,
                                 language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json')
-                                )
-                        )
+                                ),
+                    callback = DT::JS(
+                            "table.rows().every(function() {",
+                            "  $(this.node()).css('height', '6px');",
+                            "});"
+                    )
+                )
         })
         # Charts
         output$bra <- renderPlot(bra, width = 800, height = 450)
@@ -28,10 +28,10 @@ shinyServer(function(input, output, session) {
         #Download
         output$DownloadData <- downloadHandler(
                 filename = function() {
-                        paste('speciesProtegidas', Sys.Date(), '.csv', sep = '_')
+                        paste('speciesProtegidas', Sys.Date(), '.csv', sep = '')
                 },
                 content = function(file) {
-                        write.csv2(listBRA, file, row.names = FALSE, fileEncoding = 'latin1')
+                        write.csv2(endangered_BRA, file, row.names = FALSE, fileEncoding = 'latin1')
                 }
         )
         
@@ -39,4 +39,3 @@ shinyServer(function(input, output, session) {
                 stopApp(returnValue = )
         })
 })
-
