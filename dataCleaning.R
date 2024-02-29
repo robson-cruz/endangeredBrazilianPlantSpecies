@@ -1,10 +1,26 @@
 ## Load libraries
 library(dplyr, warn.conflicts = FALSE)
 library(ggplot2)
-#library(plotly)
+library(magrittr)
+
 
 ## Read the list of status source
 listStatus <- read.delim('./data/listStatus.txt', sep = '\t', encoding = 'UTF-8')
+
+## Read REFLORA data
+reflora <- read.csv2("./data/reflora20240229.csv") %>%
+    select(-scientificName) %>%
+    rename(scientificName = specie)
+
+## Read the list of endangered species from the Brazilian Ministry of Environment ##
+flora_fauna <- read.csv2(
+    './data/MMA_lista-de-especies-ameacas-2020.csv',
+    encoding = 'UTF-8', header = TRUE, sep = ';'
+) %>%
+    filter(Lista == 'Fauna') %>%
+    select(Especie.Simplificado) %>%
+    rename(scientificName = Especie.Simplificado) %>%
+    arrange(scientificName)
 
 ## Read the endangered species of the state of Minas Gerais 
 MG <- read.delim(
@@ -35,6 +51,8 @@ MG <- read.delim(
         mutate(dispLegal = 'Deliberação COPAM 367/2008') %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
 
+MG %<>%
+        filter(scientificName %in% reflora$scientificName)
 ## Read the endangered species of the state of Rio Grande do Sul
 RS <- read.delim(
         './data/RS_endangerdSpecies_Dec_51.109-2014.txt', 
@@ -119,6 +137,8 @@ PR <- read.delim(
         mutate(dispLegal = 'Decreto Estadual 7264/2010') %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
 
+PR %>%
+        filter(scientificName %in% reflora$scientificName)
 
 ## Read the endangered species of the state of Sao Paulo
 SP <- read.csv(
@@ -148,7 +168,8 @@ SP <- read.csv(
         mutate(dispLegal = 'Resolucao SMA 57/2016') %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
 
-        
+SP %<>%
+        filter(scientificName %in% reflora$scientificName)
 
 ## Read the endangered species of the state of Espirito Santo
 ES <- read.csv(
@@ -174,6 +195,11 @@ ES <- read.csv(
         select(family, scientificName, statusSource, list, source, dispLegal) %>%
         left_join(listStatus, by = 'statusSource')
 
+fauna_es <- ES %>%
+        inner_join(flora_fauna, by = 'scientificName')
+
+ES %<>%
+        filter(scientificName %in% reflora$scientificName)
 
 ## Read the endangered species of the state of Bahia
 BA <- read.csv(
@@ -192,6 +218,9 @@ BA <- read.csv(
         mutate(dispLegal = 'Portaria SEMA-BA 40/2017') %>%
         mutate(status = toupper(status)) %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
+
+BA %<>%
+        filter(scientificName %in% reflora$scientificName)
 
 ## Read the endangered species of the state of Santa Catarina
 SC <- read.csv(
@@ -217,6 +246,9 @@ SC <- read.csv(
         mutate(dispLegal = 'Resolução CONSAMA 51/2014') %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
 
+SC %<>%
+        filter(scientificName %in% reflora$scientificName)
+
 ## Read the endangered species of the Portaria MMA 443/2014
 port443 <- read.csv('./data/port443.csv', sep = ';') %>%
         rename(status = threatStatus) %>%
@@ -227,17 +259,8 @@ port443 <- read.csv('./data/port443.csv', sep = ';') %>%
         mutate(dispLegal = 'Portaria MMA 443/2014') %>%
         select(family, scientificName, statusSource, status, source, list, dispLegal)
 
-## Read the list of endangered species from the Brazilian Ministry of Environment ##
-flora_fauna <- read.csv2(
-        './data/MMA_lista-de-especies-ameacas-2020.csv',
-        encoding = 'UTF-8', header = TRUE, sep = ';'
-) %>%
-        filter(Lista == 'Fauna') %>%
-        select(Especie.Simplificado) %>%
-        rename(scientificName = Especie.Simplificado)
-
 ## CITES
-cites <- read.csv2('./data/cites_listings_2022-11-17 13_50_semicolon_separated.csv') %>%
+cites <- read.csv2('./data/cites_listings_2022-11-17-13_50_semicolon_separated.csv') %>%
         rename(scientificName = Scientific.Name) %>%
         rename(family = Family) %>%
         # mutate(statusSource = '') %>%
@@ -248,9 +271,12 @@ cites <- read.csv2('./data/cites_listings_2022-11-17 13_50_semicolon_separated.c
         select(scientificName, CITES)
 
 ## Merge the data sets ##
-endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
+endangered_list <- rbind(PA, BA, ES, MG, PR, RS, SC, SP, port443)
+
+endangered_list %<>%
         #Remove species of fauna
-        anti_join(flora_fauna, by = 'scientificName') %>%
+        # anti_join(flora_fauna, by = 'scientificName') %>%
+        filter(!(scientificName %in% flora_fauna$scientificName)) %>%
         left_join(cites, by = 'scientificName') %>%
         filter(!is.na(scientificName)) %>%
         mutate(CITES = ifelse(is.na(CITES), 'Não', CITES)) %>%
@@ -258,30 +284,34 @@ endangered_list <- rbind(BA, ES, MG, PA, PR, RS, SC, SP, port443) %>%
                 familia = family,
                 nome_cientifico = scientificName,
                 status_conservacao = statusSource,
+                codStatus = status,
                 fonte = source,
                 lista = list,
                 dispositivo_legal = dispLegal
         )
 
-endangered_list_app <- endangered_list %>%
-        select(nome_cientifico, status_conservacao, fonte, lista, dispositivo_legal)
+endangered_list %<>%
+        left_join(reflora[, c(2, 8, 9, 3)],
+                  by = c('nome_cientifico' = 'scientificName'),
+                  relationship = "many-to-many")
 
-# endangered_by_state <- rbind(BA, ES, MG, PA, PR, RS, SC, SP) %>%
-#         anti_join(flora_fauna, by = 'scientificName')
+url <- 'http://www.ibama.gov.br/phocadownload/sinaflor/2022/2022-07-22_Lista_especies_DOF.csv'
+con <- read.csv(url, fileEncoding = 'latin1')
+sistaxon <- con
+rm(con)
 
-## Remove duplicated species between the Portaria MMA 443 and the state lists ##
-# auxList <- endangered_by_state %>% select(scientificName)
+join_df <- endangered_list %>%
+    inner_join(sistaxon[, c(2,4)] , by = c('nome_cientifico' = 'Nome.cientifico'), relationship = "many-to-many") %>%
+    replace_na(list(Nome.popular = "*")) %>%
+    group_by(nome_cientifico) %>%
+    summarize(Nome.popular = paste(Nome.popular, collapse = ", "))
 
-# port443_cleaned <- port443 %>%
-#         anti_join(auxList, by = 'scientificName')
+endangered_list %<>%
+    left_join(join_df, by = "nome_cientifico") %>%
+    group_by(nome_cientifico) %>%
+    distinct(fonte, .keep_all = TRUE)
 
-## Final data set
-# endangered_BRA <- rbind(port443_cleaned, endangered_by_state)
-        
-
-## Save the data sets ##
-write.csv2(endangered_list_app, './app/endangered_BRA_list.csv', row.names = FALSE)
-
+## Save the data set ##
 write.csv2(endangered_list, './output/Especies_Ameacadas_BRA.csv', 
            row.names = FALSE, 
            fileEncoding = 'latin1')
@@ -308,19 +338,19 @@ bra <- ggplot(species_source, aes(x = fonte, y = n, fill = n)) +
 
 ## Species Chart by status ##
 species_status <- endangered_list %>%
-        group_by(status) %>%
-        count(status, sort = T)
+        group_by(codStatus, status_conservacao) %>%
+        count(codStatus, sort = T)
 
 ## Reorder the data set by number of status 
-species_status$status <- with(species_status, reorder(status, desc(n)))
+species_status$codStatus <- with(species_status, reorder(codStatus, desc(n)))
 
 ## Set status code table 
 statusCodeTable <- endangered_list %>%
-        group_by(status, statusSource) %>%
+        group_by(codStatus, status_conservacao) %>%
         summarise()
 
 ## Set chart
-sp_status <- ggplot(species_status, aes(x = status, y = n)) +
+sp_status <- ggplot(species_status, aes(x = codStatus, y = n)) +
         geom_col(fill = 'steelblue') +
         scale_fill_manual(name = 'Status',
                           values = c('EN = Em Perigo')) +
