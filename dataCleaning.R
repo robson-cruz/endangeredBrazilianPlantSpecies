@@ -300,16 +300,16 @@ con <- read.csv(url, fileEncoding = 'latin1')
 sistaxon <- con
 rm(con)
 
-join_df <- endangered_list %>%
-    inner_join(sistaxon[, c(2,4)] , by = c('nome_cientifico' = 'Nome.cientifico'), relationship = "many-to-many") %>%
-    replace_na(list(Nome.popular = "*")) %>%
-    group_by(nome_cientifico) %>%
-    summarize(Nome.popular = paste(Nome.popular, collapse = ", "))
+# join_df <- endangered_list %>%
+#     inner_join(sistaxon[, c(2,4)] , by = c('nome_cientifico' = 'Nome.cientifico'), relationship = "many-to-many") %>%
+#     tidyr::replace_na(list(Nome.popular = "*")) %>%
+#     group_by(nome_cientifico) %>%
+#     summarize(Nome.popular = paste(unique(Nome.popular), collapse = ", "))
 
-endangered_list %<>%
-    left_join(join_df, by = "nome_cientifico") %>%
-    group_by(nome_cientifico) %>%
-    distinct(fonte, .keep_all = TRUE)
+# endangered_list %<>%
+#     left_join(join_df, by = "nome_cientifico") %>%
+#     group_by(nome_cientifico) %>%
+#     distinct(fonte, .keep_all = TRUE)
 
 ## Save the data set ##
 write.csv2(endangered_list, './output/Especies_Ameacadas_BRA.csv', 
