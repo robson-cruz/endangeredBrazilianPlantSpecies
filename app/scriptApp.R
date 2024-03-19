@@ -47,7 +47,7 @@ sp_status <- ggplot(species_status, aes(x = codStatus, y = n)) +
         theme(plot.title = element_text(hjust = 0.5, size = 14)) +
         annotation_custom(
                 gridExtra::tableGrob(statusCodeTable),
-                xmin = 'NT', xmax = 'VU EX', ymin = 200, ymax = 6000
+                xmin = 'NT', xmax = 'VU EX', ymin = 2000, ymax = 6000
         ) +
         geom_text(aes(label = n, vjust = -1), color = 'red') +
         labs(
