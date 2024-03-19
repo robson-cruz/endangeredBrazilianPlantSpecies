@@ -7,7 +7,7 @@ shinyServer(function(input, output, session) {
         # Data frame
         output$tbl <- DT::renderDataTable({
                 DT::datatable(
-                    endangered_BRA, 
+                    endangered_BRA,
                         options = list(
                                 pageLength = 6, 
                                 rownames = FALSE,
