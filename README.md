@@ -3,6 +3,7 @@
 ![GitHub License](https://img.shields.io/github/license/rcDeveloping/endangeredBrazilianPlantSpecies?label=License)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/rcDeveloping/endangeredBrazilianPlantSpecies?label=Commit)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rcDeveloping/endangeredBrazilianPlantSpecies?label=Commit%20Activity)
+[![DOI](https://zenodo.org/badge/297323648.svg)](https://zenodo.org/records/5083815)
 
 <h1 align="left"><a href="https://rcdev.shinyapps.io/specBra/" target="_blank">Espécies da Flora Brasileira Ameaçadas de Extinção</a></h1>
 <p align="justify">Este projeto visa reunir em um data set as listas estaduais de espécies vegetais ameaçadas de extinção, a lista de espécies ameçadas da Portaria MMA Nº 443/2014, e a lista de espécies da Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), visando disponibilizar à analistas ambientais informações sobre a flora brasileira ameaçada de extinção em apenas um único data set.</p>
