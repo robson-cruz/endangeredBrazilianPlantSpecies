@@ -6,3 +6,4 @@ RE	Regionalmente Extinta
 NT	Quase Ameaçada
 EN	Em Perigo
 EW	Extinta na Natureza
+CR (PEX)	Criticamente em Perigo (Provavelmente Extinta)
