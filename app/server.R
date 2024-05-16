@@ -21,9 +21,9 @@ shinyServer(function(input, output, session) {
                 )
         })
         # Charts
-        output$bra <- renderPlot(bra, width = 800, height = 450)
-        output$status <- renderPlot(sp_status, width = 800, height = 450)
-        output$family <- renderPlot(f, width = 800, height = 450)
+        output$bra <- renderPlot(bra, width = 900, height = 500, res = 95)
+        output$status <- renderPlot(sp_status, width = 900, height = 500, res = 95)
+        output$family <- renderPlot(f, width = 900, height = 500, res = 95)
         
         #Download
         output$DownloadData <- downloadHandler(
