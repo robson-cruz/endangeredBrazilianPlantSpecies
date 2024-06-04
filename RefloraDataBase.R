@@ -20,43 +20,49 @@ out <- dwca_read(url)
 dw_cache <- dwca_cache$list()
 
 # Read the "taxon" data set
-taxon <- read.delim2(
-        paste0(dw_cache[8]),
-        sep = "\t",
-        encoding = "UTF-8"
-) %>%
-        filter(kingdom == "Plantae") %>%
-        filter(taxonRank == "ESPECIE") %>%
-        # create a new column called "specie" by combining the "genus" and
-        # "specificEpithet" columns with a space separator.
-        mutate(specie = paste(genus, specificEpithet, sep = " ")) %>%
-        select(c(1, 27, 6, 7, 16:19, 22, 23)) %>%
-        mutate( # Use regular expression to extract only genus and specific
-                # epithet and subspecies from acceptedNameUsage column
-                acceptedNameUsage = str_extract(
-                        acceptedNameUsage,
-                        "(\\w+\\s\\w+)(-\\w+)?(\\s\\w+\\ssubsp.\\s\\w+)?(\\ssubsp.\\s\\w+)?(\\svar.\\s\\w+)?(\\.\\s\\w+)?"
-                )
+taxon <- read.delim2(paste0(dw_cache[8]), sep = "\t", encoding = "UTF-8") %>%
+    filter(kingdom == "Plantae") %>%
+    filter(taxonRank == "ESPECIE") %>%
+    # create a new column called "specie" by combining the "genus" and
+    # "specificEpithet" columns with a space separator.
+    mutate(specie = paste(genus, specificEpithet, sep = " ")) %>%
+    select(c(1, 27, 6, 7, 16:19, 22, 23)) %>%
+    mutate(
+        # Use regular expression to extract only genus and specific
+        # epithet and subspecies from acceptedNameUsage column
+        acceptedNameUsage = str_extract(
+            acceptedNameUsage,
+            "(\\w+\\s\\w+)(-\\w+)?(\\s\\w+\\ssubsp.\\s\\w+)?(\\ssubsp.\\s\\w+)?(\\svar.\\s\\w+)?(\\.\\s\\w+)?"
         )
+    )
 
 # Read "distribution" data set (geographic distribution) 
 dist <- read.delim(
-        paste0(dw_cache[2]),
-        header = TRUE, encoding = "UTF-8", sep = "\t"
+    paste0(dw_cache[2]),
+    header = TRUE,
+    encoding = "UTF-8",
+    sep = "\t"
 ) %>%
-        # Extracts the last two letters from location code
-        mutate(locationID = substring(locationID , 4))
+    # Extracts the last two letters from location code
+    mutate(locationID = substring(locationID , 4))
 
 # Merge data sets based on the "id" column
-reflora <- taxon %>%
-        left_join(dist, by = "id")
+# reflora <- taxon %>%
+#     left_join(dist, by = "id")
 
 # Save merged data sets as a CSV file
 write.csv2(
-        reflora,
-        paste0("data/reflora_v", sub("[^0-9]+", "\\1", url), ".csv"),
-        row.names = FALSE,
-        fileEncoding = "latin1"
+    taxon,
+    paste0("data/reflora_v", sub("\\.", "_", sub("[^0-9]+", "\\1", url)), ".csv"),
+    row.names = FALSE,
+    fileEncoding = "UTF-8"
+)
+
+write.csv2(
+    dist,
+    paste0("data/reflora_distribuicao_v", sub("\\.", "_", sub("[^0-9]+", "\\1", url)), ".csv"),
+    row.names = FALSE,
+    fileEncoding = "latin1"
 )
 
 # Delete the database files from local disk
