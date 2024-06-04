@@ -53,9 +53,9 @@ dist <- read.delim(
 # Save merged data sets as a CSV file
 write.csv2(
     taxon,
-    paste0("data/reflora_distribuicao_v", sub("\\.", "_", sub("[^0-9]+", "\\1", url)), ".csv"),
+    paste0("data/reflora_v", sub("\\.", "_", sub("[^0-9]+", "\\1", url)), ".csv"),
     row.names = FALSE,
-    fileEncoding = "latin1"
+    fileEncoding = "UTF-8"
 )
 
 write.csv2(
