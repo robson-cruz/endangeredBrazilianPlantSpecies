@@ -46,9 +46,10 @@ dist <- read.delim(
     # Extracts the last two letters from location code
     mutate(locationID = substring(locationID , 4))
 
-# Merge data sets based on the "id" column
-# reflora <- taxon %>%
-#     left_join(dist, by = "id")
+
+# Check and fix encoding issues
+taxon <- mutate_if(taxon, is.character, iconv, from = "UTF-8", to = "UTF-8")
+dist <- mutate_if(dist, is.character, iconv, from = "UTF-8", to = "UTF-8")
 
 # Save merged data sets as a CSV file
 write.csv2(
@@ -62,7 +63,7 @@ write.csv2(
     dist,
     paste0("data/reflora_distribuicao_v", sub("\\.", "_", sub("[^0-9]+", "\\1", url)), ".csv"),
     row.names = FALSE,
-    fileEncoding = "latin1"
+    fileEncoding = "UTF-8"
 )
 
 # Delete the database files from local disk
