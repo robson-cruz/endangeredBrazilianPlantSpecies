@@ -8,7 +8,7 @@ library(stringr)
 httr::set_config(httr::config(ssl_verifypeer = 0L, ssl_lib = "openssl"))
 
 # Set the website of REFLORA data base
-url <- "https://ipt.jbrj.gov.br/jbrj/archive.do?r=lista_especies_flora_brasil&v=393.400"
+url <- "https://ipt.jbrj.gov.br/jbrj/archive.do?r=lista_especies_flora_brasil&v=393.409"
 
 # Convert the URL to a location object
 as.location(url)
@@ -51,6 +51,9 @@ dist <- read.delim(
 taxon <- mutate_if(taxon, is.character, iconv, from = "UTF-8", to = "UTF-8")
 dist <- mutate_if(dist, is.character, iconv, from = "UTF-8", to = "UTF-8")
 
+# Read the "reference" data set
+#bibliographi_citation <- read.delim2(paste0(dw_cache[5]), sep = "\t", encoding = "UTF-8")
+    
 # Save merged data sets as a CSV file
 write.csv2(
     taxon,
