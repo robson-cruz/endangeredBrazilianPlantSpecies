@@ -360,6 +360,7 @@ write.csv2(
 #---> List Chart
 species_source <- endangered_list |>
     group_by(fonte) |>
+    filter(!is.na(fonte)) |>
     count(fonte, sort = TRUE)
 
 species_source$fonte <- with(species_source, reorder(fonte, n))
@@ -378,6 +379,7 @@ bra <- ggplot(species_source, aes(x = fonte, y = n, fill = n)) +
 #---> Species Chart by status
 species_status <- endangered_list |>
     group_by(codStatus, status_conservacao) |>
+    filter(!is.na(codStatus)) |>
     count(codStatus, sort = T)
 
 # Reorder the data set by number of status 
@@ -386,6 +388,7 @@ species_status$codStatus <- with(species_status, reorder(codStatus, desc(n)))
 # Set status code table 
 statusCodeTable <- endangered_list |>
     group_by(codStatus, status_conservacao) |>
+    filter(!is.na(codStatus)) |>
     summarise() |>
     rename(Status = codStatus, Descrição = status_conservacao)
 
@@ -397,6 +400,12 @@ table_theme <- gridExtra::ttheme_default(
     parse = TRUE
 )
 
+# Ungroup the tibble before passing to tableGrob
+statusCodeTable <- statusCodeTable %>% ungroup()
+
+# Create table grob
+table_grob <- gridExtra::tableGrob(statusCodeTable, theme = table_theme, rows = NULL)
+
 #---> Set chart
 sp_status <- ggplot(species_status, aes(x = codStatus, y = n)) +
     geom_col(fill = 'steelblue') +
@@ -404,11 +413,11 @@ sp_status <- ggplot(species_status, aes(x = codStatus, y = n)) +
                       values = c('EN = Em Perigo')) +
     theme(plot.title = element_text(hjust = 0.5, size = 14)) +
     annotation_custom(
-        gridExtra::tableGrob(statusCodeTable, theme = table_theme),
-        xmin = 'LC',
+        table_grob,
+        xmin = 'RE',
         xmax = 'VU EX',
         ymin = 800,
-        ymax = 2600
+        ymax = 2200
     ) +
     geom_text(aes(label = n, vjust = -0.8), color = 'red') +
     labs(title = 'Categorias de Espécies Ameaçadas de Extinção no Brasil',
