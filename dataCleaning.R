@@ -9,7 +9,7 @@ listStatus <- read.delim('./data/listStatus.txt', sep = '\t', encoding = 'UTF-8'
 
 # Read REFLORA data
 reflora <-
-    read.csv2("./data/reflora_v393_409.csv", fileEncoding = "UTF-8") |>
+    read.csv2("./data/reflora_v393_424.csv", fileEncoding = "UTF-8") |>
     select(-scientificName) |>
     rename(scientificName = specie)
 
@@ -279,9 +279,8 @@ port148 <- read.csv2("./data/port148-2022.csv", fileEncoding = "latin1") |>
     select(family, scientificName, statusSource, status, source, list, dispLegal)
 
 
-# CITES
-cites <- read.csv('./data/cites_listings_2025-02-11-1929_semicolon_separated.csv') |>
-    filter(Kingdom == "Plantae") |>
+# CITES: https://www.speciesplus.net/
+cites <- read.csv('./data/Index_of_CITES_Species_2026-03-30_0752.csv') |>
     rename(scientificName = FullName) |>
     rename(family = Family) |>
     mutate(CITES = paste0('Anexo ', CurrentListing)) |>
@@ -389,7 +388,7 @@ species_status$codStatus <- with(species_status, reorder(codStatus, desc(n)))
 statusCodeTable <- endangered_list |>
     group_by(codStatus, status_conservacao) |>
     filter(!is.na(codStatus)) |>
-    summarise() |>
+    summarise(.groups = "drop") |>
     rename(Status = codStatus, Descrição = status_conservacao)
 
 # Theme to the table plot

@@ -8,7 +8,7 @@ library(stringr)
 httr::set_config(httr::config(ssl_verifypeer = 0L, ssl_lib = "openssl"))
 
 # Set the website of REFLORA data base
-url <- "https://ipt.jbrj.gov.br/jbrj/archive.do?r=lista_especies_flora_brasil&v=393.409"
+url <- "https://ipt.jbrj.gov.br/jbrj/archive.do?r=lista_especies_flora_brasil&v=393.424"
 
 # Convert the URL to a location object
 as.location(url)
