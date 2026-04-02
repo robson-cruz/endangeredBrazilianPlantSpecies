@@ -26,7 +26,7 @@ taxon <- read.delim2(paste0(dw_cache[8]), sep = "\t", encoding = "UTF-8") %>%
     # create a new column called "specie" by combining the "genus" and
     # "specificEpithet" columns with a space separator.
     mutate(specie = paste(genus, specificEpithet, sep = " ")) %>%
-    select(c(1, 27, 6, 7, 16:19, 22, 23)) %>%
+    select(c(1, 27, 6, 7, 3, 16:19, 22, 23)) %>%
     mutate(
         # Use regular expression to extract only genus and specific
         # epithet and subspecies from acceptedNameUsage column
