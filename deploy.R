@@ -1,5 +1,6 @@
 rsconnect::deployApp('D:/data/endangeredBrazilianPlantSpecies/app/',
-                     appTitle = 'specBra', appName = 'specBra',
-                     account = 'cbn4rj-robson-cruz',
+                     appTitle = 'specBra',
+                     appName = 'specBra',
+                     account = 'ditec',
                      forceUpdate = TRUE,
-                     appId = 13974904)
+                     appId = 17686178)
