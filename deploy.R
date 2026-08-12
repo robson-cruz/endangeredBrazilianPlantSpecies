@@ -1,4 +1,4 @@
-rsconnect::deployApp('D:/data/endangeredBrazilianPlantSpecies/app/',
+rsconnect::deployApp('app/',
                      appTitle = 'specBra',
                      appName = 'specBra',
                      account = 'ditec',
