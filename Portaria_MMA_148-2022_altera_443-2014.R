@@ -1,7 +1,7 @@
 library(dplyr)
 
 
-data <- read.delim("./Portaria_MMA_148-2022_altera_443-2014.txt", header = FALSE)
+data <- read.delim("data/Portaria_MMA_148-2022_altera_443-2014.txt", header = FALSE)
 names(data) <- "nm"
 
 df <- data |>
@@ -19,4 +19,4 @@ port148 <- data.frame(
     status = df[!is.na(df$status), 6]
 )
 
-write.csv2(port148, "./port148.csv", row.names = FALSE, fileEncoding = "latin1")
+write.csv2(port148, "data/port148.csv", row.names = FALSE, fileEncoding = "latin1")
