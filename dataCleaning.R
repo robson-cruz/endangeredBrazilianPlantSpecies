@@ -280,45 +280,50 @@ port148 <- read.csv2("./data/port148-2022.csv", fileEncoding = "latin1") |>
 
 
 # CITES: https://www.speciesplus.net/
-cites <- read.csv('./data/Index_of_CITES_Species_2026-03-30_0752.csv') |>
-    rename(scientificName = FullName) |>
+cites <- read.csv('data/cites_listings_2026-08-12 1500_comma_separated.csv') |>
+    rename(scientificName = Scientific.Name) |>
     rename(family = Family) |>
-    mutate(CITES = paste0('Anexo ', CurrentListing)) |>
+    mutate(CITES = paste0("Anexo ", Listing)) |>
     select(scientificName, CITES)
 
 #---> Merge the data sets
 endangered_list <- rbind(PA, BA, ES, MG, PR, RS, SC, SP, port148) |>
     right_join(
-        reflora[, c(2, 8, 9, 3)],
-        by = 'scientificName',
-        , multiple = "all"
+        reflora[, c(
+            "scientificName",
+            "taxonomicStatus",
+            "nomenclaturalStatus",
+            "acceptedNameUsage"
+        )],
+        by = "scientificName",
+        multiple = "all"
     ) |>
     filter(!(scientificName %in% fauna$scientificName)) |> #Remove species of fauna
     tibble::rowid_to_column() |>
-    left_join(cites, by = c('scientificName'), multiple = "all") |>
+    left_join(cites, by = c("scientificName"), multiple = "all") |>
     filter(!is.na(scientificName)) |>
     left_join(
-        cites, by = c('acceptedNameUsage' = 'scientificName'),
+        cites, by = c("acceptedNameUsage" = "scientificName"),
         multiple = "all",
-        suffix = c('_acceptedName', '_synonymous')
+        suffix = c("_acceptedName", "_synonymous")
     ) |>
     distinct(rowid, .keep_all = TRUE) |>
     mutate(CITES = ifelse(!is.na(CITES_acceptedName), CITES_acceptedName, NA)) |>
     mutate(CITES = ifelse(!is.na(CITES_synonymous), CITES_synonymous, CITES)) |>
-    mutate(CITES = ifelse(is.na(CITES), 'Não', CITES)) |>
+    mutate(CITES = ifelse(is.na(CITES), "Não", CITES)) |>
     # SISTAXON scientific name version
     add_row(
-        family = 'Bignoniaceae',
-        scientificName = 'Handroanthus impetiginosum',
-        statusSource = 'Vulnerável',
-        status = 'VU',
-        source = 'PA',
-        list = 'Lista Flora Ameaçada Pará',
-        dispLegal = 'Resolução COEMA 54/2007',
+        family = "Bignoniaceae",
+        scientificName = "Handroanthus impetiginosum",
+        statusSource = "Vulnerável",
+        status = "VU",
+        source = "PA",
+        list = "Lista Flora Ameaçada Pará",
+        dispLegal = "Resolução COEMA 54/2007",
         taxonomicStatus = NA,
-        nomenclaturalStatus = NA,
-        acceptedNameUsage = NA,
-        CITES = 'Anexo II'
+        nomenclaturalStatus = "NOME_ILEGITIMO",
+        acceptedNameUsage = "Handroanthus impetiginosus",
+        CITES = "Anexo II"
     ) |>
     rename(
         familia = family,
@@ -329,26 +334,10 @@ endangered_list <- rbind(PA, BA, ES, MG, PR, RS, SC, SP, port148) |>
         lista = list,
         dispositivo_legal = dispLegal
     ) |>
-    select(-c(rowid, CITES_acceptedName, CITES_synonymous))
+    select(-c(rowid, CITES_acceptedName, CITES_synonymous)) |>
+    filter(!is.na(lista) | CITES != 'Não')
 
 
-#url <- 'http://www.ibama.gov.br/phocadownload/sinaflor/2022/2022-07-22_Lista_especies_DOF.csv'
-#con <- read.csv(url, fileEncoding = 'latin1')
-#sistaxon <- con
-#rm(con)
-
-# join_df <- endangered_list |>
-#     inner_join(sistaxon[, c(2,4)] , by = c('nome_cientifico' = 'Nome.cientifico'), relationship = "many-to-many") |>
-#     tidyr::replace_na(list(Nome.popular = "*")) |>
-#     group_by(nome_cientifico) |>
-#     summarize(Nome.popular = paste(unique(Nome.popular), collapse = ", "))
-
-# endangered_list %<>%
-#     left_join(join_df, by = "nome_cientifico") |>
-#     group_by(nome_cientifico) |>
-#     distinct(fonte, .keep_all = TRUE)
-
-#---> Save the data set
 write.csv2(
     endangered_list,
     './output/Especies_Ameacadas_BRA.csv',
