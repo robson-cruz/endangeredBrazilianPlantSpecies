@@ -5,7 +5,6 @@ shinyUI(
         fluidPage(
                 theme = shinythemes::shinytheme('flatly'),
                 navbarPage(
-                        tags$head(includeHTML('google-analytics.html')),
                         title = 'STATUS FLORA BRASIL v1.2.0',
                         lang = "pt-BR",
                         h3('FLORA BRASILEIRA AMEAÇADA DE EXTINÇÃO'),
