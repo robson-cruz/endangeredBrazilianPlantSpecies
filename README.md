@@ -38,4 +38,4 @@
 
 ## Citar
 <p align="justify">Santos, Robson Cruz. Espécies da Flora Brasileira Ameaçadas de Extinção. Disponível em: <a href="https://ditec.shinyapps.io/specBra/">https://ditec.shinyapps.io/specBra/</a>
-Acesso em: Sep 2026. DOI: <a href="https://zenodo.org/record/5083815" target="_blank">https://zenodo.org/record/5083815</a></p>
+Acesso em: Oct 2026. DOI: <a href="https://zenodo.org/record/5083815" target="_blank">https://zenodo.org/record/5083815</a></p>
